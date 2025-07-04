@@ -753,13 +753,7 @@
             observer.observe(el);
         });
 
-        // Mobile-specific optimizations
-        if ('serviceWorker' in navigator) {
-            // Register service worker for offline functionality
-            navigator.serviceWorker.register('/sw.js').catch(err => {
-                console.log('ServiceWorker registration failed: ', err);
-            });
-        }
+
 
         // Prevent double-tap zoom on buttons
         let lastTouchEnd = 0;
