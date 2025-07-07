@@ -4,12 +4,4 @@
     <loc>https://cvbuilderapp.com/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://cvbuilderapp.com/privacy.html</loc>
-    <priority>0.0</priority>
-  </url>
-  <url>
-    <loc>https://cvbuilderapp.com/terms.html</loc>
-    <priority>0.0</priority>
-  </url>
 </urlset> 
