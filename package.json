@@ -1,0 +1,7 @@
+{
+  "name": "cvbuilderapp",
+  "scripts": {
+    "build": "node build/build.js",
+    "start": "npx http-server"
+  }
+}

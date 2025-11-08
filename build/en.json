@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "CV Builder - Free CV Builder App | Create Professional CVs & Resumes",
+    "description": "Create professional CVs and resumes with our free CV builder app. Choose from 100+ templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
+    "keywords": "cv builder, best cv builder, cv builder app, cv builder online, cv builder template, cv resume, resume builder, best resume builder, resume maker, cv maker, cv template, resume template, resume templates, cv examples, professional cv, curriculum vitae builder",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/",
+    "og_title": "CV Builder - Free CV Builder App | Create Professional CVs",
+    "og_description": "Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/",
+    "twitter_title": "CV Builder - Free CV Builder App | Create Professional CVs",
+    "twitter_description": "Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/",
+    "alternate_ru": "https://cvbuilderapp.com/ru/",
+    "alternate_en": "https://cvbuilderapp.com/",
+    "alternate_default": "https://cvbuilderapp.com/"
+  },
+  "hero": {
+    "logo_alt": "CV Builder App Logo",
+    "logo_text": "CV Builder",
+    "title": "Create a Professional CV in Minutes",
+    "subtitle": "Free CV Builder App",
+    "subheadline": "Build your CV or resume with our easy-to-use app. Choose from 100+ professional templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
+    "cta_url": "https://apps.apple.com/app/id1630645768",
+    "download_text": "Download CV Builder App",
+    "download_alt": "Download CV Builder App on the App Store",
+    "learn_more_text": "Learn More",
+    "phone_text": "Tap to create your CV resume"
+  },
+  "features": {
+    "title": "Everything You Need to Build Your CV",
+    "subtitle": "Simple tools and professional templates to help you create a CV that stands out.",
+    "items": [
+      { "title": "Quick and Easy", "description": "Our step-by-step guide helps you build a complete CV in minutes. No formatting headaches—just fill in your information and you're done.", "icon": "⚡" },
+      { "title": "100+ Professional Templates", "description": "Browse our collection of CV and resume templates designed for different industries and career levels. Customize colors, fonts, and layout to match your style.", "icon": "🎨" },
+      { "title": "Expert Tips and Examples", "description": "Get guidance on how to write about your experience and skills. See real examples that show you what works.", "icon": "💡" },
+      { "title": "Make It Personal", "description": "Add your photo, signature, and QR codes that link to your LinkedIn or portfolio. Stand out with these modern touches.", "icon": "📱" },
+      { "title": "Download as PDF", "description": "Export your CV as a high-quality PDF ready to print or email. Share it however you need.", "icon": "📄" },
+      { "title": "Cover Letters Too", "description": "We also include a cover letter builder with examples. Create matching documents for a complete application.", "icon": "✉️" }
+    ]
+  },
+  "testimonials": {
+    "stars": "★★★★★",
+    "stars_aria_label": "5 out of 5 stars",
+    "rating_text": "4.8 Rating",
+    "title": "What Users Say",
+    "subtitle": "Join thousands of people who have created their CVs with our app.",
+    "items": [
+      { "text": "\"Buena guía para realizar un cv sencillo y práctico\"", "author": "- Xica12, App Store Review" }
+    ]
+  },
+  "app_info": {
+    "name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id1630645768",
+    "cta_text": "Download CV Builder App",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Privacy Policy",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Terms of Use",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Support",
+    "copyright": "© 2025 c-basso. All rights reserved. | CV Builder - Best CV Builder App | Free Online CV Builder & Resume Maker"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id1630645768",
+    "text": "📱 Download CV Builder App - Free"
+  }
+}
+

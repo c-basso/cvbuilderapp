@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{meta.lang}}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
-    <title>CV Builder - Free CV Builder App | Create Professional CVs & Resumes</title>
-    <meta name="description" content="Create professional CVs and resumes with our free CV builder app. Choose from 100+ templates, get expert tips, and download as PDF. Available for iPhone and iPad.">
-    <meta name="keywords" content="cv builder, best cv builder, cv builder app, cv builder online, cv builder template, cv resume, resume builder, best resume builder, resume maker, cv maker, cv template, resume template, resume templates, cv examples, professional cv, curriculum vitae builder">
-    <meta name="author" content="Vladimir Ivakhnenko">
+    <title>{{meta.title}}</title>
+    <meta name="description" content="{{meta.description}}">
+    <meta name="keywords" content="{{meta.keywords}}">
+    <meta name="author" content="{{meta.author}}">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
@@ -17,17 +17,17 @@
     <meta name="theme-color" content="#667eea">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="CV Builder">
+    <meta name="apple-mobile-web-app-title" content="{{app_info.name}}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#4a5568" media="(prefers-color-scheme: dark)">
     <meta name="color-scheme" content="light dark">
-    <meta name="application-name" content="CV Builder">
-    <meta name="apple-itunes-app" content="app-id=1630645768">
-    <link rel="canonical" href="https://cvbuilderapp.com/">
-    <link rel="alternate" hreflang="ru" href="https://cvbuilderapp.com/ru/" />
-    <link rel="alternate" hreflang="en" href="https://cvbuilderapp.com/" />
-    <link rel="alternate" hreflang="x-default" href="https://cvbuilderapp.com/" />
+    <meta name="application-name" content="{{app_info.name}}">
+    <meta name="apple-itunes-app" content="app-id={{meta.app_store_id}}">
+    <link rel="canonical" href="{{meta.canonical}}">
+    <link rel="alternate" hreflang="ru" href="{{meta.alternate_ru}}" />
+    <link rel="alternate" hreflang="en" href="{{meta.alternate_en}}" />
+    <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -40,10 +40,10 @@
     {
         "@context": "https://schema.org",
         "@type": "MobileApplication",
-        "name": "CV Builder",
+        "name": "{{app_info.name}}",
         "alternateName": "CV Builder App",
-        "description": "Create professional CVs and resumes with our free CV builder app. Choose from 100+ templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
-        "url": "https://cvbuilderapp.com/",
+        "description": "{{meta.description}}",
+        "url": "{{meta.canonical}}",
         "applicationCategory": "BusinessApplication",
         "applicationSubCategory": "Resume Builder",
         "operatingSystem": ["iOS"],
@@ -62,17 +62,17 @@
         },
         "author": {
             "@type": "Person",
-            "name": "Vladimir Ivakhnenko"
+            "name": "{{meta.author}}"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "c-basso"
+            "name": "{{app_info.publisher}}"
         },
-        "screenshot": "https://cvbuilderapp.com/logo.webp",
-        "downloadUrl": "https://apps.apple.com/app/id1630645768",
-        "softwareVersion": "1.20.11",
-        "fileSize": "87.4 MB",
-        "installUrl": "https://apps.apple.com/app/id1630645768",
+        "screenshot": "{{meta.og_image}}",
+        "downloadUrl": "{{hero.cta_url}}",
+        "softwareVersion": "{{app_info.version}}",
+        "fileSize": "{{app_info.file_size}}",
+        "installUrl": "{{hero.cta_url}}",
         "keywords": "cv builder, best cv builder, cv builder app, resume builder, cv resume, cv template, resume template",
         "featureList": [
             "CV Builder Templates",
@@ -89,18 +89,18 @@
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "CV Builder - Free CV Builder App | Create Professional CVs & Resumes",
-        "description": "Create professional CVs and resumes with our free CV builder app. Choose from 100+ templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
-        "url": "https://cvbuilderapp.com/",
-        "inLanguage": "en",
+        "name": "{{meta.title}}",
+        "description": "{{meta.description}}",
+        "url": "{{meta.canonical}}",
+        "inLanguage": "{{meta.lang}}",
         "isPartOf": {
             "@type": "WebSite",
             "name": "CV Builder",
-            "url": "https://cvbuilderapp.com/"
+            "url": "{{meta.canonical}}"
         },
         "about": {
             "@type": "SoftwareApplication",
-            "name": "CV Builder",
+            "name": "{{app_info.name}}",
             "applicationCategory": "BusinessApplication"
         },
         "breadcrumb": {
@@ -109,7 +109,7 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://cvbuilderapp.com/"
+                "item": "{{meta.canonical}}"
             }]
         }
     }
@@ -117,17 +117,17 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://cvbuilderapp.com/">
-    <meta property="og:title" content="CV Builder - Free CV Builder App | Create Professional CVs">
-    <meta property="og:description" content="Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.">
-    <meta property="og:image" content="https://cvbuilderapp.com/logo.webp">
+    <meta property="og:url" content="{{meta.og_url}}">
+    <meta property="og:title" content="{{meta.og_title}}">
+    <meta property="og:description" content="{{meta.og_description}}">
+    <meta property="og:image" content="{{meta.og_image}}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://cvbuilderapp.com/">
-    <meta property="twitter:title" content="CV Builder - Free CV Builder App | Create Professional CVs">
-    <meta property="twitter:description" content="Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.">
-    <meta property="twitter:image" content="https://cvbuilderapp.com/logo.webp">
+    <meta property="twitter:url" content="{{meta.twitter_url}}">
+    <meta property="twitter:title" content="{{meta.twitter_title}}">
+    <meta property="twitter:description" content="{{meta.twitter_description}}">
+    <meta property="twitter:image" content="{{meta.twitter_image}}">
 
     <style>
         * {
@@ -702,14 +702,14 @@
     <header class="hero" role="banner">
         <div class="container">
             <div class="hero-logo fade-in-up" itemscope itemtype="https://schema.org/ImageObject">
-                <img src="/logo.webp" alt="CV Builder App Logo" itemprop="contentUrl" width="60" height="60" loading="eager">
-                <span itemprop="name">CV Builder</span>
+                <img src="/logo.webp" alt="{{hero.logo_alt}}" itemprop="contentUrl" width="60" height="60" loading="eager">
+                <span itemprop="name">{{hero.logo_text}}</span>
             </div>
-            <h1 class="fade-in-up">Create a Professional CV in Minutes</h1>
-            <p class="fade-in-up">Build your CV or resume with our easy-to-use app. Choose from 100+ professional templates, get expert tips, and download as PDF. Available for iPhone and iPad.</p>
+            <h1 class="fade-in-up">{{hero.title}}</h1>
+            <p class="fade-in-up">{{hero.subheadline}}</p>
             <div class="cta-buttons fade-in-up" aria-label="Download CV Builder App">
-                <a href="https://apps.apple.com/app/id1630645768" class="btn btn-primary" rel="nofollow" aria-label="Download CV Builder App on the App Store">
-                    <img src="/download.svg" alt="Download CV Builder App on the App Store" width="180" height="60">
+                <a href="{{hero.cta_url}}" class="btn btn-primary" rel="nofollow" aria-label="{{hero.download_alt}}">
+                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
                 </a>
             </div>
         </div>
@@ -720,39 +720,39 @@
         <section id="features" class="features" itemscope itemtype="https://schema.org/SoftwareApplication">
             <div class="container">
                 <header>
-                    <h2 class="section-title">Everything You Need to Build Your CV</h2>
-                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">Simple tools and professional templates to help you create a CV that stands out.</p>
+                    <h2 class="section-title">{{features.title}}</h2>
+                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">{{features.subtitle}}</p>
                 </header>
                 <div class="features-grid">
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="Quick and Easy" role="img">⚡</div>
-                        <h3 itemprop="name">Quick and Easy</h3>
-                        <p itemprop="description">Our step-by-step guide helps you build a complete CV in minutes. No formatting headaches—just fill in your information and you're done.</p>
+                        <div class="feature-icon" aria-label="{{features.items.0.title}}" role="img">{{features.items.0.icon}}</div>
+                        <h3 itemprop="name">{{features.items.0.title}}</h3>
+                        <p itemprop="description">{{features.items.0.description}}</p>
                     </article>
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="100+ Professional Templates" role="img">🎨</div>
-                        <h3 itemprop="name">100+ Professional Templates</h3>
-                        <p itemprop="description">Browse our collection of CV and resume templates designed for different industries and career levels. Customize colors, fonts, and layout to match your style.</p>
+                        <div class="feature-icon" aria-label="{{features.items.1.title}}" role="img">{{features.items.1.icon}}</div>
+                        <h3 itemprop="name">{{features.items.1.title}}</h3>
+                        <p itemprop="description">{{features.items.1.description}}</p>
                     </article>
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="Expert Tips and Examples" role="img">💡</div>
-                        <h3 itemprop="name">Expert Tips and Examples</h3>
-                        <p itemprop="description">Get guidance on how to write about your experience and skills. See real examples that show you what works.</p>
+                        <div class="feature-icon" aria-label="{{features.items.2.title}}" role="img">{{features.items.2.icon}}</div>
+                        <h3 itemprop="name">{{features.items.2.title}}</h3>
+                        <p itemprop="description">{{features.items.2.description}}</p>
                     </article>
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="Make It Personal" role="img">📱</div>
-                        <h3 itemprop="name">Make It Personal</h3>
-                        <p itemprop="description">Add your photo, signature, and QR codes that link to your LinkedIn or portfolio. Stand out with these modern touches.</p>
+                        <div class="feature-icon" aria-label="{{features.items.3.title}}" role="img">{{features.items.3.icon}}</div>
+                        <h3 itemprop="name">{{features.items.3.title}}</h3>
+                        <p itemprop="description">{{features.items.3.description}}</p>
                     </article>
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="Download as PDF" role="img">📄</div>
-                        <h3 itemprop="name">Download as PDF</h3>
-                        <p itemprop="description">Export your CV as a high-quality PDF ready to print or email. Share it however you need.</p>
+                        <div class="feature-icon" aria-label="{{features.items.4.title}}" role="img">{{features.items.4.icon}}</div>
+                        <h3 itemprop="name">{{features.items.4.title}}</h3>
+                        <p itemprop="description">{{features.items.4.description}}</p>
                     </article>
                     <article class="feature-card" itemscope itemtype="https://schema.org/SoftwareFeature">
-                        <div class="feature-icon" aria-label="Cover Letters Too" role="img">✉️</div>
-                        <h3 itemprop="name">Cover Letters Too</h3>
-                        <p itemprop="description">We also include a cover letter builder with examples. Create matching documents for a complete application.</p>
+                        <div class="feature-icon" aria-label="{{features.items.5.title}}" role="img">{{features.items.5.icon}}</div>
+                        <h3 itemprop="name">{{features.items.5.title}}</h3>
+                        <p itemprop="description">{{features.items.5.description}}</p>
                     </article>
                 </div>
             </div>
@@ -762,18 +762,18 @@
         <section id="testimonials" class="testimonials" itemscope itemtype="https://schema.org/Review">
             <div class="container">
                 <header>
-                    <h2 class="section-title">What Users Say</h2>
-                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">Join thousands of people who have created their CVs with our app.</p>
+                    <h2 class="section-title">{{testimonials.title}}</h2>
+                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">{{testimonials.subtitle}}</p>
                 </header>
                 <blockquote class="testimonial" itemprop="reviewBody">
-                    <div class="rating" aria-label="5 out of 5 stars" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <div class="rating" aria-label="{{testimonials.stars_aria_label}}" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                         <meta itemprop="ratingValue" content="5">
                         <meta itemprop="bestRating" content="5">
-                        ★★★★★
+                        {{testimonials.stars}}
                     </div>
-                    <p class="testimonial-text" itemprop="description">"Buena guía para realizar un cv sencillo y práctico"</p>
+                    <p class="testimonial-text" itemprop="description">{{testimonials.items.0.text}}</p>
                     <cite class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                        <span itemprop="name">- Xica12, App Store Review</span>
+                        <span itemprop="name">{{testimonials.items.0.author}}</span>
                     </cite>
                 </blockquote>
             </div>
@@ -784,24 +784,24 @@
     <footer role="contentinfo">
         <div class="container">
             <nav class="footer-links" aria-label="Footer navigation">
-                <a href="https://c-basso.github.io/privacy/privacy.html" rel="nofollow">Privacy Policy</a>
-                <a href="https://c-basso.github.io/privacy/terms.html" rel="nofollow">Terms of Use</a>
-                <a href="https://apps.apple.com/app/id1630645768" rel="nofollow" aria-label="Download CV Builder App">Download CV Builder App</a>
+                <a href="{{footer.privacy_url}}" rel="nofollow">{{footer.privacy_text}}</a>
+                <a href="{{footer.terms_url}}" rel="nofollow">{{footer.terms_text}}</a>
+                <a href="{{footer.cta_url}}" rel="nofollow" aria-label="Download CV Builder App">{{footer.cta_text}}</a>
             </nav>
-            <p>© 2025 c-basso. All rights reserved. | CV Builder - Best CV Builder App | Free Online CV Builder & Resume Maker</p>
+            <p>{{footer.copyright}}</p>
         </div>
     </footer>
 
     <!-- Floating CTA -->
-    <a href="https://apps.apple.com/app/id1630645768" class="floating-cta" rel="nofollow" aria-label="Download CV Builder App - Free">
-        📱 Download CV Builder App - Free
+    <a href="{{floating_cta.url}}" class="floating-cta" rel="nofollow" aria-label="Download CV Builder App - Free">
+        {{floating_cta.text}}
     </a>
 
     <script>
         // Make hero section clickable
         document.addEventListener('DOMContentLoaded', function() {
             const hero = document.querySelector('.hero');
-            const appStoreUrl = 'https://apps.apple.com/app/id1630645768';
+            const appStoreUrl = '{{hero.cta_url}}';
             
             if (hero && appStoreUrl) {
                 hero.addEventListener('click', function(e) {

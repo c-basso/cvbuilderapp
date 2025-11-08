@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cvbuilderapp.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cvbuilderapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cvbuilderapp.com/ru" />
     <priority>1.0</priority>
   </url>
 </urlset> 
