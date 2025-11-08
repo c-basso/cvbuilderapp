@@ -7,14 +7,14 @@
     <meta name="description" content="{{meta.description}}">
     <meta name="keywords" content="{{meta.keywords}}">
     <meta name="author" content="{{meta.author}}">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
     <meta name="geo.region" content="US">
     <meta name="geo.placename" content="United States">
-    <meta name="theme-color" content="#667eea">
+    <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="{{app_info.name}}">
@@ -111,6 +111,59 @@
                 "name": "Home",
                 "item": "{{meta.canonical}}"
             }]
+        },
+        "mainEntity": {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What makes CV Builder the best CV builder app?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "CV Builder stands out as the best CV builder app with 100+ professional CV builder templates, expert writing tips, easy customization options, and seamless PDF export. We've designed CV Builder specifically for iPhone and iPad users who want to create professional resumes quickly and easily using our CV builder online."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I use CV Builder without design experience?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Absolutely! CV Builder is designed for everyone, regardless of design experience. Our step-by-step guide and pre-designed CV builder templates make it easy to create a professional-looking CV resume in minutes. CV Builder online makes the process simple and intuitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What file format can I download my CV resume in?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can download your CV resume from CV Builder as a high-quality PDF file that's perfect for printing, emailing to employers, or uploading to job application websites. The PDF maintains all formatting and looks professional on any device."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the CV builder templates suitable for all industries?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, CV Builder's collection includes CV templates and resume templates designed for various industries including technology, healthcare, finance, education, marketing, and more. Each CV builder template can be customized to match your specific industry requirements and personal style."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does CV Builder work on both iPhone and iPad?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, CV Builder is optimized for both iPhone and iPad devices. You can create and edit your CV resume on any iOS device using CV Builder online, making it convenient to work on your resume wherever you are."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What's the difference between CV Builder and other resume builders?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "CV Builder is the best CV builder app because it combines powerful features with ease of use. Unlike basic resume builders, CV Builder offers 100+ professional CV builder templates, expert tips, CV examples, and seamless PDF export. CV Builder online makes it easy to create professional CV resumes that stand out to employers."
+                    }
+                }
+            ]
         }
     }
     </script>
@@ -405,6 +458,68 @@
             margin-bottom: 1rem;
         }
 
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            margin-bottom: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid #e9ecef;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin: 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #667eea;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 0 1.5rem 1.5rem;
+        }
+
         /* Footer */
         footer {
             background: #333;
@@ -538,6 +653,23 @@
 
             .testimonial-text {
                 font-size: 1rem;
+            }
+
+            .faq {
+                padding: 60px 0;
+            }
+
+            .faq-question {
+                padding: 1.25rem;
+                font-size: 1rem;
+            }
+
+            .faq-answer {
+                padding: 0 1.25rem;
+            }
+
+            .faq-item.active .faq-answer {
+                padding: 0 1.25rem 1.25rem;
             }
 
             .footer-links {
@@ -702,14 +834,14 @@
     <header class="hero" role="banner">
         <div class="container">
             <div class="hero-logo fade-in-up" itemscope itemtype="https://schema.org/ImageObject">
-                <img src="/logo.webp" alt="{{hero.logo_alt}}" itemprop="contentUrl" width="60" height="60" loading="eager">
+                <img src="/logo.webp" alt="{{hero.logo_alt}}" itemprop="contentUrl" width="60" height="60" loading="eager" fetchpriority="high">
                 <span itemprop="name">{{hero.logo_text}}</span>
             </div>
             <h1 class="fade-in-up">{{hero.title}}</h1>
             <p class="fade-in-up">{{hero.subheadline}}</p>
             <div class="cta-buttons fade-in-up" aria-label="Download CV Builder App">
-                <a href="{{hero.cta_url}}" class="btn btn-primary" rel="nofollow" aria-label="{{hero.download_alt}}">
-                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
+                <a href="{{hero.cta_url}}" class="btn btn-primary" rel="nofollow" aria-label="{{hero.download_alt}}" title="Download CV Builder App">
+                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
                 </a>
             </div>
         </div>
@@ -778,6 +910,54 @@
                 </blockquote>
             </div>
         </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq" itemscope itemtype="https://schema.org/FAQPage">
+            <div class="container">
+                <header>
+                    <h2 class="section-title">{{faq.title}}</h2>
+                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">{{faq.subtitle}}</p>
+                </header>
+                <div class="faq-list">
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.0.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.0.answer}}</p>
+                        </div>
+                    </article>
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.1.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.1.answer}}</p>
+                        </div>
+                    </article>
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.2.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.2.answer}}</p>
+                        </div>
+                    </article>
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.3.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.3.answer}}</p>
+                        </div>
+                    </article>
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.4.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.4.answer}}</p>
+                        </div>
+                    </article>
+                    <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <h3 class="faq-question" itemprop="name">{{faq.items.5.question}}</h3>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{faq.items.5.answer}}</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -793,7 +973,7 @@
     </footer>
 
     <!-- Floating CTA -->
-    <a href="{{floating_cta.url}}" class="floating-cta" rel="nofollow" aria-label="Download CV Builder App - Free">
+    <a href="{{floating_cta.url}}" class="floating-cta" rel="nofollow" aria-label="Download CV Builder App">
         {{floating_cta.text}}
     </a>
 
@@ -844,8 +1024,26 @@
         }, observerOptions);
 
         // Observe all feature cards and other elements
-        document.querySelectorAll('.feature-card, .testimonial').forEach(el => {
+        document.querySelectorAll('.feature-card, .testimonial, .faq-item').forEach(el => {
             observer.observe(el);
+        });
+
+        // FAQ Accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const faqItem = this.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
         });
 
         // Floating CTA visibility

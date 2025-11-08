@@ -1,17 +1,17 @@
 {
   "meta": {
     "lang": "en",
-    "title": "CV Builder - Free CV Builder App | Create Professional CVs & Resumes",
-    "description": "Create professional CVs and resumes with our free CV builder app. Choose from 100+ templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
-    "keywords": "cv builder, best cv builder, cv builder app, cv builder online, cv builder template, cv resume, resume builder, best resume builder, resume maker, cv maker, cv template, resume template, resume templates, cv examples, professional cv, curriculum vitae builder",
+    "title": "CV Builder - Best CV Builder App | Create Professional Resumes & CVs | 100+ Templates",
+    "description": "CV Builder - the best CV builder app to create professional resumes and CVs. Choose from 100+ CV builder templates, get expert tips, and export as PDF. CV builder online for iPhone and iPad.",
+    "keywords": "cv builder, resume, resume builder, cv resume, cv builder online, best cv builder, cv builder template, cv template, cv maker, resume template, best resume builder, resume maker, cv builder app, resume templates, cv examples",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://cvbuilderapp.com/",
-    "og_title": "CV Builder - Free CV Builder App | Create Professional CVs",
-    "og_description": "Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.",
+    "og_title": "CV Builder - Best CV Builder App | Create Professional Resumes & CVs",
+    "og_description": "CV Builder - the best CV builder app to create professional resumes and CVs. 100+ CV builder templates, expert tips, and PDF export. Available for iPhone and iPad.",
     "og_image": "https://cvbuilderapp.com/logo.webp",
     "twitter_url": "https://cvbuilderapp.com/",
-    "twitter_title": "CV Builder - Free CV Builder App | Create Professional CVs",
-    "twitter_description": "Create professional CVs and resumes with our free app. 100+ templates, expert tips, and PDF export. Available for iPhone and iPad.",
+    "twitter_title": "CV Builder - Best CV Builder App | Create Professional Resumes & CVs",
+    "twitter_description": "CV Builder - the best CV builder app to create professional resumes and CVs. 100+ CV builder templates, expert tips, and PDF export.",
     "twitter_image": "https://cvbuilderapp.com/logo.webp",
     "app_store_id": "1630645768",
     "canonical": "https://cvbuilderapp.com/",
@@ -20,37 +20,67 @@
     "alternate_default": "https://cvbuilderapp.com/"
   },
   "hero": {
-    "logo_alt": "CV Builder App Logo",
+    "logo_alt": "CV Builder App - Professional Resume and CV Creator Logo",
     "logo_text": "CV Builder",
-    "title": "Create a Professional CV in Minutes",
-    "subtitle": "Free CV Builder App",
-    "subheadline": "Build your CV or resume with our easy-to-use app. Choose from 100+ professional templates, get expert tips, and download as PDF. Available for iPhone and iPad.",
+    "title": "CV Builder - Create Professional Resumes & CVs in Minutes",
+    "subtitle": "Best CV Builder App for iPhone and iPad",
+    "subheadline": "CV Builder is the best CV builder app to create professional resumes and CVs. Use our CV builder online to choose from 100+ CV builder templates designed for all industries and career levels. Get expert writing tips, customize your design, and download your CV resume as a high-quality PDF ready for job applications. Start building your perfect resume today with CV Builder.",
     "cta_url": "https://apps.apple.com/app/id1630645768",
     "download_text": "Download CV Builder App",
     "download_alt": "Download CV Builder App on the App Store",
-    "learn_more_text": "Learn More",
-    "phone_text": "Tap to create your CV resume"
+    "learn_more_text": "Learn More About CV Builder",
+    "phone_text": "Tap to create your professional CV resume"
   },
   "features": {
-    "title": "Everything You Need to Build Your CV",
-    "subtitle": "Simple tools and professional templates to help you create a CV that stands out.",
+    "title": "Why Choose CV Builder? Everything You Need to Create a Standout Resume",
+    "subtitle": "CV Builder provides simple tools and professional CV builder templates to help you create a CV resume that gets noticed by employers and helps you land your dream job.",
     "items": [
-      { "title": "Quick and Easy", "description": "Our step-by-step guide helps you build a complete CV in minutes. No formatting headaches—just fill in your information and you're done.", "icon": "⚡" },
-      { "title": "100+ Professional Templates", "description": "Browse our collection of CV and resume templates designed for different industries and career levels. Customize colors, fonts, and layout to match your style.", "icon": "🎨" },
-      { "title": "Expert Tips and Examples", "description": "Get guidance on how to write about your experience and skills. See real examples that show you what works.", "icon": "💡" },
-      { "title": "Make It Personal", "description": "Add your photo, signature, and QR codes that link to your LinkedIn or portfolio. Stand out with these modern touches.", "icon": "📱" },
-      { "title": "Download as PDF", "description": "Export your CV as a high-quality PDF ready to print or email. Share it however you need.", "icon": "📄" },
-      { "title": "Cover Letters Too", "description": "We also include a cover letter builder with examples. Create matching documents for a complete application.", "icon": "✉️" }
+      { "title": "Quick and Easy CV Creation", "description": "CV Builder's intuitive step-by-step guide helps you build a complete, professional CV resume in just minutes. No formatting headaches or design experience needed—simply fill in your information, choose a CV builder template, and you're ready to apply for jobs. Perfect for both beginners and experienced professionals using our CV builder online.", "icon": "⚡" },
+      { "title": "100+ Professional CV Builder Templates", "description": "Browse CV Builder's extensive collection of CV templates and resume templates designed for different industries, career levels, and job types. Whether you're a recent graduate, mid-level professional, or executive, CV Builder has the perfect CV template. Customize colors, fonts, and layout to match your personal brand and industry standards.", "icon": "🎨" },
+      { "title": "Expert Tips and CV Examples", "description": "Get professional guidance from CV Builder on how to write about your work experience, skills, and achievements effectively. Learn what employers are looking for with real CV examples that show you what works. CV Builder's tips help you highlight your strengths and stand out from other candidates.", "icon": "💡" },
+      { "title": "Personalize Your CV Resume", "description": "Make your CV resume unique with CV Builder by adding your professional photo, digital signature, and QR codes that link directly to your LinkedIn profile or online portfolio. These modern touches help you stand out and make it easy for employers to learn more about you.", "icon": "📱" },
+      { "title": "Download as High-Quality PDF", "description": "Export your CV resume from CV Builder as a print-ready, high-quality PDF that looks professional on screen and paper. Perfect for emailing to employers, uploading to job sites, or printing for interviews. Your CV will maintain its formatting and professional appearance across all platforms.", "icon": "📄" },
+      { "title": "Cover Letter Builder Included", "description": "Complete your job application with CV Builder's built-in cover letter builder. We provide professional cover letter examples and templates that match your CV resume style. Create matching documents for a complete, cohesive application package that impresses hiring managers.", "icon": "✉️" }
     ]
   },
   "testimonials": {
     "stars": "★★★★★",
     "stars_aria_label": "5 out of 5 stars",
     "rating_text": "4.8 Rating",
-    "title": "What Users Say",
-    "subtitle": "Join thousands of people who have created their CVs with our app.",
+    "title": "Trusted by Thousands of Job Seekers - What Our Users Say",
+    "subtitle": "Join thousands of professionals who have successfully created their CV resumes and landed their dream jobs using CV Builder, the best CV builder app.",
     "items": [
       { "text": "\"Buena guía para realizar un cv sencillo y práctico\"", "author": "- Xica12, App Store Review" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About CV Builder",
+    "subtitle": "Everything you need to know about creating professional CV resumes with CV Builder, the best CV builder app.",
+    "items": [
+      {
+        "question": "What makes CV Builder the best CV builder app?",
+        "answer": "CV Builder stands out as the best CV builder app with 100+ professional CV builder templates, expert writing tips, easy customization options, and seamless PDF export. We've designed CV Builder specifically for iPhone and iPad users who want to create professional resumes quickly and easily using our CV builder online."
+      },
+      {
+        "question": "Can I use CV Builder without design experience?",
+        "answer": "Absolutely! CV Builder is designed for everyone, regardless of design experience. Our step-by-step guide and pre-designed CV builder templates make it easy to create a professional-looking CV resume in minutes. CV Builder online makes the process simple and intuitive."
+      },
+      {
+        "question": "What file format can I download my CV resume in?",
+        "answer": "You can download your CV resume from CV Builder as a high-quality PDF file that's perfect for printing, emailing to employers, or uploading to job application websites. The PDF maintains all formatting and looks professional on any device."
+      },
+      {
+        "question": "Are the CV builder templates suitable for all industries?",
+        "answer": "Yes, CV Builder's collection includes CV templates and resume templates designed for various industries including technology, healthcare, finance, education, marketing, and more. Each CV builder template can be customized to match your specific industry requirements and personal style."
+      },
+      {
+        "question": "Does CV Builder work on both iPhone and iPad?",
+        "answer": "Yes, CV Builder is optimized for both iPhone and iPad devices. You can create and edit your CV resume on any iOS device using CV Builder online, making it convenient to work on your resume wherever you are."
+      },
+      {
+        "question": "What's the difference between CV Builder and other resume builders?",
+        "answer": "CV Builder is the best CV builder app because it combines powerful features with ease of use. Unlike basic resume builders, CV Builder offers 100+ professional CV builder templates, expert tips, CV examples, and seamless PDF export. CV Builder online makes it easy to create professional CV resumes that stand out to employers."
+      }
     ]
   },
   "app_info": {
@@ -68,11 +98,11 @@
     "terms_text": "Terms of Use",
     "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
-    "copyright": "© 2025 c-basso. All rights reserved. | CV Builder - Best CV Builder App | Free Online CV Builder & Resume Maker"
+    "copyright": "© 2025 c-basso. All rights reserved. | CV Builder - Best CV Builder App | Professional Resume Builder & CV Maker"
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id1630645768",
-    "text": "📱 Download CV Builder App - Free"
+    "text": "📱 Download CV Builder App"
   }
 }
 
