@@ -19,12 +19,18 @@
     "alternate_en": "https://cvbuilderapp.com/",
     "alternate_de": "https://cvbuilderapp.com/de/",
     "alternate_es": "https://cvbuilderapp.com/es/",
+    "alternate_fr": "https://cvbuilderapp.com/fr/",
+    "alternate_it": "https://cvbuilderapp.com/it/",
+    "alternate_pt": "https://cvbuilderapp.com/pt/",
     "alternate_default": "https://cvbuilderapp.com/",
     "alternate_languages": [
       { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
       { "lang": "en", "url": "https://cvbuilderapp.com/" },
       { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
-      { "lang": "es", "url": "https://cvbuilderapp.com/es/" }
+      { "lang": "es", "url": "https://cvbuilderapp.com/es/" },
+      { "lang": "fr", "url": "https://cvbuilderapp.com/fr/" },
+      { "lang": "it", "url": "https://cvbuilderapp.com/it/" },
+      { "lang": "pt", "url": "https://cvbuilderapp.com/pt/" }
     ],
     "geo_region": "DE",
     "geo_placename": "Germany"

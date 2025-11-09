@@ -5,10 +5,10 @@ const languages = [
     'en',
     'ru',
     'es',
-    // 'fr',
+    'fr',
     'de',
-    // 'it',
-    // 'pt'
+    'it',
+    'pt'
 ];
 
 (function() {
