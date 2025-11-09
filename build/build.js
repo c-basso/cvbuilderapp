@@ -4,9 +4,9 @@ const path = require('path');
 const languages = [
     'en',
     'ru',
-    // 'es',
+    'es',
     // 'fr',
-    // 'de',
+    'de',
     // 'it',
     // 'pt'
 ];

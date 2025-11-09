@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "lang": "es",
+    "title": "Curriculum Vitae Gratis - Creador de CV Online | Plantillas Curriculum | 100+ Modelos CV",
+    "description": "Curriculum Vitae Gratis - la mejor aplicación para crear currículum vitae profesional. Elige entre 100+ plantillas curriculum, obtén consejos expertos y exporta como PDF. Creador de CV online gratis para iPhone y iPad. Hacer curriculum nunca fue tan fácil.",
+    "keywords": "curriculum vitae, currículum, curriculum, cv, curriculum gratis, hacer curriculum, plantilla curriculum, cv gratis, currículum vitae, como hacer curriculum, hacer un curriculum, plantillas curriculum, cv plantilla, curriculum vitae gratis, curriculum vitae plantilla, plantillas cv, europass cv, que es cv, plantillas currículum vitae para rellenar gratis pdf, cv ats, cv harvard, cv examples",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/es/",
+    "og_title": "Curriculum Vitae Gratis - Creador de CV Online | Plantillas Curriculum",
+    "og_description": "Curriculum Vitae Gratis - la mejor aplicación para crear currículum vitae profesional. 100+ plantillas curriculum, consejos expertos y exportación a PDF. Disponible para iPhone y iPad. Hacer curriculum gratis con plantillas profesionales.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/es/",
+    "twitter_title": "Curriculum Vitae Gratis - Creador de CV Online | Plantillas Curriculum",
+    "twitter_description": "Curriculum Vitae Gratis - la mejor aplicación para crear currículum vitae profesional. 100+ plantillas curriculum, consejos expertos y exportación a PDF. Hacer curriculum nunca fue tan fácil.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/es/",
+    "alternate_ru": "https://cvbuilderapp.com/ru/",
+    "alternate_en": "https://cvbuilderapp.com/",
+    "alternate_de": "https://cvbuilderapp.com/de/",
+    "alternate_es": "https://cvbuilderapp.com/es/",
+    "alternate_default": "https://cvbuilderapp.com/",
+    "alternate_languages": [
+      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
+      { "lang": "en", "url": "https://cvbuilderapp.com/" },
+      { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
+      { "lang": "es", "url": "https://cvbuilderapp.com/es/" }
+    ],
+    "geo_region": "ES",
+    "geo_placename": "Spain"
+  },
+  "hero": {
+    "logo_alt": "Creador de Curriculum Vitae - Logo de aplicación profesional para crear currículum",
+    "logo_text": "Creador de CV",
+    "title": "Curriculum Vitae Gratis - Crea tu Currículum Profesional en Minutos",
+    "subtitle": "Mejor Aplicación para Crear Curriculum Vitae en iPhone y iPad",
+    "subheadline": "Crea tu curriculum vitae profesional de forma gratuita con la mejor aplicación creador de CV. Utiliza nuestro creador de curriculum online para elegir entre más de 100 plantillas curriculum diseñadas para todas las industrias y niveles profesionales. Obtén consejos expertos de escritura, personaliza tu diseño y descarga tu currículum vitae como un PDF de alta calidad listo para solicitudes de empleo. Comienza a crear tu curriculum perfecto hoy. Hacer curriculum nunca fue tan fácil con plantillas curriculum profesionales y consejos para crear un currículum vitae que destaque.",
+    "cta_url": "https://apps.apple.com/es/app/id1630645768",
+    "download_text": "Descargar Aplicación Creador de CV",
+    "download_alt": "Descargar Creador de CV en App Store",
+    "qr_alt": "Escanea el código QR para descargar la aplicación Creador de CV",
+    "qr_cta_text": "Escanea con tu teléfono para descargar",
+    "learn_more_text": "Saber Más Sobre el Creador de CV",
+    "phone_text": "Toca para crear tu curriculum vitae profesional"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir el Creador de Curriculum Vitae? Todo lo que Necesitas para Crear un Currículum Destacado",
+    "subtitle": "Nuestro creador de curriculum vitae proporciona herramientas simples y plantillas curriculum profesionales para ayudarte a crear un currículum que llame la atención de los empleadores y te ayude a conseguir el trabajo de tus sueños.",
+    "items": [
+      { "title": "Creación Rápida y Fácil de Curriculum Vitae", "description": "La guía intuitiva paso a paso de nuestro creador de CV te ayuda a construir un curriculum vitae completo y profesional en solo minutos. Sin dolores de cabeza de formato ni experiencia en diseño necesaria: simplemente completa tu información, elige una plantilla curriculum y estarás listo para solicitar empleos. Perfecto tanto para principiantes como para profesionales experimentados usando nuestro creador de curriculum online. Hacer curriculum gratis nunca fue tan sencillo.", "icon": "⚡" },
+      { "title": "100+ Plantillas Curriculum Profesionales", "description": "Explora nuestra extensa colección de plantillas curriculum y modelos de currículum vitae diseñados para diferentes industrias, niveles profesionales y tipos de trabajo. Ya seas un recién graduado, profesional de nivel medio o ejecutivo, tenemos la plantilla curriculum perfecta. Personaliza colores, fuentes y diseño para que coincidan con tu marca personal y estándares de la industria. Compatible con formato Europass CV y plantillas currículum vitae para rellenar gratis PDF.", "icon": "🎨" },
+      { "title": "Consejos Expertos y Ejemplos de Curriculum Vitae", "description": "Obtén orientación profesional sobre cómo escribir sobre tu experiencia laboral, habilidades y logros de manera efectiva. Aprende qué buscan los empleadores con ejemplos reales de curriculum vitae que te muestran qué funciona. Nuestros consejos te ayudan a resaltar tus fortalezas y destacar entre otros candidatos. Incluye ejemplos de CV Harvard y CV ATS para máxima compatibilidad.", "icon": "💡" },
+      { "title": "Personaliza tu Curriculum Vitae", "description": "Haz que tu curriculum vitae sea único añadiendo tu foto profesional, firma digital y códigos QR que enlacen directamente a tu perfil de LinkedIn o portafolio online. Estos toques modernos te ayudan a destacar y facilitan que los empleadores conozcan más sobre ti. Crea un currículum vitae que responda a la pregunta: ¿qué es CV? con un ejemplo profesional.", "icon": "📱" },
+      { "title": "Descarga como PDF de Alta Calidad", "description": "Exporta tu curriculum vitae como un PDF de alta calidad listo para imprimir que se ve profesional en pantalla y papel. Perfecto para enviar por correo electrónico a empleadores, subir a sitios de trabajo o imprimir para entrevistas. Tu curriculum vitae mantendrá su formato y apariencia profesional en todas las plataformas. Plantillas currículum vitae para rellenar gratis PDF disponibles.", "icon": "📄" },
+      { "title": "Creador de Carta de Presentación Incluido", "description": "Completa tu solicitud de empleo con nuestro creador de cartas de presentación integrado. Proporcionamos ejemplos profesionales de cartas de presentación y plantillas que coinciden con el estilo de tu curriculum vitae. Crea documentos coincidentes para un paquete de solicitud completo y cohesivo que impresione a los gerentes de contratación.", "icon": "✉️" }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes Sobre el Creador de Curriculum Vitae",
+    "subtitle": "Todo lo que necesitas saber sobre cómo crear curriculum vitae profesionales con nuestro creador de CV, la mejor aplicación para hacer curriculum.",
+    "items": [
+      {
+        "question": "¿Qué hace que esta sea la mejor aplicación para crear curriculum vitae?",
+        "answer": "Nuestra aplicación se destaca como la mejor opción para crear curriculum vitae con más de 100 plantillas curriculum profesionales, consejos expertos de escritura, opciones fáciles de personalización y exportación perfecta a PDF. Hemos diseñado esta aplicación específicamente para usuarios de iPhone y iPad que quieren crear curriculum vitae profesionales de forma rápida y fácil usando nuestro creador de curriculum online. Hacer curriculum gratis nunca fue tan sencillo."
+      },
+      {
+        "question": "¿Puedo usar el creador de curriculum vitae sin experiencia en diseño?",
+        "answer": "¡Absolutamente! Nuestro creador de CV está diseñado para todos, independientemente de la experiencia en diseño. Nuestra guía paso a paso y las plantillas curriculum prediseñadas hacen que sea fácil crear un curriculum vitae de aspecto profesional en minutos. El creador de curriculum online hace que el proceso sea simple e intuitivo. Como hacer curriculum es más fácil que nunca."
+      },
+      {
+        "question": "¿En qué formato de archivo puedo descargar mi curriculum vitae?",
+        "answer": "Puedes descargar tu curriculum vitae como un archivo PDF de alta calidad que es perfecto para imprimir, enviar por correo electrónico a empleadores o subir a sitios web de solicitudes de empleo. El PDF mantiene todo el formato y se ve profesional en cualquier dispositivo. Plantillas currículum vitae para rellenar gratis PDF disponibles para descarga inmediata."
+      },
+      {
+        "question": "¿Son las plantillas curriculum adecuadas para todas las industrias?",
+        "answer": "Sí, nuestra colección incluye plantillas curriculum y modelos de currículum vitae diseñados para diversas industrias, incluyendo tecnología, salud, finanzas, educación, marketing y más. Cada plantilla curriculum puede personalizarse para que coincida con los requisitos específicos de tu industria y estilo personal. Compatible con formato Europass CV y CV ATS para máxima compatibilidad con sistemas de seguimiento de candidatos."
+      },
+      {
+        "question": "¿Funciona el creador de curriculum vitae en iPhone y iPad?",
+        "answer": "Sí, nuestra aplicación está optimizada para dispositivos iPhone e iPad. Puedes crear y editar tu curriculum vitae en cualquier dispositivo iOS usando nuestro creador de curriculum online, lo que hace conveniente trabajar en tu currículum dondequiera que estés. Hacer curriculum gratis en cualquier momento y lugar."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre este creador de curriculum vitae y otros creadores de CV?",
+        "answer": "Nuestra aplicación es la mejor opción para crear curriculum vitae porque combina funciones poderosas con facilidad de uso. A diferencia de los creadores básicos de CV, ofrecemos más de 100 plantillas curriculum profesionales, consejos expertos, ejemplos de curriculum vitae y exportación perfecta a PDF. Nuestro creador de curriculum online hace que sea fácil crear curriculum vitae profesionales que destaquen ante los empleadores. Incluye plantillas currículum vitae para rellenar gratis PDF y soporte para CV ATS y CV Harvard."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "Creador de CV",
+    "alternate_name": "Curriculum Vitae Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "EUR"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/es/app/id1630645768",
+    "cta_text": "Descargar Aplicación Creador de CV",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Política de Privacidad",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Términos de Uso",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Soporte",
+    "copyright": "© 2025 c-basso. Todos los derechos reservados. | Creador de Curriculum Vitae - Mejor Aplicación para Crear CV | Curriculum Vitae Gratis | Plantillas Curriculum Profesionales"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/es/app/id1630645768",
+    "text": "📱 Descargar Aplicación Creador de CV"
+  }
+}
+
