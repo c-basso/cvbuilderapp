@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const languages = ['en'];
+const languages = ['en', 'ru'];
 
 (function() {
     for (const lang of languages) {

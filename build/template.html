@@ -195,12 +195,21 @@
             color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
+        }
+        
+        /* Improve text readability */
+        p {
+            margin-bottom: 1rem;
+            word-wrap: break-word;
+            hyphens: auto;
         }
 
         /* Hero Section */
@@ -222,7 +231,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.5) 0%, rgba(118, 75, 162, 0.5) 100%);
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
             z-index: 0;
         }
         
@@ -263,32 +272,19 @@
             padding: 0.75rem 1.5rem;
             border-radius: 12px;
         }
-        
-        .hero h1::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.4);
-            border-radius: 12px;
-            z-index: -1;
-            backdrop-filter: blur(10px);
-        }
 
         .hero p {
             font-size: 1.1rem;
             margin-bottom: 2rem;
-            opacity: 0.9;
-            max-width: 600px;
+            opacity: 0.95;
+            max-width: 800px;
             margin-left: auto;
             margin-right: auto;
-            line-height: 1.5;
+            line-height: 1.7;
             padding: 1rem 1.5rem;
-            background: rgba(0, 0, 0, 0.4);
             border-radius: 12px;
             backdrop-filter: blur(10px);
+            letter-spacing: 0.01em;
         }
 
         .cta-buttons {
@@ -329,28 +325,72 @@
             max-width: 100%;
         }
         
+        /* Desktop: Show QR code container, hide mobile download button */
+        .cta-qr-desktop {
+            display: block;
+        }
+        
+        .cta-mobile {
+            display: none;
+        }
+        
+        .cta-image-desktop {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 12px;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+        }
+        
+        .qr-cta-text {
+            color: white;
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 1rem;
+            opacity: 0.9;
+            letter-spacing: 0.01em;
+        }
+        
+        /* Mobile: Hide QR code, show download button */
         @media (max-width: 768px) {
-            .btn-primary img {
-                width: 150px;
-                height: 50px;
+            .cta-qr-desktop {
+                display: none;
+            }
+            
+            .cta-mobile {
+                display: inline-flex;
+            }
+            
+            .cta-image-mobile {
+                display: block;
+                width: 200px;
+                height: auto;
+                max-width: 100%;
             }
         }
         
         @media (max-width: 480px) {
-            .btn-primary img {
-                width: 140px;
-                height: 47px;
+            .cta-image-mobile {
+                width: 220px;
+                height: auto;
+                max-width: 100%;
             }
         }
         
-        .btn-primary:has(img) {
+        .btn-primary.cta-mobile {
             padding: 0;
             background: none;
             box-shadow: none;
             border-radius: 0;
         }
         
-        .btn-primary:has(img):hover {
+        .btn-primary.cta-mobile:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
@@ -421,35 +461,10 @@
         }
 
         .feature-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        /* Testimonials */
-        .testimonials {
-            padding: 80px 0;
-            background: #f8f9fa;
-        }
-
-        .testimonial {
-            background: white;
-            padding: 2rem;
-            border-radius: 20px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
-            text-align: center;
-        }
-
-        .testimonial-text {
-            font-style: italic;
-            font-size: 1.1rem;
-            margin-bottom: 1rem;
             color: #555;
-        }
-
-        .testimonial-author {
-            font-weight: 600;
-            color: #333;
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-top: 0.5rem;
         }
 
         .rating {
@@ -511,8 +526,9 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease, padding 0.3s ease;
-            color: #666;
-            line-height: 1.6;
+            color: #555;
+            line-height: 1.75;
+            font-size: 1rem;
         }
 
         .faq-item.active .faq-answer {
@@ -571,32 +587,39 @@
 
         /* Mobile Optimizations */
         @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+                line-height: 1.7;
+            }
+            
             .hero {
-                padding: 60px 0 60px;
+                padding: 50px 0 50px;
             }
 
             .hero h1 {
-                font-size: 2rem;
-                line-height: 1.2;
-                margin-bottom: 0.75rem;
-                padding: 0.6rem 1.2rem;
+                font-size: 1.875rem;
+                line-height: 1.3;
+                margin-bottom: 1rem;
+                padding: 0.75rem 1.25rem;
+                letter-spacing: -0.02em;
             }
 
             .hero p {
                 font-size: 1rem;
-                line-height: 1.4;
+                line-height: 1.7;
                 margin-bottom: 2rem;
-                padding: 0.875rem 1.25rem;
+                padding: 1rem 1.25rem;
+                letter-spacing: 0.01em;
             }
 
             .hero-logo {
-                font-size: 1.4rem;
+                font-size: 1.375rem;
                 margin-bottom: 1.5rem;
             }
 
             .hero-logo img {
-                width: 80px;
-                height: 80px;
+                width: 70px;
+                height: 70px;
             }
 
             .cta-buttons {
@@ -607,20 +630,23 @@
 
             .btn {
                 width: 100%;
-                max-width: 280px;
+                max-width: 300px;
                 justify-content: center;
                 padding: 16px 24px;
                 font-size: 1rem;
                 min-height: 48px;
+                line-height: 1.5;
             }
 
             .features {
-                padding: 60px 0;
+                padding: 50px 0;
             }
 
             .section-title {
-                font-size: 2rem;
+                font-size: 1.875rem;
                 margin-bottom: 2rem;
+                line-height: 1.3;
+                letter-spacing: -0.02em;
             }
 
             .features-grid {
@@ -634,38 +660,31 @@
             }
 
             .feature-card h3 {
-                font-size: 1.2rem;
+                font-size: 1.25rem;
+                line-height: 1.4;
+                margin-bottom: 0.75rem;
             }
 
             .feature-card p {
-                font-size: 0.95rem;
-                line-height: 1.5;
-            }
-
-            .testimonials {
-                padding: 60px 0;
-            }
-
-            .testimonial {
-                padding: 1.5rem;
-                margin: 0.5rem;
-            }
-
-            .testimonial-text {
                 font-size: 1rem;
+                line-height: 1.7;
+                margin-bottom: 0;
             }
 
             .faq {
-                padding: 60px 0;
+                padding: 50px 0;
             }
 
             .faq-question {
                 padding: 1.25rem;
-                font-size: 1rem;
+                font-size: 1.0625rem;
+                line-height: 1.5;
             }
 
             .faq-answer {
                 padding: 0 1.25rem;
+                font-size: 1rem;
+                line-height: 1.75;
             }
 
             .faq-item.active .faq-answer {
@@ -679,12 +698,16 @@
             }
 
             .footer-links a {
-                padding: 8px 0;
-                font-size: 0.9rem;
+                padding: 10px 0;
+                font-size: 1rem;
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .container {
-                padding: 0 16px;
+                padding: 0 20px;
             }
 
             .floating-cta {
@@ -692,51 +715,116 @@
                 right: 10px;
                 left: 10px;
                 text-align: center;
-                padding: 12px 20px;
-                font-size: 0.9rem;
+                padding: 14px 20px;
+                font-size: 0.9375rem;
+                min-height: 48px;
+            }
+            
+            /* Optimize inline subtitle styles for mobile */
+            section header p {
+                font-size: 1rem !important;
+                line-height: 1.7 !important;
+                margin-bottom: 2rem !important;
+                padding: 0 1rem;
             }
         }
 
         @media (max-width: 480px) {
+            body {
+                font-size: 16px;
+            }
+            
+            .hero {
+                padding: 40px 0 40px;
+            }
+            
             .hero h1 {
-                font-size: 1.75rem;
-                line-height: 1.2;
-                padding: 0.5rem 1rem;
+                font-size: 1.625rem;
+                line-height: 1.3;
+                padding: 0.625rem 1rem;
+                letter-spacing: -0.02em;
             }
 
             .hero p {
-                font-size: 0.95rem;
-                line-height: 1.4;
-                padding: 0.75rem 1rem;
+                font-size: 1rem;
+                line-height: 1.7;
+                padding: 0.875rem 1rem;
+                letter-spacing: 0.01em;
             }
 
             .hero-logo {
-                font-size: 1.2rem;
+                font-size: 1.25rem;
+                margin-bottom: 1.25rem;
             }
 
             .hero-logo img {
-                width: 70px;
-                height: 70px;
+                width: 60px;
+                height: 60px;
             }
 
             .btn {
-                max-width: 260px;
-                padding: 14px 20px;
+                max-width: 100%;
+                padding: 16px 20px;
+                font-size: 1rem;
             }
 
             .section-title {
-                font-size: 1.8rem;
+                font-size: 1.625rem;
+                line-height: 1.3;
+                margin-bottom: 1.5rem;
+                letter-spacing: -0.02em;
             }
 
             .feature-card {
                 padding: 1.25rem;
             }
+            
+            .feature-card h3 {
+                font-size: 1.125rem;
+            }
+            
+            .feature-card p {
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+            
+            .faq-question {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+            
+            .faq-answer {
+                font-size: 1rem;
+                padding: 0 1rem;
+            }
+            
+            .faq-item.active .faq-answer {
+                padding: 0 1rem 1rem;
+            }
+            
+            .container {
+                padding: 0 16px;
+            }
+            
+            /* Optimize inline subtitle styles for small mobile */
+            section header p {
+                font-size: 1rem !important;
+                line-height: 1.7 !important;
+                margin-bottom: 1.5rem !important;
+                padding: 0 0.5rem;
+            }
         }
 
         @media (hover: none) and (pointer: coarse) {
             .btn {
-                min-height: 44px;
-                padding: 12px 20px;
+                min-height: 48px;
+                padding: 14px 24px;
+                font-size: 1rem;
+            }
+            
+            .faq-question {
+                min-height: 48px;
+                padding: 1.25rem;
             }
 
             .feature-card {
@@ -745,6 +833,14 @@
 
             .feature-card:hover {
                 transform: none;
+            }
+            
+            /* Improve touch targets */
+            .footer-links a {
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .feature-card:active {
@@ -839,9 +935,15 @@
             </div>
             <h1 class="fade-in-up">{{hero.title}}</h1>
             <p class="fade-in-up">{{hero.subheadline}}</p>
-            <div class="cta-buttons fade-in-up" aria-label="Download CV Builder App">
-                <a href="{{hero.cta_url}}" class="btn btn-primary" rel="nofollow" aria-label="{{hero.download_alt}}" title="Download CV Builder App">
-                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
+            <div class="cta-buttons fade-in-up" aria-label="{{hero.download_text}}">
+                <!-- Desktop: QR code for scanning -->
+                <div class="cta-qr-desktop">
+                    <img src="/qr.png" alt="{{hero.qr_alt}}" class="cta-image-desktop" loading="lazy">
+                    <p class="qr-cta-text">{{hero.qr_cta_text}}</p>
+                </div>
+                <!-- Mobile: Download button -->
+                <a href="{{hero.cta_url}}" class="btn btn-primary cta-mobile" rel="nofollow" aria-label="{{hero.download_alt}}" title="{{hero.download_text}}">
+                    <img src="/download.svg" alt="{{hero.download_alt}}" class="cta-image-mobile" width="180" height="60" loading="lazy">
                 </a>
             </div>
         </div>
@@ -887,27 +989,6 @@
                         <p itemprop="description">{{features.items.5.description}}</p>
                     </article>
                 </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials" itemscope itemtype="https://schema.org/Review">
-            <div class="container">
-                <header>
-                    <h2 class="section-title">{{testimonials.title}}</h2>
-                    <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 3rem;">{{testimonials.subtitle}}</p>
-                </header>
-                <blockquote class="testimonial" itemprop="reviewBody">
-                    <div class="rating" aria-label="{{testimonials.stars_aria_label}}" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                        <meta itemprop="ratingValue" content="5">
-                        <meta itemprop="bestRating" content="5">
-                        {{testimonials.stars}}
-                    </div>
-                    <p class="testimonial-text" itemprop="description">{{testimonials.items.0.text}}</p>
-                    <cite class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                        <span itemprop="name">{{testimonials.items.0.author}}</span>
-                    </cite>
-                </blockquote>
             </div>
         </section>
 
@@ -1024,7 +1105,7 @@
         }, observerOptions);
 
         // Observe all feature cards and other elements
-        document.querySelectorAll('.feature-card, .testimonial, .faq-item').forEach(el => {
+        document.querySelectorAll('.feature-card, .faq-item').forEach(el => {
             observer.observe(el);
         });
 
@@ -1046,18 +1127,31 @@
             });
         });
 
-        // Floating CTA visibility
+        // Floating CTA visibility - show later when scrolling
         const floatingCta = document.querySelector('.floating-cta');
         const appStoreBtn = document.querySelector('.btn-primary');
         const footerCta = document.querySelector('.footer-links a[href*="apps.apple.com"]');
+        const minScrollDistance = 500; // Minimum scroll distance before showing
+        const scrollThreshold = 0.4; // Show after 40% of page height scrolled
         
         function checkScroll() {
+            if (!floatingCta) return;
+            
+            const scrollY = window.scrollY || window.pageYOffset;
+            const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercentage = scrollY / documentHeight;
+            const hasScrolledEnough = scrollY > minScrollDistance || scrollPercentage > scrollThreshold;
+            
             if (appStoreBtn) {
                 const appStoreRect = appStoreBtn.getBoundingClientRect();
                 const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
                 const appStoreVisible = appStoreRect.top < window.innerHeight && appStoreRect.bottom > 0;
                 const footerVisible = footerRect ? (footerRect.top < window.innerHeight && footerRect.bottom > 0) : false;
-                if (!appStoreVisible && !footerVisible) {
+                
+                // Show floating CTA only if:
+                // 1. User has scrolled enough (distance or percentage)
+                // 2. Main CTA buttons are not visible
+                if (hasScrolledEnough && !appStoreVisible && !footerVisible) {
                     floatingCta.classList.add('show');
                 } else {
                     floatingCta.classList.remove('show');
@@ -1065,7 +1159,7 @@
             }
         }
         
-        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('scroll', checkScroll, { passive: true });
         window.addEventListener('resize', checkScroll);
         checkScroll();
 

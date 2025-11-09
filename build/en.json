@@ -28,6 +28,8 @@
     "cta_url": "https://apps.apple.com/app/id1630645768",
     "download_text": "Download CV Builder App",
     "download_alt": "Download CV Builder App on the App Store",
+    "qr_alt": "Scan QR code to download CV Builder App",
+    "qr_cta_text": "Scan with your phone to download",
     "learn_more_text": "Learn More About CV Builder",
     "phone_text": "Tap to create your professional CV resume"
   },
@@ -41,16 +43,6 @@
       { "title": "Personalize Your CV Resume", "description": "Make your CV resume unique with CV Builder by adding your professional photo, digital signature, and QR codes that link directly to your LinkedIn profile or online portfolio. These modern touches help you stand out and make it easy for employers to learn more about you.", "icon": "📱" },
       { "title": "Download as High-Quality PDF", "description": "Export your CV resume from CV Builder as a print-ready, high-quality PDF that looks professional on screen and paper. Perfect for emailing to employers, uploading to job sites, or printing for interviews. Your CV will maintain its formatting and professional appearance across all platforms.", "icon": "📄" },
       { "title": "Cover Letter Builder Included", "description": "Complete your job application with CV Builder's built-in cover letter builder. We provide professional cover letter examples and templates that match your CV resume style. Create matching documents for a complete, cohesive application package that impresses hiring managers.", "icon": "✉️" }
-    ]
-  },
-  "testimonials": {
-    "stars": "★★★★★",
-    "stars_aria_label": "5 out of 5 stars",
-    "rating_text": "4.8 Rating",
-    "title": "Trusted by Thousands of Job Seekers - What Our Users Say",
-    "subtitle": "Join thousands of professionals who have successfully created their CV resumes and landed their dream jobs using CV Builder, the best CV builder app.",
-    "items": [
-      { "text": "\"Buena guía para realizar un cv sencillo y práctico\"", "author": "- Xica12, App Store Review" }
     ]
   },
   "faq": {
