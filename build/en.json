@@ -17,7 +17,13 @@
     "canonical": "https://cvbuilderapp.com/",
     "alternate_ru": "https://cvbuilderapp.com/ru/",
     "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_default": "https://cvbuilderapp.com/"
+    "alternate_default": "https://cvbuilderapp.com/",
+    "alternate_languages": [
+      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
+      { "lang": "en", "url": "https://cvbuilderapp.com/" }
+    ],
+    "geo_region": "US",
+    "geo_placename": "United States"
   },
   "hero": {
     "logo_alt": "CV Builder App - Professional Resume and CV Creator Logo",
@@ -77,9 +83,13 @@
   },
   "app_info": {
     "name": "CV Builder",
+    "alternate_name": "Конструктор резюме",
     "publisher": "c-basso",
     "version": "1.20.11",
-    "file_size": "87.4 MB"
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "USD"
   },
   "footer": {
     "cta_url": "https://apps.apple.com/app/id1630645768",

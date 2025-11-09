@@ -17,7 +17,13 @@
     "canonical": "https://cvbuilderapp.com/ru/",
     "alternate_ru": "https://cvbuilderapp.com/ru/",
     "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_default": "https://cvbuilderapp.com/"
+    "alternate_default": "https://cvbuilderapp.com/",
+    "alternate_languages": [
+      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
+      { "lang": "en", "url": "https://cvbuilderapp.com/" }
+    ],
+    "geo_region": "RU",
+    "geo_placename": "Russia"
   },
   "hero": {
     "logo_alt": "Конструктор резюме - Логотип приложения для создания профессиональных резюме",
@@ -77,9 +83,13 @@
   },
   "app_info": {
     "name": "Конструктор резюме",
+    "alternate_name": "CV Builder",
     "publisher": "c-basso",
     "version": "1.20.11",
-    "file_size": "87.4 МБ"
+    "file_size": "87.4 МБ",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "RUB"
   },
   "footer": {
     "cta_url": "https://apps.apple.com/app/id1630645768",

@@ -8,12 +8,12 @@
     <meta name="keywords" content="{{meta.keywords}}">
     <meta name="author" content="{{meta.author}}">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="language" content="English">
+    <meta name="language" content="{{meta.lang}}">
     <meta name="revisit-after" content="7 days">
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
-    <meta name="geo.region" content="US">
-    <meta name="geo.placename" content="United States">
+    <meta name="geo.region" content="{{meta.geo_region}}">
+    <meta name="geo.placename" content="{{meta.geo_placename}}">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -25,8 +25,9 @@
     <meta name="application-name" content="{{app_info.name}}">
     <meta name="apple-itunes-app" content="app-id={{meta.app_store_id}}">
     <link rel="canonical" href="{{meta.canonical}}">
-    <link rel="alternate" hreflang="ru" href="{{meta.alternate_ru}}" />
-    <link rel="alternate" hreflang="en" href="{{meta.alternate_en}}" />
+    {{#each meta.alternate_languages as |lang|}}
+    <link rel="alternate" hreflang="{{lang.lang}}" href="{{lang.url}}" />
+    {{/each}}
     <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,16 +42,16 @@
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "{{app_info.name}}",
-        "alternateName": "CV Builder App",
+        "alternateName": "{{app_info.alternate_name}}",
         "description": "{{meta.description}}",
         "url": "{{meta.canonical}}",
-        "applicationCategory": "BusinessApplication",
-        "applicationSubCategory": "Resume Builder",
+        "applicationCategory": "{{app_info.application_category}}",
+        "applicationSubCategory": "{{app_info.application_sub_category}}",
         "operatingSystem": ["iOS"],
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD",
+            "priceCurrency": "{{app_info.price_currency}}",
             "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -73,13 +74,14 @@
         "softwareVersion": "{{app_info.version}}",
         "fileSize": "{{app_info.file_size}}",
         "installUrl": "{{hero.cta_url}}",
-        "keywords": "cv builder, best cv builder, cv builder app, resume builder, cv resume, cv template, resume template",
+        "keywords": "{{meta.keywords}}",
         "featureList": [
-            "CV Builder Templates",
-            "Resume Templates",
-            "CV Examples",
-            "PDF Export",
-            "Cover Letter Builder"
+            "{{features.items.0.title}}",
+            "{{features.items.1.title}}",
+            "{{features.items.2.title}}",
+            "{{features.items.3.title}}",
+            "{{features.items.4.title}}",
+            "{{features.items.5.title}}"
         ]
     }
     </script>
@@ -101,68 +103,30 @@
         "about": {
             "@type": "SoftwareApplication",
             "name": "{{app_info.name}}",
-            "applicationCategory": "BusinessApplication"
+            "applicationCategory": "{{app_info.application_category}}"
         },
         "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [{
                 "@type": "ListItem",
                 "position": 1,
-                "name": "Home",
+                "name": "{{meta.title}}",
                 "item": "{{meta.canonical}}"
             }]
         },
         "mainEntity": {
             "@type": "FAQPage",
             "mainEntity": [
+                {{#each faq.items as |item|}}
                 {
                     "@type": "Question",
-                    "name": "What makes CV Builder the best CV builder app?",
+                    "name": "{{item.question}}",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "CV Builder stands out as the best CV builder app with 100+ professional CV builder templates, expert writing tips, easy customization options, and seamless PDF export. We've designed CV Builder specifically for iPhone and iPad users who want to create professional resumes quickly and easily using our CV builder online."
+                        "text": "{{item.answer}}"
                     }
                 },
-                {
-                    "@type": "Question",
-                    "name": "Can I use CV Builder without design experience?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Absolutely! CV Builder is designed for everyone, regardless of design experience. Our step-by-step guide and pre-designed CV builder templates make it easy to create a professional-looking CV resume in minutes. CV Builder online makes the process simple and intuitive."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What file format can I download my CV resume in?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You can download your CV resume from CV Builder as a high-quality PDF file that's perfect for printing, emailing to employers, or uploading to job application websites. The PDF maintains all formatting and looks professional on any device."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Are the CV builder templates suitable for all industries?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, CV Builder's collection includes CV templates and resume templates designed for various industries including technology, healthcare, finance, education, marketing, and more. Each CV builder template can be customized to match your specific industry requirements and personal style."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Does CV Builder work on both iPhone and iPad?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, CV Builder is optimized for both iPhone and iPad devices. You can create and edit your CV resume on any iOS device using CV Builder online, making it convenient to work on your resume wherever you are."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What's the difference between CV Builder and other resume builders?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "CV Builder is the best CV builder app because it combines powerful features with ease of use. Unlike basic resume builders, CV Builder offers 100+ professional CV builder templates, expert tips, CV examples, and seamless PDF export. CV Builder online makes it easy to create professional CV resumes that stand out to employers."
-                    }
-                }
+                {{/each}}
             ]
         }
     }
