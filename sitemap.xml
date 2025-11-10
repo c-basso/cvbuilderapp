@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cvbuilderapp.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://cvbuilderapp.com/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://cvbuilderapp.com/ru" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://cvbuilderapp.com/es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://cvbuilderapp.com/fr" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://cvbuilderapp.com/de" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://cvbuilderapp.com/it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://cvbuilderapp.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cvbuilderapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://cvbuilderapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://cvbuilderapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cvbuilderapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://cvbuilderapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cvbuilderapp.com/pt/" />
     <priority>1.0</priority>
   </url>
 </urlset> 
