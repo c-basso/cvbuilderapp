@@ -82,7 +82,7 @@ const languages = [
                     }
                     
                     // Process each item in the array
-                    const processedBlocks = array.map((item, index) => {
+                    let processedBlocks = array.map((item, index) => {
                         // Create context with the item accessible by varName
                         const itemContext = { [varName]: item };
                         const mergedContext = { ...data, ...itemContext };
@@ -93,13 +93,15 @@ const languages = [
                         // Then process variables in the block content
                         processedContent = replaceVariables(processedContent, mergedContext);
                         
-                        // Handle trailing comma in JSON-LD (remove comma after last item)
-                        if (index === array.length - 1) {
-                            processedContent = processedContent.replace(/,\s*$/m, '');
-                        }
-                        
                         return processedContent;
                     }).join('');
+                    
+                    // Remove trailing comma after the last item in JSON-LD arrays
+                    // Pattern: }, followed by newline, optional whitespace/newlines, then closing bracket
+                    // Match: comma, newline, any characters (whitespace/newlines), closing bracket
+                    processedBlocks = processedBlocks.replace(/,\s*\n[\s\n]*\]/g, '\n            ]');
+                    // Also handle comma on same line as closing bracket (fallback)
+                    processedBlocks = processedBlocks.replace(/,\s*\]/g, ']');
                     
                     // Replace the entire #each block with processed content
                     result = result.replace(fullMatch, processedBlocks);
@@ -111,6 +113,11 @@ const languages = [
             // First process #each blocks, then replace remaining variables
             let result = processEachBlocks(template, data);
             result = replaceVariables(result, data);
+            
+            // Final cleanup: remove any trailing commas before closing brackets in JSON-LD
+            // This catches any trailing commas that might have been missed
+            result = result.replace(/,\s*\n[\s\n]*\]/g, '\n            ]');
+            result = result.replace(/,\s*\]/g, ']');
             
             // Write the result to en.html
             fs.writeFileSync(outputPath, result, 'utf8');
