@@ -138,12 +138,40 @@
     }
     </script>
     
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+    {{seo.structured_data.organization|json}}
+    </script>
+    
+    <!-- WebSite Structured Data -->
+    <script type="application/ld+json">
+    {{seo.structured_data.website|json}}
+    </script>
+    
+    <!-- HowTo Structured Data -->
+    <script type="application/ld+json">
+    {{seo.structured_data.howto|json}}
+    </script>
+    
+    <!-- FAQPage Structured Data -->
+    <script type="application/ld+json">
+    {{seo.structured_data.faqpage|json}}
+    </script>
+    
+    <!-- BreadcrumbList Structured Data -->
+    <script type="application/ld+json">
+    {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{meta.og_url}}">
     <meta property="og:title" content="{{meta.og_title}}">
     <meta property="og:description" content="{{meta.og_description}}">
     <meta property="og:image" content="{{meta.og_image}}">
+    <meta property="og:site_name" content="{{meta.og_site_name}}">
+    <meta property="og:locale" content="{{meta.og_locale}}">
+    <meta property="og:logo" content="{{meta.og_logo}}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

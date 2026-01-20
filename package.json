@@ -2,6 +2,15 @@
   "name": "cvbuilderapp",
   "scripts": {
     "build": "node build/build.js",
-    "start": "npx http-server"
+    "validate": "node build/validate/index.js",
+    "sitemap": "node build/sitemap.js",
+    "start": "npx http-server",
+    "site:preview": "node build/preview.js",
+    "index:now": "node build/indexnow.js",
+    "push": "git add . && git commit -m 'wip' && git push origin main",
+    "deploy": "npm run build && npm run validate && npm run sitemap && npm run push"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.1.1"
   }
 }
