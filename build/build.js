@@ -20,6 +20,7 @@ const {
     for (const lang of LANGUAGES) {
         try {
             const htmlDir = path.join(__dirname, lang === DEFAULT_LANGUAGE ? '..' : `../${lang}/`);
+            const previewPath = `${SITE_URL}${lang === DEFAULT_LANGUAGE ? '' : `${lang}/`}site_preview.png`;
 
             // Read the template and JSON files
             const templatePath = path.join(__dirname, 'template.html');
@@ -45,6 +46,9 @@ const {
             }
             data.meta.alternate_default = SITE_URL;
             data.meta.alternate_languages = URLS;
+
+            data.meta.og_image = previewPath;
+            data.meta.twitter_image = previewPath;
             
             // Replace {year} placeholder in footer.copyright with current year
             const currentYear = new Date().getFullYear();
