@@ -28,12 +28,11 @@ const OG_DESCRIPTION_MAX_LENGTH = 160;
 
 function extractMetaTags(html) {
   const metaTags = {};
-  // Match meta tags with proper quote handling - capture opening quote and match until matching closing quote
-  const re = /<meta\s+(?:property|name)=(["'])([^"']+)\1\s+content=(["'])(.*?)\3/g;
+  const re = /<meta\s+(?:property|name)=["']([^"']+)["']\s+content=["']([^"']+)["']/g;
   let m;
   while ((m = re.exec(html))) {
-    const property = m[2];
-    const content = m[4];
+    const property = m[1];
+    const content = m[2];
     metaTags[property] = content;
   }
   return metaTags;

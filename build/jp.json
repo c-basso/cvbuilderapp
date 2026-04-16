@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "jp",
+    "title": "履歴書作成アプリ - プロ品質のCV・履歴書を簡単作成 | 100以上のテンプレート",
+    "description": "履歴書作成アプリで、プロ品質のCV・履歴書をすばやく作成。100以上のテンプレート、書き方のヒント、PDF書き出しに対応し、iPhoneとiPadで使えます。",
+    "keywords": "履歴書作成, 職務経歴書, CV 作成, 履歴書 テンプレート, レジュメ 作成, resume builder, 履歴書 アプリ, PDF 履歴書, CV Builder",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/jp/",
+    "og_title": "履歴書作成アプリ | 100以上のテンプレートでCVを作成",
+    "og_description": "履歴書作成アプリで、プロ品質のCVや履歴書をすばやく作成できます。100以上のテンプレート、書き方のヒント、PDF出力に対応し、iPhoneとiPadでとても便利に使え、就職活動や転職活動の応募準備を効率よく進められます。",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "ja_JP",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/jp/",
+    "twitter_title": "履歴書作成アプリ | 100以上のテンプレートでCVを作成",
+    "twitter_description": "履歴書作成アプリで、プロ品質のCV・履歴書をすばやく作成。100以上のテンプレート、書き方のヒント、PDF書き出しに対応し、iPhoneとiPadで使えます。",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/jp/",
+    "geo_region": "JP",
+    "geo_placename": "Japan"
+  },
+  "hero": {
+    "logo_alt": "履歴書作成アプリのロゴ",
+    "logo_text": "履歴書作成",
+    "title": "数分で履歴書とCVを作成",
+    "subtitle": "iPhoneとiPad向けの履歴書作成アプリ",
+    "subheadline": "履歴書作成アプリなら、職種や経験に合わせたプロ品質の履歴書やCVを短時間で作れます。100以上のテンプレート、書き方のヒント、PDF出力に対応し、就職活動や転職活動をスマートに進められます。",
+    "cta_url": "https://apps.apple.com/jp/app/id1630645768",
+    "download_text": "履歴書作成アプリをダウンロード",
+    "download_alt": "App Storeから履歴書作成アプリをダウンロード",
+    "qr_alt": "QRコードを読み取って履歴書作成アプリをダウンロード",
+    "qr_cta_text": "スマートフォンでスキャンしてダウンロード",
+    "learn_more_text": "履歴書作成アプリについて詳しく見る",
+    "phone_text": "タップしてプロ品質の履歴書を作成"
+  },
+  "features": {
+    "title": "履歴書作成に必要な機能を1つに集約",
+    "subtitle": "テンプレート選びからPDF書き出しまで、履歴書やCVを仕上げるための主要機能をアプリ内でまとめて使えます。",
+    "items": [
+      {
+        "title": "すぐに作れる履歴書作成フロー",
+        "description": "入力ガイドに沿って進めるだけで、学歴・職歴・スキルを整理した履歴書を効率よく作成できます。初めての方でも迷いにくい構成です。",
+        "icon": "⚡"
+      },
+      {
+        "title": "100以上のテンプレート",
+        "description": "シンプル、モダン、ビジネス向けなど、用途に合わせてテンプレートを選べます。色やフォントも調整しやすく、見やすいCVに仕上がります。",
+        "icon": "🎨"
+      },
+      {
+        "title": "書き方のヒントと例文",
+        "description": "自己PR、職務要約、実績の書き方に役立つヒントを収録。内容を整理しやすく、採用担当者に伝わる文章づくりをサポートします。",
+        "icon": "💡"
+      },
+      {
+        "title": "写真・署名・QRコード対応",
+        "description": "プロフィール写真や署名、ポートフォリオへのQRコードを追加して、紙でもオンラインでも伝わりやすい応募書類を作成できます。",
+        "icon": "📱"
+      },
+      {
+        "title": "高品質PDFで出力",
+        "description": "完成した履歴書やCVは、レイアウトを保ったままPDFで保存できます。応募送信、共有、印刷にもそのまま使えます。",
+        "icon": "📄"
+      },
+      {
+        "title": "カバーレター作成にも対応",
+        "description": "履歴書だけでなく、デザインを合わせたカバーレターも作成できます。応募書類全体の統一感を保ちやすくなります。",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "履歴書作成アプリに関するよくある質問",
+    "subtitle": "履歴書やCVの作成、テンプレート、PDF出力、iPhone・iPadでの使い方についての質問に回答します。",
+    "items": [
+      {
+        "question": "この履歴書作成アプリの特長は何ですか？",
+        "answer": "100以上のテンプレート、入力ガイド、書き方のヒント、PDF出力を1つにまとめている点が特長です。iPhoneやiPadで短時間にプロ品質の履歴書やCVを作成できます。"
+      },
+      {
+        "question": "デザイン経験がなくても使えますか？",
+        "answer": "はい。項目ごとに入力を進められるため、デザインやレイアウトの知識がなくても使えます。テンプレートを選ぶだけで整った見た目に仕上がります。"
+      },
+      {
+        "question": "作成した履歴書はどの形式で保存できますか？",
+        "answer": "完成した履歴書やCVはPDFで保存できます。レイアウトが崩れにくく、求人応募、メール送信、印刷に使いやすい形式です。"
+      },
+      {
+        "question": "テンプレートはさまざまな職種に対応していますか？",
+        "answer": "はい。新卒、事務、営業、IT、クリエイティブなど、幅広い職種やキャリア段階を想定したテンプレートを用意しています。"
+      },
+      {
+        "question": "iPhoneとiPadの両方で使えますか？",
+        "answer": "はい。アプリはiPhoneとiPad向けに最適化されています。どちらのデバイスでも履歴書の作成、編集、書き出しを行えます。"
+      },
+      {
+        "question": "他の履歴書アプリとの違いは何ですか？",
+        "answer": "見た目だけでなく、書き方のサポート、PDF出力、カバーレター作成までまとめて使える点が違いです。短時間で実用的な応募書類を作りたい方に向いています。"
+      }
+    ]
+  },
+  "app_info": {
+    "name": "履歴書作成",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "JPY"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/jp/app/id1630645768",
+    "cta_text": "履歴書作成アプリをダウンロード",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "プライバシーポリシー",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "利用規約",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "サポート",
+    "copyright": "© 2025 c-basso. All rights reserved. | 履歴書作成アプリ | CV・履歴書を簡単作成"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/jp/app/id1630645768",
+    "text": "📱 履歴書作成アプリをダウンロード"
+  }
+}

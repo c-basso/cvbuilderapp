@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "tr",
+    "title": "CV Oluşturucu - profesyonel CV hazırlama uygulaması | 100+ CV şablonu",
+    "description": "CV Oluşturucu ile profesyonel CV hazırlayın. 100+ CV şablonu, yazım ipuçları ve PDF dışa aktarma özellikleriyle iPhone ve iPad için güçlü bir CV uygulaması.",
+    "keywords": "cv oluşturucu, cv hazırlama, özgeçmiş hazırlama, cv şablonu, resume builder, profesyonel cv, pdf cv, cv örneği",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/tr/",
+    "og_title": "CV Oluşturucu | 100+ şablonla profesyonel CV hazırlayın",
+    "og_description": "CV Oluşturucu ile profesyonel CV hazırlayın. 100+ şablon, içerik önerileri ve PDF çıktısı sayesinde iPhone ve iPad üzerinde başvuru belgesi oluşturabilirsiniz.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "tr_TR",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/tr/",
+    "twitter_title": "CV Oluşturucu | 100+ şablonla profesyonel CV hazırlayın",
+    "twitter_description": "CV Oluşturucu ile profesyonel CV hazırlayın. 100+ CV şablonu, yazım ipuçları ve PDF dışa aktarma özellikleriyle iPhone ve iPad için güçlü bir CV uygulaması.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/tr/",
+    "geo_region": "TR",
+    "geo_placename": "Turkey"
+  },
+  "hero": {
+    "logo_alt": "CV Oluşturucu uygulama logosu",
+    "logo_text": "CV Oluşturucu",
+    "title": "Dakikalar içinde profesyonel CV hazırlayın",
+    "subtitle": "iPhone ve iPad için CV hazırlama uygulaması",
+    "subheadline": "CV Oluşturucu, iş başvuruları için düzenli ve profesyonel bir CV hazırlamanıza yardımcı olur. 100+ şablon, içerik önerileri ve PDF çıktısı ile süreci daha hızlı ve daha kolay hale getirir.",
+    "cta_url": "https://apps.apple.com/tr/app/id1630645768",
+    "download_text": "CV Oluşturucu uygulamasını indir",
+    "download_alt": "CV Oluşturucu uygulamasını App Store’dan indir",
+    "qr_alt": "CV Oluşturucu uygulamasını indirmek için QR kodunu tara",
+    "qr_cta_text": "İndirmek için telefonunla tara",
+    "learn_more_text": "CV Oluşturucu hakkında daha fazla bilgi",
+    "phone_text": "Profesyonel CV hazırlamak için dokun"
+  },
+  "features": {
+    "title": "Etkili bir CV için gerekli temel özellikler",
+    "subtitle": "Şablon seçiminden PDF çıktısına kadar, CV hazırlama sürecindeki ana araçlar tek bir uygulamada bulunur.",
+    "items": [
+      {
+        "title": "Adım adım hızlı CV hazırlama",
+        "description": "Deneyim, eğitim ve becerilerinizi düzenli biçimde ekleyebilir, karmaşık biçimlendirme ile uğraşmadan CV’nizi tamamlayabilirsiniz.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ profesyonel CV şablonu",
+        "description": "Modern, sade veya kurumsal şablonlar arasından seçim yapın; renkleri ve yazı tiplerini kendi profilinize göre düzenleyin.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Yazım ipuçları ve örnek içerik",
+        "description": "Özet, iş deneyimi ve başarılar bölümlerini daha net yazmanıza yardımcı olacak öneriler sunar.",
+        "icon": "💡"
+      },
+      {
+        "title": "Fotoğraf, imza ve QR kod desteği",
+        "description": "LinkedIn veya portföy bağlantıları için QR kod ekleyebilir, fotoğraf ve dijital imza ile CV’nizi zenginleştirebilirsiniz.",
+        "icon": "📱"
+      },
+      {
+        "title": "Yüksek kaliteli PDF dışa aktarma",
+        "description": "Hazırladığınız CV’yi PDF olarak kaydedebilir, iş başvurularında, e-postalarda veya baskıda kullanabilirsiniz.",
+        "icon": "📄"
+      },
+      {
+        "title": "Ön yazı oluşturma desteği",
+        "description": "CV’nizle aynı görsel çizgide bir ön yazı da hazırlayarak başvuru dosyanızı daha tutarlı hale getirebilirsiniz.",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "CV Oluşturucu hakkında sık sorulan sorular",
+    "subtitle": "CV hazırlama, şablonlar, PDF dışa aktarma ve iPhone ile iPad kullanımı hakkında sık sorulan sorular.",
+    "items": [
+      {
+        "question": "Bu uygulamanın en önemli avantajı nedir?",
+        "answer": "Çok sayıda şablon, içerik önerileri ve PDF çıktısını tek akışta birleştirir. Bu sayede profesyonel bir CV’yi daha kısa sürede hazırlayabilirsiniz."
+      },
+      {
+        "question": "Tasarım deneyimim yoksa kullanabilir miyim?",
+        "answer": "Evet. Bir şablon seçip bilgilerinizi girmeniz yeterlidir. Uygulama düzen ve biçimlendirme işini sizin yerinize yapar."
+      },
+      {
+        "question": "CV’mi hangi dosya formatında indirebilirim?",
+        "answer": "CV’nizi PDF olarak dışa aktarabilirsiniz. Bu format çevrim içi başvurular, e-posta ve baskı için uygundur."
+      },
+      {
+        "question": "Şablonlar farklı sektörler için uygun mu?",
+        "answer": "Evet. Şablonlar kurumsal roller, teknoloji, pazarlama, yaratıcı işler ve başlangıç seviyesindeki pozisyonlar için uygundur."
+      },
+      {
+        "question": "Uygulama iPhone ve iPad’de çalışıyor mu?",
+        "answer": "Evet. Uygulama hem iPhone hem de iPad için optimize edilmiştir, böylece hareket halindeyken de CV’nizi düzenleyebilirsiniz."
+      },
+      {
+        "question": "Diğer CV uygulamalarından farkı nedir?",
+        "answer": "Sadece şablon sunmakla kalmaz; içerik yazımı için destek, PDF çıktısı ve ön yazı hazırlama imkanı da sağlar. Bu da gerçek başvuru sürecinde daha kullanışlı olmasını sağlar."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "CV Oluşturucu",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "TRY"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/tr/app/id1630645768",
+    "cta_text": "CV Oluşturucu uygulamasını indir",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Gizlilik Politikası",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Kullanım Koşulları",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Destek",
+    "copyright": "© 2025 c-basso. All rights reserved. | CV Oluşturucu | Profesyonel CV hazırlama uygulaması"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/tr/app/id1630645768",
+    "text": "📱 CV Oluşturucu uygulamasını indir"
+  }
+}

@@ -3,7 +3,13 @@ const {URL} = require('url');
 const {execSync} = require('child_process');
 const fs = require('fs');
 
-const {INDEX_NOW_KEY, URLS, SITE_URL, INDEX_NOW_ENGINES} = require('./constants');
+const {
+    INDEX_NOW_KEY,
+    URLS,
+    SITE_URL,
+    INDEX_NOW_ENGINES,
+    ADDITIONAL_URLS
+} = require('./constants');
 
 const indexNow = async (engine) => {
     console.log('🚀 Starting IndexNow submit...');
@@ -11,7 +17,9 @@ const indexNow = async (engine) => {
     const data = {
         host: new URL(SITE_URL).hostname,
         key: INDEX_NOW_KEY,
-        urlList: URLS.map(({url}) => url)
+        urlList: URLS
+            .map(({url}) => url)
+            .concat(ADDITIONAL_URLS)
     };
 
     console.log()

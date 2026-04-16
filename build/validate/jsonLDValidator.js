@@ -1,7 +1,41 @@
 const fs = require('fs');
 const path = require('path');
+const jsonld = require('jsonld');
 
 const { LANGUAGES, DEFAULT_LANGUAGE, EXPECTED_JSON_LD_TYPES } = require('../constants');
+
+/** schema.org root URL does not return a JSON-LD context document; use the official context file. */
+const SCHEMA_ORG_CONTEXT_URL = 'https://schema.org/docs/jsonldcontext.json';
+
+function cloneJsonLdDocument(doc) {
+  if (typeof structuredClone === 'function') {
+    return structuredClone(doc);
+  }
+  return JSON.parse(JSON.stringify(doc));
+}
+
+/** One fetch per validator run — avoids dozens of parallel requests and flaky failures. */
+let schemaOrgRemoteDocument = null;
+
+function createSchemaOrgDocumentLoader() {
+  const nodeLoader = jsonld.documentLoaders.node();
+  return async (url, options) => {
+    const base = String(url).replace(/\/$/, '');
+    if (base === 'https://schema.org' || base === 'http://schema.org') {
+      if (!schemaOrgRemoteDocument) {
+        schemaOrgRemoteDocument = await nodeLoader(SCHEMA_ORG_CONTEXT_URL, options);
+      }
+      return {
+        contextUrl: schemaOrgRemoteDocument.contextUrl,
+        documentUrl: schemaOrgRemoteDocument.documentUrl,
+        document: cloneJsonLdDocument(schemaOrgRemoteDocument.document),
+      };
+    }
+    return nodeLoader(url, options);
+  };
+}
+
+const jsonLdExpandOptions = { documentLoader: createSchemaOrgDocumentLoader() };
 
 function extractJsonLdBlocks(html) {
   const blocks = [];
@@ -12,6 +46,26 @@ function extractJsonLdBlocks(html) {
   }
   return blocks;
 }
+
+/** Strip <script type="application/ld+json">...</script> blocks to check only body/HTML for embedded structured data. */
+function htmlWithoutJsonLdScripts(html) {
+  return html.replace(/<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/gi, '');
+}
+
+/** Detect structured data embedded in HTML (microdata/RDFa). Returns list of attribute names found. */
+function findStructuredDataInHtml(html) {
+  const withoutScripts = htmlWithoutJsonLdScripts(html);
+  const found = [];
+
+  if (/\bitemscope\b/i.test(withoutScripts)) found.push('itemscope');
+  if (/\bitemtype\b/i.test(withoutScripts)) found.push('itemtype');
+  if (/\bitemprop\b/i.test(withoutScripts)) found.push('itemprop');
+  if (/\bvocab\s*=/i.test(withoutScripts) && /vocab\s*=\s*["']https?:\/\/schema\.org/i.test(withoutScripts)) found.push('vocab');
+  if (/\btypeof\b/i.test(withoutScripts)) found.push('typeof');
+
+  return found;
+}
+
 
 function contextAround(str, pos, radius = 160) {
   const start = Math.max(0, pos - radius);
@@ -81,7 +135,7 @@ function checkDuplicatesInBlock(obj, path = '', duplicates = []) {
   return duplicates;
 }
 
-function validateJsonLD() {
+async function validateJsonLD() {
   const projectRoot = path.join(__dirname, '..', '..');
   const results = [];
 
@@ -101,6 +155,18 @@ function validateJsonLD() {
     }
 
     const html = fs.readFileSync(htmlPath, 'utf8');
+
+    // Structured data in HTML is not allowed (only in <script type="application/ld+json">).
+    // Duplicate structured data in HTML and in script is not allowed.
+    const htmlStructuredDataIssues = findStructuredDataInHtml(html);
+    if (htmlStructuredDataIssues.length > 0) {
+      results.push({
+        ok: false,
+        error: `Structured data in HTML is not allowed (use only <script type="application/ld+json">). Found in HTML: ${htmlStructuredDataIssues.join(', ')}`,
+        meta: { file: htmlPath, lang },
+      });
+    }
+
     const blocks = extractJsonLdBlocks(html);
     const foundTypes = new Set();
     const typeCounts = {};
@@ -119,6 +185,20 @@ function validateJsonLD() {
       const res = parseJsonLd(blocks[i], { file: htmlPath, lang, index: i + 1 });
       if (!res.ok) {
         results.push(res);
+        continue;
+      }
+
+      // Deep JSON-LD validation using jsonld.expand (async, schema-aware).
+      try {
+        // This will throw if JSON-LD syntax or context resolution is invalid.
+        await jsonld.expand(res.obj, jsonLdExpandOptions);
+      } catch (error) {
+        results.push({
+          ok: false,
+          error: `JSON-LD validation failed for block #${i + 1}: ${error.message}`,
+          meta: { file: htmlPath, lang, index: i + 1 },
+        });
+        // Skip further checks for this block once expansion fails.
         continue;
       }
 

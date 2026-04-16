@@ -1,20 +1,20 @@
 const { validateJsonLD } = require('./jsonLDValidator');
 const { validateOpenGraph } = require('./opengraphValidator');
 
-function main() {
+async function main() {
   console.log('Running validators...\n');
   
   const results = [];
   
   // Run JSON-LD validator
   console.log('1. Validating JSON-LD structured data...');
-  const jsonLDResult = validateJsonLD();
+  const jsonLDResult = await validateJsonLD();
   results.push({ name: 'JSON-LD', result: jsonLDResult });
   console.log('');
   
   // Run Open Graph validator (includes image size check)
   console.log('2. Validating Open Graph meta tags and image size...');
-  const openGraphResult = validateOpenGraph();
+  const openGraphResult = await validateOpenGraph();
   results.push({ name: 'Open Graph', result: openGraphResult });
   console.log('');
   
@@ -32,7 +32,10 @@ function main() {
 }
 
 if (require.main === module) {
-  main();
+  main().catch((err) => {
+    console.error('Unexpected error while running validators:', err);
+    process.exit(1);
+  });
 }
 
 module.exports = { main };

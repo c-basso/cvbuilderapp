@@ -7,7 +7,7 @@
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://cvbuilderapp.com/fr/",
     "og_title": "CV Designer Gratuit - Créer un CV Professionnel | CV Designer France Travail",
-    "og_description": "CV Designer Gratuit - la meilleure application pour créer un CV professionnel. 100+ modèles CV, conseils d'experts et export PDF.",
+    "og_description": "CV Designer Gratuit - la meilleure application pour créer un CV professionnel. Plus de 100 modèles CV, conseils d'experts et export PDF pour iPhone et iPad.",
     "og_image": "https://cvbuilderapp.com/logo.webp",
     "og_site_name": "CV Builder",
     "og_locale": "fr_FR",
@@ -18,23 +18,6 @@
     "twitter_image": "https://cvbuilderapp.com/logo.webp",
     "app_store_id": "1630645768",
     "canonical": "https://cvbuilderapp.com/fr/",
-    "alternate_ru": "https://cvbuilderapp.com/ru/",
-    "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_de": "https://cvbuilderapp.com/de/",
-    "alternate_es": "https://cvbuilderapp.com/es/",
-    "alternate_fr": "https://cvbuilderapp.com/fr/",
-    "alternate_it": "https://cvbuilderapp.com/it/",
-    "alternate_pt": "https://cvbuilderapp.com/pt/",
-    "alternate_default": "https://cvbuilderapp.com/",
-    "alternate_languages": [
-      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
-      { "lang": "en", "url": "https://cvbuilderapp.com/" },
-      { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
-      { "lang": "es", "url": "https://cvbuilderapp.com/es/" },
-      { "lang": "fr", "url": "https://cvbuilderapp.com/fr/" },
-      { "lang": "it", "url": "https://cvbuilderapp.com/it/" },
-      { "lang": "pt", "url": "https://cvbuilderapp.com/pt/" }
-    ],
     "geo_region": "FR",
     "geo_placename": "France"
   },
@@ -56,12 +39,36 @@
     "title": "Pourquoi Choisir CV Designer Gratuit ? Tout ce dont Vous Avez Besoin pour Créer un CV qui Marque",
     "subtitle": "CV Designer Gratuit fournit des outils simples et des modèles CV professionnels pour vous aider à créer un CV qui attire l'attention des employeurs et vous aide à décrocher le job de vos rêves. Compatible avec France Travail et Pôle Emploi.",
     "items": [
-      { "title": "Création de CV Rapide et Facile", "description": "Le guide intuitif étape par étape de CV Designer Gratuit vous aide à créer un CV professionnel complet en quelques minutes seulement. Pas besoin de vous préoccuper du formatage ou d'avoir de l'expérience en design - remplissez simplement vos informations, choisissez un modèle CV, et vous êtes prêt à postuler. Parfait pour les débutants et les professionnels expérimentés utilisant notre CV designer en ligne. Créez votre CV designer gratuitement avec France Travail. Mon CV designer en quelques clics.", "icon": "⚡" },
-      { "title": "100+ Modèles CV Professionnels", "description": "Parcourez la vaste collection de modèles CV de CV Designer Gratuit conçus pour différents secteurs, niveaux de carrière et types d'emplois. Que vous soyez un jeune diplômé, un professionnel de niveau intermédiaire ou un cadre, CV Designer Gratuit a le modèle CV parfait. Personnalisez les couleurs, les polices et la mise en page pour correspondre à votre marque personnelle et aux normes de l'industrie. Compatible avec les formats France Travail et Pôle Emploi. CV designer pole emploi optimisé.", "icon": "🎨" },
-      { "title": "Conseils d'Experts et Exemples de CV", "description": "Obtenez des conseils professionnels de CV Designer Gratuit sur la façon de rédiger efficacement votre expérience professionnelle, vos compétences et vos réalisations. Découvrez ce que recherchent les employeurs avec de vrais exemples de CV qui vous montrent ce qui fonctionne. Les conseils de CV Designer Gratuit vous aident à mettre en valeur vos forces et à vous démarquer des autres candidats. Exemple CV professionnel inclus. CV designer connexion pour synchronisation facile.", "icon": "💡" },
-      { "title": "Personnalisez votre CV Designer", "description": "Rendez votre CV unique avec CV Designer Gratuit en ajoutant votre photo professionnelle, votre signature numérique et des codes QR qui renvoient directement à votre profil LinkedIn ou à votre portfolio en ligne. Ces touches modernes vous aident à vous démarquer et facilitent la tâche des employeurs pour en savoir plus sur vous. CV designer mon compte pour gérer tous vos CV. CV en ligne accessible partout.", "icon": "📱" },
-      { "title": "Téléchargement en PDF de Haute Qualité", "description": "Exportez votre CV depuis CV Designer Gratuit comme un PDF de haute qualité prêt à imprimer qui a l'air professionnel à l'écran et sur papier. Parfait pour envoyer par e-mail aux employeurs, télécharger sur les sites d'emploi ou imprimer pour les entretiens. Votre CV conservera son formatage et son apparence professionnelle sur toutes les plateformes. CV designer gratuit avec export PDF. Compatible ATS pour une meilleure visibilité.", "icon": "📄" },
-      { "title": "Créateur de Lettre de Motivation Inclus", "description": "Complétez votre candidature avec le créateur de lettres de motivation intégré de CV Designer Gratuit. Nous fournissons des exemples professionnels de lettres de motivation et des modèles qui correspondent au style de votre CV. Créez des documents assortis pour un dossier de candidature complet et cohérent qui impressionne les recruteurs. Lettre de motivation professionnelle incluse. CV designer gratuit pour candidatures complètes.", "icon": "✉️" }
+      {
+        "title": "Création de CV Rapide et Facile",
+        "description": "Le guide intuitif étape par étape de CV Designer Gratuit vous aide à créer un CV professionnel complet en quelques minutes seulement. Pas besoin de vous préoccuper du formatage ou d'avoir de l'expérience en design - remplissez simplement vos informations, choisissez un modèle CV, et vous êtes prêt à postuler. Parfait pour les débutants et les professionnels expérimentés utilisant notre CV designer en ligne. Créez votre CV designer gratuitement avec France Travail. Mon CV designer en quelques clics.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ Modèles CV Professionnels",
+        "description": "Parcourez la vaste collection de modèles CV de CV Designer Gratuit conçus pour différents secteurs, niveaux de carrière et types d'emplois. Que vous soyez un jeune diplômé, un professionnel de niveau intermédiaire ou un cadre, CV Designer Gratuit a le modèle CV parfait. Personnalisez les couleurs, les polices et la mise en page pour correspondre à votre marque personnelle et aux normes de l'industrie. Compatible avec les formats France Travail et Pôle Emploi. CV designer pole emploi optimisé.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Conseils d'Experts et Exemples de CV",
+        "description": "Obtenez des conseils professionnels de CV Designer Gratuit sur la façon de rédiger efficacement votre expérience professionnelle, vos compétences et vos réalisations. Découvrez ce que recherchent les employeurs avec de vrais exemples de CV qui vous montrent ce qui fonctionne. Les conseils de CV Designer Gratuit vous aident à mettre en valeur vos forces et à vous démarquer des autres candidats. Exemple CV professionnel inclus. CV designer connexion pour synchronisation facile.",
+        "icon": "💡"
+      },
+      {
+        "title": "Personnalisez votre CV Designer",
+        "description": "Rendez votre CV unique avec CV Designer Gratuit en ajoutant votre photo professionnelle, votre signature numérique et des codes QR qui renvoient directement à votre profil LinkedIn ou à votre portfolio en ligne. Ces touches modernes vous aident à vous démarquer et facilitent la tâche des employeurs pour en savoir plus sur vous. CV designer mon compte pour gérer tous vos CV. CV en ligne accessible partout.",
+        "icon": "📱"
+      },
+      {
+        "title": "Téléchargement en PDF de Haute Qualité",
+        "description": "Exportez votre CV depuis CV Designer Gratuit comme un PDF de haute qualité prêt à imprimer qui a l'air professionnel à l'écran et sur papier. Parfait pour envoyer par e-mail aux employeurs, télécharger sur les sites d'emploi ou imprimer pour les entretiens. Votre CV conservera son formatage et son apparence professionnelle sur toutes les plateformes. CV designer gratuit avec export PDF. Compatible ATS pour une meilleure visibilité.",
+        "icon": "📄"
+      },
+      {
+        "title": "Créateur de Lettre de Motivation Inclus",
+        "description": "Complétez votre candidature avec le créateur de lettres de motivation intégré de CV Designer Gratuit. Nous fournissons des exemples professionnels de lettres de motivation et des modèles qui correspondent au style de votre CV. Créez des documents assortis pour un dossier de candidature complet et cohérent qui impressionne les recruteurs. Lettre de motivation professionnelle incluse. CV designer gratuit pour candidatures complètes.",
+        "icon": "✉️"
+      }
     ]
   },
   "faq": {
@@ -120,4 +127,3 @@
     "text": "📱 Télécharger l'Application CV Designer"
   }
 }
-

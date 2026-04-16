@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "nl",
+    "title": "CV maken - CV Maker app voor professioneel cv | 100+ cv templates",
+    "description": "CV maken met een professionele CV Maker app. Kies uit 100+ cv templates, krijg schrijftips en exporteer je cv als PDF. Ideaal voor iPhone en iPad.",
+    "keywords": "cv maken, cv maker, curriculum vitae, cv template, cv voorbeeld, resume builder, sollicitatie cv, professioneel cv, pdf cv",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/nl/",
+    "og_title": "CV maken met 100+ professionele templates",
+    "og_description": "Maak snel een professioneel cv met onze CV Maker app. Kies uit 100+ cv templates, gebruik praktische schrijftips en exporteer je cv als PDF op iPhone of iPad.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "nl_NL",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/nl/",
+    "twitter_title": "CV maken met 100+ professionele templates",
+    "twitter_description": "CV maken met een professionele CV Maker app. Kies uit 100+ cv templates, krijg schrijftips en exporteer je cv als PDF. Ideaal voor iPhone en iPad.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/nl/",
+    "geo_region": "NL",
+    "geo_placename": "Netherlands"
+  },
+  "hero": {
+    "logo_alt": "CV Maker app logo",
+    "logo_text": "CV Maker",
+    "title": "Maak in minuten een professioneel cv",
+    "subtitle": "CV Maker app voor iPhone en iPad",
+    "subheadline": "Met CV Maker maak je snel een professioneel cv voor stages, startersfuncties en ervaren rollen. Gebruik 100+ templates, praktische schrijftips en PDF-export om je sollicitatie sneller klaar te hebben.",
+    "cta_url": "https://apps.apple.com/nl/app/id1630645768",
+    "download_text": "Download CV Maker",
+    "download_alt": "Download CV Maker in de App Store",
+    "qr_alt": "Scan de QR-code om CV Maker te downloaden",
+    "qr_cta_text": "Scan met je telefoon om te downloaden",
+    "learn_more_text": "Meer over CV Maker",
+    "phone_text": "Tik om je professionele cv te maken"
+  },
+  "features": {
+    "title": "Alles wat je nodig hebt om een sterk cv te maken",
+    "subtitle": "Van templatekeuze tot PDF-export: de belangrijkste tools voor een professioneel cv zitten in een app.",
+    "items": [
+      {
+        "title": "Snel en eenvoudig cv maken",
+        "description": "Volg een duidelijke stap-voor-stap workflow om ervaring, opleiding en vaardigheden netjes op te bouwen in een professioneel cv.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ cv templates",
+        "description": "Kies uit moderne, zakelijke en minimalistische cv templates. Pas kleuren en lettertypes aan zodat je cv bij jouw profiel past.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Schrijftips en voorbeelden",
+        "description": "Krijg hulp bij profieltekst, werkervaring en prestaties zodat je cv duidelijker en overtuigender wordt.",
+        "icon": "💡"
+      },
+      {
+        "title": "Foto, handtekening en QR-code",
+        "description": "Voeg een foto, digitale handtekening of QR-code naar LinkedIn of portfolio toe voor een completer en moderner cv.",
+        "icon": "📱"
+      },
+      {
+        "title": "Exporteren naar PDF",
+        "description": "Sla je cv op als nette PDF voor sollicitaties, e-mailbijlagen en print. De opmaak blijft behouden op verschillende apparaten.",
+        "icon": "📄"
+      },
+      {
+        "title": "Ook voor motivatiebrieven",
+        "description": "Maak een motivatiebrief in dezelfde stijl als je cv voor een consistente en professionele sollicitatie.",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen over CV Maker",
+    "subtitle": "Antwoorden op veelgestelde vragen over cv maken, templates, PDF-export en gebruik op iPhone en iPad.",
+    "items": [
+      {
+        "question": "Waarom is deze app geschikt om een cv te maken?",
+        "answer": "De app combineert 100+ templates, schrijftips en PDF-export in een eenvoudige workflow. Daardoor maak je sneller een cv dat er professioneel uitziet."
+      },
+      {
+        "question": "Kan ik de app gebruiken zonder designervaring?",
+        "answer": "Ja. Je kiest een template en vult je gegevens stap voor stap in. De app neemt het opmaakwerk uit handen."
+      },
+      {
+        "question": "In welk bestandsformaat kan ik mijn cv opslaan?",
+        "answer": "Je kunt je cv exporteren als PDF. Dat is handig voor sollicitaties, e-mail en print."
+      },
+      {
+        "question": "Zijn de templates geschikt voor verschillende sectoren?",
+        "answer": "Ja. Er zijn templates voor starters, zakelijke functies, creatieve rollen en andere sectoren en ervaringsniveaus."
+      },
+      {
+        "question": "Werkt CV Maker op iPhone en iPad?",
+        "answer": "Ja. De app is geoptimaliseerd voor zowel iPhone als iPad, zodat je overal aan je cv kunt werken."
+      },
+      {
+        "question": "Wat is het verschil met andere cv apps?",
+        "answer": "Naast templates krijg je ook inhoudelijke hulp, PDF-export en ondersteuning voor motivatiebrieven. Daardoor is de app bruikbaar voor een complete sollicitatie."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "CV Maker",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "EUR"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/nl/app/id1630645768",
+    "cta_text": "Download CV Maker",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Privacybeleid",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Gebruiksvoorwaarden",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Support",
+    "copyright": "© 2025 c-basso. All rights reserved. | CV Maker | Professioneel cv maken met 100+ templates"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/nl/app/id1630645768",
+    "text": "📱 Download CV Maker"
+  }
+}

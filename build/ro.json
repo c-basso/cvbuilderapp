@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "ro",
+    "title": "Creator CV - creează un CV profesional online | 100+ șabloane CV",
+    "description": "Creează un CV profesional online cu aplicația Creator CV. Alege din 100+ șabloane, primești sugestii utile și exporti CV-ul în PDF pe iPhone și iPad.",
+    "keywords": "creator cv, cv online, model cv, curriculum vitae, șablon cv, cv pdf, resume builder, cv profesional, exemple cv",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/ro/",
+    "og_title": "Creator CV | 100+ șabloane pentru un CV profesional",
+    "og_description": "Creează rapid un CV profesional online cu Creator CV. Alege din 100+ șabloane, folosește sugestii utile și exportă CV-ul în PDF direct de pe iPhone sau iPad.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "ro_RO",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/ro/",
+    "twitter_title": "Creator CV | 100+ șabloane pentru un CV profesional",
+    "twitter_description": "Creează un CV profesional online cu aplicația Creator CV. Alege din 100+ șabloane, primești sugestii utile și exporti CV-ul în PDF pe iPhone și iPad.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/ro/",
+    "geo_region": "RO",
+    "geo_placename": "Romania"
+  },
+  "hero": {
+    "logo_alt": "Logo aplicație Creator CV",
+    "logo_text": "Creator CV",
+    "title": "Creează un CV profesional în doar câteva minute",
+    "subtitle": "Aplicație pentru CV pe iPhone și iPad",
+    "subheadline": "Creator CV te ajută să pregătești rapid un CV clar și profesionist pentru joburi, internshipuri sau schimbări de carieră. Ai la dispoziție 100+ șabloane, sfaturi de redactare și export PDF.",
+    "cta_url": "https://apps.apple.com/ro/app/id1630645768",
+    "download_text": "Descarcă Creator CV",
+    "download_alt": "Descarcă Creator CV din App Store",
+    "qr_alt": "Scanează codul QR pentru a descărca Creator CV",
+    "qr_cta_text": "Scanează cu telefonul pentru descărcare",
+    "learn_more_text": "Află mai multe despre Creator CV",
+    "phone_text": "Atinge pentru a crea un CV profesional"
+  },
+  "features": {
+    "title": "Funcții esențiale pentru un CV care arată bine",
+    "subtitle": "De la alegerea șablonului până la export PDF, găsești într-o singură aplicație instrumentele importante pentru CV-ul tău.",
+    "items": [
+      {
+        "title": "Creare rapidă pas cu pas",
+        "description": "Completezi experiența, educația și competențele într-un flux simplu, fără să pierzi timp cu formatarea documentului.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Peste 100 de șabloane CV",
+        "description": "Alege șabloane moderne, clasice sau minimaliste și personalizează culorile și fonturile pentru un aspect profesional.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Sfaturi și exemple de redactare",
+        "description": "Primești idei utile pentru descrierea experienței, a realizărilor și a profilului profesional, astfel încât CV-ul să fie mai clar.",
+        "icon": "💡"
+      },
+      {
+        "title": "Fotografie, semnătură și QR code",
+        "description": "Poți adăuga fotografie, semnătură digitală și un QR code către LinkedIn sau portofoliu pentru un CV mai complet.",
+        "icon": "📱"
+      },
+      {
+        "title": "Export în PDF",
+        "description": "Salvezi CV-ul în PDF pentru aplicări online, trimitere prin email sau print. Formatul rămâne stabil și ușor de citit.",
+        "icon": "📄"
+      },
+      {
+        "title": "Scrisoare de intenție inclusă",
+        "description": "Poți crea și o scrisoare de intenție cu design similar, pentru un pachet de aplicare coerent și profesionist.",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Întrebări frecvente despre Creator CV",
+    "subtitle": "Răspunsuri despre crearea CV-ului, șabloane, PDF și utilizarea aplicației pe iPhone și iPad.",
+    "items": [
+      {
+        "question": "De ce să folosesc această aplicație pentru CV?",
+        "answer": "Pentru că reunește șabloane, sugestii de text și export PDF într-un proces simplu. Astfel creezi mai rapid un CV profesionist."
+      },
+      {
+        "question": "Pot folosi aplicația fără experiență de design?",
+        "answer": "Da. Alegi un șablon și completezi câmpurile necesare, iar aplicația se ocupă de structură și prezentare."
+      },
+      {
+        "question": "În ce format pot salva CV-ul?",
+        "answer": "CV-ul poate fi exportat în PDF, un format potrivit pentru trimitere online, email sau imprimare."
+      },
+      {
+        "question": "Există șabloane pentru mai multe domenii?",
+        "answer": "Da. Șabloanele sunt utile pentru roluri din business, IT, marketing, educație și multe alte domenii."
+      },
+      {
+        "question": "Funcționează pe iPhone și iPad?",
+        "answer": "Da. Aplicația este optimizată pentru ambele dispozitive, astfel încât poți lucra la CV de oriunde."
+      },
+      {
+        "question": "Cu ce este diferită față de alte aplicații?",
+        "answer": "Pe lângă șabloane, oferă ajutor pentru conținut, export PDF și suport pentru scrisoare de intenție, ceea ce o face mai practică pentru aplicări reale."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "Creator CV",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "RON"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/ro/app/id1630645768",
+    "cta_text": "Descarcă Creator CV",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Politica de confidențialitate",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Termeni de utilizare",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Suport",
+    "copyright": "© 2025 c-basso. All rights reserved. | Creator CV | Creează un CV profesional online"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/ro/app/id1630645768",
+    "text": "📱 Descarcă Creator CV"
+  }
+}

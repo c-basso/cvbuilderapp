@@ -18,23 +18,6 @@
     "twitter_image": "https://cvbuilderapp.com/logo.webp",
     "app_store_id": "1630645768",
     "canonical": "https://cvbuilderapp.com/",
-    "alternate_ru": "https://cvbuilderapp.com/ru/",
-    "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_de": "https://cvbuilderapp.com/de/",
-    "alternate_es": "https://cvbuilderapp.com/es/",
-    "alternate_fr": "https://cvbuilderapp.com/fr/",
-    "alternate_it": "https://cvbuilderapp.com/it/",
-    "alternate_pt": "https://cvbuilderapp.com/pt/",
-    "alternate_default": "https://cvbuilderapp.com/",
-    "alternate_languages": [
-      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
-      { "lang": "en", "url": "https://cvbuilderapp.com/" },
-      { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
-      { "lang": "es", "url": "https://cvbuilderapp.com/es/" },
-      { "lang": "fr", "url": "https://cvbuilderapp.com/fr/" },
-      { "lang": "it", "url": "https://cvbuilderapp.com/it/" },
-      { "lang": "pt", "url": "https://cvbuilderapp.com/pt/" }
-    ],
     "geo_region": "US",
     "geo_placename": "United States"
   },
@@ -56,12 +39,36 @@
     "title": "Why Choose CV Builder? Everything You Need to Create a Standout Resume",
     "subtitle": "CV Builder provides simple tools and professional CV builder templates to help you create a CV resume that gets noticed by employers and helps you land your dream job.",
     "items": [
-      { "title": "Quick and Easy CV Creation", "description": "CV Builder's intuitive step-by-step guide helps you build a complete, professional CV resume in just minutes. No formatting headaches or design experience needed—simply fill in your information, choose a CV builder template, and you're ready to apply for jobs. Perfect for both beginners and experienced professionals using our CV builder online.", "icon": "⚡" },
-      { "title": "100+ Professional CV Builder Templates", "description": "Browse CV Builder's extensive collection of CV templates and resume templates designed for different industries, career levels, and job types. Whether you're a recent graduate, mid-level professional, or executive, CV Builder has the perfect CV template. Customize colors, fonts, and layout to match your personal brand and industry standards.", "icon": "🎨" },
-      { "title": "Expert Tips and CV Examples", "description": "Get professional guidance from CV Builder on how to write about your work experience, skills, and achievements effectively. Learn what employers are looking for with real CV examples that show you what works. CV Builder's tips help you highlight your strengths and stand out from other candidates.", "icon": "💡" },
-      { "title": "Personalize Your CV Resume", "description": "Make your CV resume unique with CV Builder by adding your professional photo, digital signature, and QR codes that link directly to your LinkedIn profile or online portfolio. These modern touches help you stand out and make it easy for employers to learn more about you.", "icon": "📱" },
-      { "title": "Download as High-Quality PDF", "description": "Export your CV resume from CV Builder as a print-ready, high-quality PDF that looks professional on screen and paper. Perfect for emailing to employers, uploading to job sites, or printing for interviews. Your CV will maintain its formatting and professional appearance across all platforms.", "icon": "📄" },
-      { "title": "Cover Letter Builder Included", "description": "Complete your job application with CV Builder's built-in cover letter builder. We provide professional cover letter examples and templates that match your CV resume style. Create matching documents for a complete, cohesive application package that impresses hiring managers.", "icon": "✉️" }
+      {
+        "title": "Quick and Easy CV Creation",
+        "description": "CV Builder's intuitive step-by-step guide helps you build a complete, professional CV resume in just minutes. No formatting headaches or design experience needed—simply fill in your information, choose a CV builder template, and you're ready to apply for jobs. Perfect for both beginners and experienced professionals using our CV builder online.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ Professional CV Builder Templates",
+        "description": "Browse CV Builder's extensive collection of CV templates and resume templates designed for different industries, career levels, and job types. Whether you're a recent graduate, mid-level professional, or executive, CV Builder has the perfect CV template. Customize colors, fonts, and layout to match your personal brand and industry standards.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Expert Tips and CV Examples",
+        "description": "Get professional guidance from CV Builder on how to write about your work experience, skills, and achievements effectively. Learn what employers are looking for with real CV examples that show you what works. CV Builder's tips help you highlight your strengths and stand out from other candidates.",
+        "icon": "💡"
+      },
+      {
+        "title": "Personalize Your CV Resume",
+        "description": "Make your CV resume unique with CV Builder by adding your professional photo, digital signature, and QR codes that link directly to your LinkedIn profile or online portfolio. These modern touches help you stand out and make it easy for employers to learn more about you.",
+        "icon": "📱"
+      },
+      {
+        "title": "Download as High-Quality PDF",
+        "description": "Export your CV resume from CV Builder as a print-ready, high-quality PDF that looks professional on screen and paper. Perfect for emailing to employers, uploading to job sites, or printing for interviews. Your CV will maintain its formatting and professional appearance across all platforms.",
+        "icon": "📄"
+      },
+      {
+        "title": "Cover Letter Builder Included",
+        "description": "Complete your job application with CV Builder's built-in cover letter builder. We provide professional cover letter examples and templates that match your CV resume style. Create matching documents for a complete, cohesive application package that impresses hiring managers.",
+        "icon": "✉️"
+      }
     ]
   },
   "faq": {
@@ -120,4 +127,3 @@
     "text": "📱 Download CV Builder App"
   }
 }
-

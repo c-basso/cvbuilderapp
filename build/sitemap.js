@@ -15,8 +15,8 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
   lines.push('  ');
   lines.push('  <url>');
   lines.push(`    <loc>${SITE_URL}</loc>`);
-  for (const { lang, url } of URLS.filter(({lang}) => lang !== DEFAULT_LANGUAGE)) {
-    lines.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${url}" />`);
+  for (const { code, hreflang, url } of URLS.filter(({code}) => code !== DEFAULT_LANGUAGE)) {
+    lines.push(`    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${url}" />`);
   }
   lines.push('    <priority>1.0</priority>');
   lines.push('  </url>');

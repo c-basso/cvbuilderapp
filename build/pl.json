@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "pl",
+    "title": "Kreator CV - profesjonalne CV online | 100+ szablonów CV",
+    "description": "Stwórz profesjonalne CV online z aplikacją Kreator CV. Wybieraj spośród 100+ szablonów, korzystaj z podpowiedzi i eksportuj CV do PDF na iPhone i iPad.",
+    "keywords": "kreator cv, cv online, curriculum vitae, szablon cv, jak napisać cv, cv pdf, resume builder, profesjonalne cv, wzór cv",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/pl/",
+    "og_title": "Kreator CV | 100+ szablonów profesjonalnego CV",
+    "og_description": "Twórz profesjonalne CV online z aplikacją Kreator CV. Skorzystaj z 100+ szablonów, wskazówek dotyczących treści i eksportu do PDF na iPhone lub iPadzie.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "pl_PL",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/pl/",
+    "twitter_title": "Kreator CV | 100+ szablonów profesjonalnego CV",
+    "twitter_description": "Stwórz profesjonalne CV online z aplikacją Kreator CV. Wybieraj spośród 100+ szablonów, korzystaj z podpowiedzi i eksportuj CV do PDF na iPhone i iPad.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/pl/",
+    "geo_region": "PL",
+    "geo_placename": "Poland"
+  },
+  "hero": {
+    "logo_alt": "Logo aplikacji Kreator CV",
+    "logo_text": "Kreator CV",
+    "title": "Stwórz profesjonalne CV w kilka minut",
+    "subtitle": "Aplikacja do tworzenia CV na iPhone i iPad",
+    "subheadline": "Kreator CV pomaga szybko przygotować profesjonalne CV do pracy, stażu lub zmiany branży. Korzystaj z 100+ szablonów, praktycznych wskazówek i eksportu PDF, aby łatwiej wysyłać aplikacje.",
+    "cta_url": "https://apps.apple.com/pl/app/id1630645768",
+    "download_text": "Pobierz Kreator CV",
+    "download_alt": "Pobierz Kreator CV z App Store",
+    "qr_alt": "Zeskanuj kod QR, aby pobrać Kreator CV",
+    "qr_cta_text": "Zeskanuj telefonem, aby pobrać",
+    "learn_more_text": "Dowiedz się więcej o Kreatorze CV",
+    "phone_text": "Dotknij, aby stworzyć profesjonalne CV"
+  },
+  "features": {
+    "title": "Najważniejsze funkcje do tworzenia skutecznego CV",
+    "subtitle": "Od wyboru szablonu po eksport PDF - wszystko, czego potrzebujesz do przygotowania nowoczesnego CV, znajduje się w jednej aplikacji.",
+    "items": [
+      {
+        "title": "Szybkie tworzenie CV krok po kroku",
+        "description": "Przejrzysty układ pomaga uporządkować doświadczenie, edukację i umiejętności bez problemów z formatowaniem.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Ponad 100 szablonów CV",
+        "description": "Wybierz nowoczesny, klasyczny lub prosty szablon i dopasuj kolory oraz czcionki do swojego stylu zawodowego.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Wskazówki i przykłady treści",
+        "description": "Skorzystaj z praktycznych podpowiedzi dotyczących podsumowania zawodowego, doświadczenia i osiągnięć, aby pisać jaśniej i konkretniej.",
+        "icon": "💡"
+      },
+      {
+        "title": "Zdjęcie, podpis i QR kod",
+        "description": "Dodaj zdjęcie, podpis lub QR kod prowadzący do LinkedIn albo portfolio, aby CV było bardziej kompletne i nowoczesne.",
+        "icon": "📱"
+      },
+      {
+        "title": "Eksport CV do PDF",
+        "description": "Zapisz gotowe CV jako PDF i wykorzystaj je do wysyłki mailowej, aplikacji online albo druku. Układ pozostaje czytelny na różnych urządzeniach.",
+        "icon": "📄"
+      },
+      {
+        "title": "Tworzenie listu motywacyjnego",
+        "description": "Przygotuj list motywacyjny w tej samej stylistyce co CV, aby zbudować spójny pakiet dokumentów aplikacyjnych.",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania o Kreator CV",
+    "subtitle": "Odpowiedzi na pytania o tworzenie CV, szablony, PDF oraz działanie aplikacji na iPhone i iPad.",
+    "items": [
+      {
+        "question": "Dlaczego warto używać tej aplikacji do tworzenia CV?",
+        "answer": "Łączy ona gotowe szablony, pomoc w pisaniu i szybki eksport PDF. Dzięki temu łatwiej przygotować profesjonalne CV bez skomplikowanej edycji."
+      },
+      {
+        "question": "Czy mogę korzystać z aplikacji bez doświadczenia w projektowaniu?",
+        "answer": "Tak. Wystarczy wybrać szablon i uzupełnić swoje dane, a aplikacja zadba o przejrzysty układ dokumentu."
+      },
+      {
+        "question": "W jakim formacie mogę zapisać CV?",
+        "answer": "CV można zapisać jako PDF. To wygodny format do aplikowania online, wysyłania maili i drukowania."
+      },
+      {
+        "question": "Czy szablony pasują do różnych branż?",
+        "answer": "Tak. Szablony sprawdzają się zarówno w IT, marketingu, finansach, edukacji, jak i na stanowiskach juniorskich oraz specjalistycznych."
+      },
+      {
+        "question": "Czy aplikacja działa na iPhone i iPadzie?",
+        "answer": "Tak. Kreator CV został zoptymalizowany pod oba urządzenia, więc możesz pracować nad CV mobilnie."
+      },
+      {
+        "question": "Czym różni się od innych kreatorów CV?",
+        "answer": "Poza samymi szablonami oferuje też podpowiedzi do treści, eksport PDF i możliwość przygotowania spójnego listu motywacyjnego."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "Kreator CV",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "PLN"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/pl/app/id1630645768",
+    "cta_text": "Pobierz Kreator CV",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "Polityka prywatności",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "Warunki korzystania",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Wsparcie",
+    "copyright": "© 2025 c-basso. All rights reserved. | Kreator CV | Profesjonalne CV online"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/pl/app/id1630645768",
+    "text": "📱 Pobierz Kreator CV"
+  }
+}

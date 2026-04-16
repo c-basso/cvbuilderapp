@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "cn",
+    "title": "简历制作器 - 在线制作专业简历和CV | 100+ 简历模板",
+    "description": "使用简历制作器在线创建专业简历和CV。提供100多种模板、写作建议和PDF导出功能，适用于iPhone和iPad求职使用。",
+    "keywords": "简历制作, 简历模板, 在线简历, CV 制作, 简历生成器, resume builder, 求职简历, PDF 简历, 专业简历",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/cn/",
+    "og_title": "简历制作器 | 100+ 模板快速创建专业简历",
+    "og_description": "使用简历制作器在线创建专业简历和CV。提供100多种模板、内容写作建议和PDF导出功能，让你在iPhone和iPad上更高效地准备求职简历、实习申请材料，并生成适合投递、邮件发送、打印、长期更新、持续优化和反复调整的专业版本。",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "zh_CN",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/cn/",
+    "twitter_title": "简历制作器 | 100+ 模板快速创建专业简历",
+    "twitter_description": "使用简历制作器在线创建专业简历和CV。提供100多种模板、写作建议和PDF导出功能，适用于iPhone和iPad求职使用。",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/cn/",
+    "geo_region": "CN",
+    "geo_placename": "China"
+  },
+  "hero": {
+    "logo_alt": "简历制作器应用标志",
+    "logo_text": "简历制作器",
+    "title": "几分钟内完成专业简历与CV",
+    "subtitle": "适用于 iPhone 和 iPad 的简历制作应用",
+    "subheadline": "简历制作器帮助你更快完成求职简历。应用提供100多种模板、内容写作建议和PDF导出功能，适合求职、跳槽、实习申请等多种场景。",
+    "cta_url": "https://apps.apple.com/cn/app/id1630645768",
+    "download_text": "下载简历制作器",
+    "download_alt": "在 App Store 下载简历制作器",
+    "qr_alt": "扫描二维码下载简历制作器",
+    "qr_cta_text": "用手机扫描即可下载",
+    "learn_more_text": "了解更多简历制作器信息",
+    "phone_text": "轻点即可创建专业简历"
+  },
+  "features": {
+    "title": "制作高质量简历所需的核心功能",
+    "subtitle": "从选择模板到导出 PDF，制作专业简历需要的关键工具都集成在一个应用中。",
+    "items": [
+      {
+        "title": "分步骤快速制作简历",
+        "description": "按照清晰的流程填写工作经历、教育背景和技能，无需手动处理复杂排版，也能快速完成简历。",
+        "icon": "⚡"
+      },
+      {
+        "title": "100 多种简历模板",
+        "description": "提供现代、简洁、商务等多种模板风格，并支持调整颜色和字体，适配不同行业与职位需求。",
+        "icon": "🎨"
+      },
+      {
+        "title": "写作建议与示例",
+        "description": "帮助你优化个人简介、工作经历和成果描述，让简历内容更清晰、更有说服力。",
+        "icon": "💡"
+      },
+      {
+        "title": "支持照片、签名和二维码",
+        "description": "可添加头像、电子签名和指向 LinkedIn 或作品集的二维码，提升简历完整度和现代感。",
+        "icon": "📱"
+      },
+      {
+        "title": "高质量导出 PDF",
+        "description": "完成后的简历可导出为 PDF，方便投递、邮件发送和打印，版式在不同设备上也能保持稳定。",
+        "icon": "📄"
+      },
+      {
+        "title": "支持求职信制作",
+        "description": "除了简历外，还可以创建与简历风格一致的求职信，方便整理完整的求职资料。",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "关于简历制作器的常见问题",
+    "subtitle": "这里汇总了关于简历制作、模板、PDF 导出以及 iPhone 和 iPad 使用方式的常见问题。",
+    "items": [
+      {
+        "question": "这款简历应用的优势是什么？",
+        "answer": "它将模板、写作建议和 PDF 导出整合到一个简单流程中，帮助你更快做出专业简历。"
+      },
+      {
+        "question": "没有设计经验也能使用吗？",
+        "answer": "可以。你只需要选择模板并填写内容，应用会帮助你完成版式整理和结构呈现。"
+      },
+      {
+        "question": "简历可以导出为哪种格式？",
+        "answer": "你可以将简历导出为 PDF。这个格式适合在线投递、邮件发送和打印使用。"
+      },
+      {
+        "question": "模板适合不同岗位和行业吗？",
+        "answer": "适合。模板覆盖商务、技术、市场、教育、创意等多种岗位和不同职业阶段。"
+      },
+      {
+        "question": "应用支持 iPhone 和 iPad 吗？",
+        "answer": "支持。简历制作器已针对 iPhone 和 iPad 做了优化，方便你随时编辑和导出简历。"
+      },
+      {
+        "question": "和其他简历工具相比有什么区别？",
+        "answer": "除了模板外，它还提供内容写作建议、PDF 导出和求职信支持，更适合真正用于求职投递。"
+      }
+    ]
+  },
+  "app_info": {
+    "name": "简历制作器",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "CNY"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/cn/app/id1630645768",
+    "cta_text": "下载简历制作器",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "隐私政策",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "使用条款",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "支持",
+    "copyright": "© 2025 c-basso. All rights reserved. | 简历制作器 | 在线制作专业简历和CV"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/cn/app/id1630645768",
+    "text": "📱 下载简历制作器"
+  }
+}

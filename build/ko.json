@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "lang": "ko",
+    "title": "이력서 작성기 - 전문적인 이력서와 CV를 빠르게 작성 | 100개 이상 템플릿",
+    "description": "이력서 작성기로 전문적인 이력서와 CV를 손쉽게 만드세요. 100개 이상의 템플릿, 작성 팁, PDF 내보내기를 제공하며 iPhone과 iPad에서 사용할 수 있습니다.",
+    "keywords": "이력서 작성기, 이력서 만들기, CV 작성, 이력서 템플릿, resume builder, 자기소개서, PDF 이력서, 경력기술서, CV Builder",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://cvbuilderapp.com/ko/",
+    "og_title": "이력서 작성기 | 100개 이상 템플릿으로 CV 작성",
+    "og_description": "이력서 작성기로 전문적인 이력서와 CV를 빠르게 만들 수 있습니다. 100개 이상의 템플릿, 작성 팁, PDF 저장 기능을 제공해 iPhone과 iPad에서 편하게 사용할 수 있으며 취업 준비와 이직 지원에 바로 활용할 수 있습니다.",
+    "og_image": "https://cvbuilderapp.com/logo.webp",
+    "og_site_name": "CV Builder",
+    "og_locale": "ko_KR",
+    "og_logo": "https://cvbuilderapp.com/logo.webp",
+    "twitter_url": "https://cvbuilderapp.com/ko/",
+    "twitter_title": "이력서 작성기 | 100개 이상 템플릿으로 CV 작성",
+    "twitter_description": "이력서 작성기로 전문적인 이력서와 CV를 손쉽게 만드세요. 100개 이상의 템플릿, 작성 팁, PDF 내보내기를 제공하며 iPhone과 iPad에서 사용할 수 있습니다.",
+    "twitter_image": "https://cvbuilderapp.com/logo.webp",
+    "app_store_id": "1630645768",
+    "canonical": "https://cvbuilderapp.com/ko/",
+    "geo_region": "KR",
+    "geo_placename": "South Korea"
+  },
+  "hero": {
+    "logo_alt": "이력서 작성기 앱 로고",
+    "logo_text": "이력서 작성기",
+    "title": "몇 분 만에 이력서와 CV 작성",
+    "subtitle": "iPhone과 iPad용 이력서 작성 앱",
+    "subheadline": "이력서 작성기는 직무와 경력 수준에 맞는 전문적인 이력서와 CV를 빠르게 만들 수 있도록 도와줍니다. 100개 이상의 템플릿, 작성 팁, PDF 저장 기능으로 취업 준비를 더 간편하게 진행할 수 있습니다.",
+    "cta_url": "https://apps.apple.com/kr/app/id1630645768",
+    "download_text": "이력서 작성기 다운로드",
+    "download_alt": "App Store에서 이력서 작성기 다운로드",
+    "qr_alt": "QR 코드를 스캔하여 이력서 작성기 다운로드",
+    "qr_cta_text": "휴대폰으로 스캔하여 다운로드",
+    "learn_more_text": "이력서 작성기에 대해 더 알아보기",
+    "phone_text": "탭하여 전문적인 이력서 작성"
+  },
+  "features": {
+    "title": "이력서 작성에 필요한 핵심 기능",
+    "subtitle": "템플릿 선택부터 PDF 저장까지, 이력서와 CV를 완성하는 데 필요한 기능을 한곳에서 제공합니다.",
+    "items": [
+      {
+        "title": "빠른 단계별 작성",
+        "description": "입력 가이드를 따라가며 학력, 경력, 기술을 정리할 수 있어 처음 작성하는 사람도 쉽게 이력서를 완성할 수 있습니다.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100개 이상의 템플릿",
+        "description": "심플한 스타일부터 현대적인 스타일까지 다양한 템플릿을 제공합니다. 색상과 글꼴을 바꿔 나만의 CV를 만들 수 있습니다.",
+        "icon": "🎨"
+      },
+      {
+        "title": "작성 팁과 예시 제공",
+        "description": "경력 요약, 성과, 자기소개 문장을 더 명확하게 작성할 수 있도록 실용적인 팁을 제공합니다.",
+        "icon": "💡"
+      },
+      {
+        "title": "사진과 QR 코드 추가",
+        "description": "프로필 사진, 서명, 포트폴리오 링크용 QR 코드를 추가해 온라인과 오프라인 모두에서 돋보이는 이력서를 만들 수 있습니다.",
+        "icon": "📱"
+      },
+      {
+        "title": "고품질 PDF 저장",
+        "description": "완성된 이력서와 CV를 PDF로 저장해 이메일 전송, 채용 사이트 업로드, 인쇄에 바로 활용할 수 있습니다.",
+        "icon": "📄"
+      },
+      {
+        "title": "커버레터 작성 지원",
+        "description": "이력서와 디자인을 맞춘 커버레터도 함께 작성할 수 있어 지원 서류 전체의 완성도를 높일 수 있습니다.",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "이력서 작성기 자주 묻는 질문",
+    "subtitle": "이력서 작성, 템플릿, PDF 저장, iPhone과 iPad 사용 방법에 대한 자주 묻는 질문입니다.",
+    "items": [
+      {
+        "question": "이 앱의 가장 큰 장점은 무엇인가요?",
+        "answer": "100개 이상의 템플릿, 작성 가이드, PDF 저장 기능을 함께 제공해 빠르게 전문적인 이력서를 만들 수 있다는 점입니다."
+      },
+      {
+        "question": "디자인 경험이 없어도 사용할 수 있나요?",
+        "answer": "네. 항목별 입력 방식이라 복잡한 편집 도구 없이도 손쉽게 사용할 수 있습니다. 템플릿을 선택하면 레이아웃이 자동으로 정리됩니다."
+      },
+      {
+        "question": "완성한 이력서는 어떤 형식으로 저장되나요?",
+        "answer": "PDF 형식으로 저장할 수 있습니다. 대부분의 채용 플랫폼과 이메일 지원에서 사용하기 좋은 형식입니다."
+      },
+      {
+        "question": "다양한 직무에 맞는 템플릿이 있나요?",
+        "answer": "네. 신입, 경력직, 사무직, IT, 마케팅 등 여러 직무와 경력 수준에 맞는 템플릿을 제공합니다."
+      },
+      {
+        "question": "iPhone과 iPad 모두 지원하나요?",
+        "answer": "네. 이 앱은 iPhone과 iPad에서 모두 원활하게 사용할 수 있도록 최적화되어 있습니다."
+      },
+      {
+        "question": "다른 이력서 앱과 어떤 차이가 있나요?",
+        "answer": "템플릿만 제공하는 도구가 아니라 작성 팁, PDF 저장, 커버레터 작성까지 함께 지원해 실제 지원용 서류를 빠르게 완성할 수 있습니다."
+      }
+    ]
+  },
+  "app_info": {
+    "name": "이력서 작성기",
+    "alternate_name": "CV Builder",
+    "publisher": "c-basso",
+    "version": "1.20.11",
+    "file_size": "87.4 MB",
+    "application_category": "BusinessApplication",
+    "application_sub_category": "Productivity",
+    "price_currency": "KRW"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/kr/app/id1630645768",
+    "cta_text": "이력서 작성기 다운로드",
+    "privacy_url": "https://c-basso.github.io/privacy/privacy.html",
+    "privacy_text": "개인정보 처리방침",
+    "terms_url": "https://c-basso.github.io/privacy/terms.html",
+    "terms_text": "이용 약관",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "지원",
+    "copyright": "© 2025 c-basso. All rights reserved. | 이력서 작성기 | 전문적인 이력서와 CV 작성"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/kr/app/id1630645768",
+    "text": "📱 이력서 작성기 다운로드"
+  }
+}

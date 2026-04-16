@@ -18,23 +18,6 @@
     "twitter_image": "https://cvbuilderapp.com/logo.webp",
     "app_store_id": "1630645768",
     "canonical": "https://cvbuilderapp.com/it/",
-    "alternate_ru": "https://cvbuilderapp.com/ru/",
-    "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_de": "https://cvbuilderapp.com/de/",
-    "alternate_es": "https://cvbuilderapp.com/es/",
-    "alternate_fr": "https://cvbuilderapp.com/fr/",
-    "alternate_it": "https://cvbuilderapp.com/it/",
-    "alternate_pt": "https://cvbuilderapp.com/pt/",
-    "alternate_default": "https://cvbuilderapp.com/",
-    "alternate_languages": [
-      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
-      { "lang": "en", "url": "https://cvbuilderapp.com/" },
-      { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
-      { "lang": "es", "url": "https://cvbuilderapp.com/es/" },
-      { "lang": "fr", "url": "https://cvbuilderapp.com/fr/" },
-      { "lang": "it", "url": "https://cvbuilderapp.com/it/" },
-      { "lang": "pt", "url": "https://cvbuilderapp.com/pt/" }
-    ],
     "geo_region": "IT",
     "geo_placename": "Italy"
   },
@@ -56,12 +39,36 @@
     "title": "Perché Scegliere Curriculum Vitae Europeo Gratis? Tutto ciò che Ti Serve per Creare un CV che Colpisce",
     "subtitle": "Curriculum Vitae Europeo Gratis fornisce strumenti semplici e modelli curriculum vitae professionali per aiutarti a creare un curriculum che attira l'attenzione dei datori di lavoro e ti aiuta a ottenere il lavoro dei tuoi sogni. Compatibile con formato Europass e curriculum europeo.",
     "items": [
-      { "title": "Creazione Curriculum Vitae Rapida e Facile", "description": "La guida intuitiva passo-passo di Curriculum Vitae Europeo Gratis ti aiuta a creare un curriculum vitae professionale completo in pochi minuti. Non devi preoccuparti della formattazione o avere esperienza nel design: compila semplicemente le tue informazioni, scegli un modello curriculum vitae, e sei pronto a candidarti. Perfetto per principianti e professionisti esperti che utilizzano il nostro creatore di curriculum vitae online. Crea il tuo curriculum europeo gratis con formato Europass. Modello curriculum vitae da compilare in pochi clic. Compilare curriculum vitae non è mai stato così semplice.", "icon": "⚡" },
-      { "title": "100+ Modelli Curriculum Vitae Professionali", "description": "Sfoglia la vasta collezione di modelli curriculum vitae di Curriculum Vitae Europeo Gratis progettati per diversi settori, livelli di carriera e tipi di lavoro. Che tu sia un neolaureato, un professionista di medio livello o un dirigente, Curriculum Vitae Europeo Gratis ha il modello curriculum vitae perfetto. Personalizza colori, font e layout per corrispondere al tuo brand personale e agli standard del settore. Compatibile con formato curriculum vitae europeo, Europass curriculum e curriculum formato europeo. Modello cv da scaricare disponibile per tutti i settori.", "icon": "🎨" },
-      { "title": "Consigli Esperti ed Esempi di Curriculum Vitae", "description": "Ottieni consigli professionali da Curriculum Vitae Europeo Gratis su come scrivere efficacemente la tua esperienza lavorativa, competenze e risultati. Scopri cosa cercano i datori di lavoro con veri esempi di curriculum vitae che ti mostrano cosa funziona. I consigli di Curriculum Vitae Europeo Gratis ti aiutano a evidenziare i tuoi punti di forza e distinguerti dagli altri candidati. Curriculum vitae esempio incluso. Esempio curriculum professionale per ogni settore.", "icon": "💡" },
-      { "title": "Personalizza il Tuo Curriculum Vitae", "description": "Rendi il tuo curriculum vitae unico con Curriculum Vitae Europeo Gratis aggiungendo la tua foto professionale, firma digitale e codici QR che rimandano direttamente al tuo profilo LinkedIn o al tuo portfolio online. Questi tocchi moderni ti aiutano a distinguerti e facilitano ai datori di lavoro saperne di più su di te. Curriculum vitae da compilare con tutte le funzionalità. Crea curriculum vitae europeo word compatibile.", "icon": "📱" },
-      { "title": "Download PDF di Alta Qualità", "description": "Esporta il tuo curriculum vitae da Curriculum Vitae Europeo Gratis come PDF di alta qualità pronto per la stampa che sembra professionale sullo schermo e su carta. Perfetto per inviare via email ai datori di lavoro, caricare su siti di lavoro o stampare per i colloqui. Il tuo curriculum vitae manterrà la sua formattazione e aspetto professionale su tutte le piattaforme. Curriculum vitae pdf disponibile per download immediato. Formato curriculum vitae europeo garantito.", "icon": "📄" },
-      { "title": "Crea Bozza Curriculum Vitae Incluso", "description": "Completa la tua candidatura con il creatore di bozze di curriculum vitae integrato di Curriculum Vitae Europeo Gratis. Forniamo esempi professionali di bozza curriculum vitae e modelli che corrispondono allo stile del tuo curriculum. Crea documenti abbinati per un pacchetto di candidatura completo e coerente che impressiona i responsabili delle assunzioni. Bozza curriculum vitae professionale inclusa. Come fare un curriculum vitae europeo passo dopo passo.", "icon": "✉️" }
+      {
+        "title": "Creazione Curriculum Vitae Rapida e Facile",
+        "description": "La guida intuitiva passo-passo di Curriculum Vitae Europeo Gratis ti aiuta a creare un curriculum vitae professionale completo in pochi minuti. Non devi preoccuparti della formattazione o avere esperienza nel design: compila semplicemente le tue informazioni, scegli un modello curriculum vitae, e sei pronto a candidarti. Perfetto per principianti e professionisti esperti che utilizzano il nostro creatore di curriculum vitae online. Crea il tuo curriculum europeo gratis con formato Europass. Modello curriculum vitae da compilare in pochi clic. Compilare curriculum vitae non è mai stato così semplice.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ Modelli Curriculum Vitae Professionali",
+        "description": "Sfoglia la vasta collezione di modelli curriculum vitae di Curriculum Vitae Europeo Gratis progettati per diversi settori, livelli di carriera e tipi di lavoro. Che tu sia un neolaureato, un professionista di medio livello o un dirigente, Curriculum Vitae Europeo Gratis ha il modello curriculum vitae perfetto. Personalizza colori, font e layout per corrispondere al tuo brand personale e agli standard del settore. Compatibile con formato curriculum vitae europeo, Europass curriculum e curriculum formato europeo. Modello cv da scaricare disponibile per tutti i settori.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Consigli Esperti ed Esempi di Curriculum Vitae",
+        "description": "Ottieni consigli professionali da Curriculum Vitae Europeo Gratis su come scrivere efficacemente la tua esperienza lavorativa, competenze e risultati. Scopri cosa cercano i datori di lavoro con veri esempi di curriculum vitae che ti mostrano cosa funziona. I consigli di Curriculum Vitae Europeo Gratis ti aiutano a evidenziare i tuoi punti di forza e distinguerti dagli altri candidati. Curriculum vitae esempio incluso. Esempio curriculum professionale per ogni settore.",
+        "icon": "💡"
+      },
+      {
+        "title": "Personalizza il Tuo Curriculum Vitae",
+        "description": "Rendi il tuo curriculum vitae unico con Curriculum Vitae Europeo Gratis aggiungendo la tua foto professionale, firma digitale e codici QR che rimandano direttamente al tuo profilo LinkedIn o al tuo portfolio online. Questi tocchi moderni ti aiutano a distinguerti e facilitano ai datori di lavoro saperne di più su di te. Curriculum vitae da compilare con tutte le funzionalità. Crea curriculum vitae europeo word compatibile.",
+        "icon": "📱"
+      },
+      {
+        "title": "Download PDF di Alta Qualità",
+        "description": "Esporta il tuo curriculum vitae da Curriculum Vitae Europeo Gratis come PDF di alta qualità pronto per la stampa che sembra professionale sullo schermo e su carta. Perfetto per inviare via email ai datori di lavoro, caricare su siti di lavoro o stampare per i colloqui. Il tuo curriculum vitae manterrà la sua formattazione e aspetto professionale su tutte le piattaforme. Curriculum vitae pdf disponibile per download immediato. Formato curriculum vitae europeo garantito.",
+        "icon": "📄"
+      },
+      {
+        "title": "Crea Bozza Curriculum Vitae Incluso",
+        "description": "Completa la tua candidatura con il creatore di bozze di curriculum vitae integrato di Curriculum Vitae Europeo Gratis. Forniamo esempi professionali di bozza curriculum vitae e modelli che corrispondono allo stile del tuo curriculum. Crea documenti abbinati per un pacchetto di candidatura completo e coerente che impressiona i responsabili delle assunzioni. Bozza curriculum vitae professionale inclusa. Come fare un curriculum vitae europeo passo dopo passo.",
+        "icon": "✉️"
+      }
     ]
   },
   "faq": {
@@ -120,4 +127,3 @@
     "text": "📱 Scarica l'Applicazione Crea CV"
   }
 }
-

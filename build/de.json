@@ -18,23 +18,6 @@
     "twitter_image": "https://cvbuilderapp.com/logo.webp",
     "app_store_id": "1630645768",
     "canonical": "https://cvbuilderapp.com/de/",
-    "alternate_ru": "https://cvbuilderapp.com/ru/",
-    "alternate_en": "https://cvbuilderapp.com/",
-    "alternate_de": "https://cvbuilderapp.com/de/",
-    "alternate_es": "https://cvbuilderapp.com/es/",
-    "alternate_fr": "https://cvbuilderapp.com/fr/",
-    "alternate_it": "https://cvbuilderapp.com/it/",
-    "alternate_pt": "https://cvbuilderapp.com/pt/",
-    "alternate_default": "https://cvbuilderapp.com/",
-    "alternate_languages": [
-      { "lang": "ru", "url": "https://cvbuilderapp.com/ru/" },
-      { "lang": "en", "url": "https://cvbuilderapp.com/" },
-      { "lang": "de", "url": "https://cvbuilderapp.com/de/" },
-      { "lang": "es", "url": "https://cvbuilderapp.com/es/" },
-      { "lang": "fr", "url": "https://cvbuilderapp.com/fr/" },
-      { "lang": "it", "url": "https://cvbuilderapp.com/it/" },
-      { "lang": "pt", "url": "https://cvbuilderapp.com/pt/" }
-    ],
     "geo_region": "DE",
     "geo_placename": "Germany"
   },
@@ -56,12 +39,36 @@
     "title": "Warum CV Maker Free wählen? Alles, was Sie für einen herausragenden Lebenslauf brauchen",
     "subtitle": "CV Maker Free bietet einfache Tools und professionelle CV Templates, die Ihnen helfen, einen Lebenslauf zu erstellen, der Arbeitgeber aufmerksam macht und Ihnen hilft, Ihren Traumjob zu bekommen.",
     "items": [
-      { "title": "Schnelle und einfache CV-Erstellung", "description": "Die intuitive Schritt-für-Schritt-Anleitung von CV Maker Free hilft Ihnen, in nur wenigen Minuten einen vollständigen, professionellen Lebenslauf zu erstellen. Keine Formatierungsprobleme oder Design-Erfahrung erforderlich – füllen Sie einfach Ihre Informationen aus, wählen Sie ein CV Template und Sie sind bereit, sich zu bewerben. Perfekt für Anfänger und erfahrene Fachkräfte, die unseren CV Maker Online nutzen. Lebenslauf erstellen kostenlos war noch nie so einfach.", "icon": "⚡" },
-      { "title": "100+ Professionelle CV Templates", "description": "Durchsuchen Sie die umfangreiche Sammlung von CV Templates und Lebenslauf-Vorlagen von CV Maker Free, die für verschiedene Branchen, Karrierestufen und Jobtypen entwickelt wurden. Ob Sie ein Absolvent, Fachkraft oder Führungskraft sind, CV Maker Free hat das perfekte CV Template. Passen Sie Farben, Schriftarten und Layout an, um Ihrem persönlichen Markenimage und Branchenstandards zu entsprechen. Ideal für German CV und Europass CV Format.", "icon": "🎨" },
-      { "title": "Experten-Tipps und CV-Beispiele", "description": "Erhalten Sie professionelle Anleitung von CV Maker Free, wie Sie effektiv über Ihre Berufserfahrung, Fähigkeiten und Erfolge schreiben. Erfahren Sie, was Arbeitgeber suchen, mit echten CV-Beispielen, die Ihnen zeigen, was funktioniert. Die Tipps von CV Maker Free helfen Ihnen, Ihre Stärken hervorzuheben und sich von anderen Kandidaten abzuheben. Best CV Maker für optimale Ergebnisse.", "icon": "💡" },
-      { "title": "Personalisieren Sie Ihren Lebenslauf", "description": "Machen Sie Ihren Lebenslauf mit CV Maker Free einzigartig, indem Sie Ihr professionelles Foto, digitale Unterschrift und QR-Codes hinzufügen, die direkt zu Ihrem LinkedIn-Profil oder Online-Portfolio verlinken. Diese modernen Details helfen Ihnen, sich abzuheben und machen es Arbeitgebern leicht, mehr über Sie zu erfahren. CV Maker Online macht Personalisierung einfach.", "icon": "📱" },
-      { "title": "Als hochwertiges PDF herunterladen", "description": "Exportieren Sie Ihren Lebenslauf von CV Maker Free als druckfertiges, hochwertiges PDF, das professionell auf Bildschirm und Papier aussieht. Perfekt zum E-Mail-Versand an Arbeitgeber, Hochladen auf Jobseiten oder Drucken für Vorstellungsgespräche. Ihr Lebenslauf behält seine Formatierung und professionelle Erscheinung auf allen Plattformen. CV Maker Free Download als PDF verfügbar.", "icon": "📄" },
-      { "title": "Anschreiben-Builder enthalten", "description": "Vervollständigen Sie Ihre Bewerbung mit dem integrierten Anschreiben-Builder von CV Maker Free. Wir bieten professionelle Anschreiben-Beispiele und Templates, die zu Ihrem Lebenslauf-Stil passen. Erstellen Sie passende Dokumente für ein vollständiges, kohärentes Bewerbungspaket, das Personalverantwortliche beeindruckt. Resume Maker Free für komplette Bewerbungen.", "icon": "✉️" }
+      {
+        "title": "Schnelle und einfache CV-Erstellung",
+        "description": "Die intuitive Schritt-für-Schritt-Anleitung von CV Maker Free hilft Ihnen, in nur wenigen Minuten einen vollständigen, professionellen Lebenslauf zu erstellen. Keine Formatierungsprobleme oder Design-Erfahrung erforderlich – füllen Sie einfach Ihre Informationen aus, wählen Sie ein CV Template und Sie sind bereit, sich zu bewerben. Perfekt für Anfänger und erfahrene Fachkräfte, die unseren CV Maker Online nutzen. Lebenslauf erstellen kostenlos war noch nie so einfach.",
+        "icon": "⚡"
+      },
+      {
+        "title": "100+ Professionelle CV Templates",
+        "description": "Durchsuchen Sie die umfangreiche Sammlung von CV Templates und Lebenslauf-Vorlagen von CV Maker Free, die für verschiedene Branchen, Karrierestufen und Jobtypen entwickelt wurden. Ob Sie ein Absolvent, Fachkraft oder Führungskraft sind, CV Maker Free hat das perfekte CV Template. Passen Sie Farben, Schriftarten und Layout an, um Ihrem persönlichen Markenimage und Branchenstandards zu entsprechen. Ideal für German CV und Europass CV Format.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Experten-Tipps und CV-Beispiele",
+        "description": "Erhalten Sie professionelle Anleitung von CV Maker Free, wie Sie effektiv über Ihre Berufserfahrung, Fähigkeiten und Erfolge schreiben. Erfahren Sie, was Arbeitgeber suchen, mit echten CV-Beispielen, die Ihnen zeigen, was funktioniert. Die Tipps von CV Maker Free helfen Ihnen, Ihre Stärken hervorzuheben und sich von anderen Kandidaten abzuheben. Best CV Maker für optimale Ergebnisse.",
+        "icon": "💡"
+      },
+      {
+        "title": "Personalisieren Sie Ihren Lebenslauf",
+        "description": "Machen Sie Ihren Lebenslauf mit CV Maker Free einzigartig, indem Sie Ihr professionelles Foto, digitale Unterschrift und QR-Codes hinzufügen, die direkt zu Ihrem LinkedIn-Profil oder Online-Portfolio verlinken. Diese modernen Details helfen Ihnen, sich abzuheben und machen es Arbeitgebern leicht, mehr über Sie zu erfahren. CV Maker Online macht Personalisierung einfach.",
+        "icon": "📱"
+      },
+      {
+        "title": "Als hochwertiges PDF herunterladen",
+        "description": "Exportieren Sie Ihren Lebenslauf von CV Maker Free als druckfertiges, hochwertiges PDF, das professionell auf Bildschirm und Papier aussieht. Perfekt zum E-Mail-Versand an Arbeitgeber, Hochladen auf Jobseiten oder Drucken für Vorstellungsgespräche. Ihr Lebenslauf behält seine Formatierung und professionelle Erscheinung auf allen Plattformen. CV Maker Free Download als PDF verfügbar.",
+        "icon": "📄"
+      },
+      {
+        "title": "Anschreiben-Builder enthalten",
+        "description": "Vervollständigen Sie Ihre Bewerbung mit dem integrierten Anschreiben-Builder von CV Maker Free. Wir bieten professionelle Anschreiben-Beispiele und Templates, die zu Ihrem Lebenslauf-Stil passen. Erstellen Sie passende Dokumente für ein vollständiges, kohärentes Bewerbungspaket, das Personalverantwortliche beeindruckt. Resume Maker Free für komplette Bewerbungen.",
+        "icon": "✉️"
+      }
     ]
   },
   "faq": {
@@ -120,4 +127,3 @@
     "text": "📱 CV Maker App herunterladen"
   }
 }
-
