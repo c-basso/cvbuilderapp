@@ -24,6 +24,7 @@
     <meta name="color-scheme" content="light dark">
     <meta name="application-name" content="Criar CV">
     <meta name="apple-itunes-app" content="app-id=1630645768">
+    <meta name="last-modified" content="2026-04-16">
     <link rel="canonical" href="https://cvbuilderapp.com/pt/">
     
     <link rel="alternate" hreflang="en" href="https://cvbuilderapp.com/" />
@@ -77,6 +78,7 @@
         "alternateName": "Criar Curriculum Vitae",
         "description": "Curriculum Vitae Europass Grátis - a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online. Escolha entre 100+ modelos curriculum vitae, obtenha conselhos de especialistas e exporte em PDF. Curriculum vitae online para iPhone e iPad. Fazer curriculum vitae nunca foi tão fácil.",
         "url": "https://cvbuilderapp.com/pt/",
+        "dateModified": "2026-04-16",
         "applicationCategory": "BusinessApplication",
         "applicationSubCategory": "Productivity",
         "operatingSystem": ["iOS"],
@@ -130,6 +132,7 @@
         "@type": "WebPage",
         "name": "Curriculum Vitae Europass Grátis - Criar CV Profissional | Curriculum Vitae Editar | 100+ Modelos CV",
         "description": "Curriculum Vitae Europass Grátis - a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online. Escolha entre 100+ modelos curriculum vitae, obtenha conselhos de especialistas e exporte em PDF. Curriculum vitae online para iPhone e iPad. Fazer curriculum vitae nunca foi tão fácil.",
+        "dateModified": "2026-04-16",
         "url": "https://cvbuilderapp.com/pt/",
         "inLanguage": "pt",
         "isPartOf": {
@@ -157,12 +160,12 @@
     
     <!-- Organization Structured Data -->
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Organization","name":"CV Builder","url":"https://cvbuilderapp.com/pt/","logo":"https://cvbuilderapp.com/logo.webp"}
+    {"@context":"https://schema.org","@type":"Organization","name":"CV Builder","description":"Curriculum Vitae Europass Grátis - a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online. Escolha entre 100+ modelos curriculum vitae, obtenha conselhos de especialistas e exporte em PDF. Curriculum vitae online para iPhone e iPad. Fazer curriculum vitae nunca foi tão fácil.","url":"https://cvbuilderapp.com/pt/","logo":"https://cvbuilderapp.com/logo.webp"}
     </script>
     
     <!-- WebSite Structured Data -->
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"WebSite","name":"CV Builder","url":"https://cvbuilderapp.com/pt/"}
+    {"@context":"https://schema.org","@type":"WebSite","name":"CV Builder","description":"Curriculum Vitae Europass Grátis - a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online. Escolha entre 100+ modelos curriculum vitae, obtenha conselhos de especialistas e exporte em PDF. Curriculum vitae online para iPhone e iPad. Fazer curriculum vitae nunca foi tão fácil.","inLanguage":"pt","url":"https://cvbuilderapp.com/pt/"}
     </script>
     
     <!-- HowTo Structured Data -->
@@ -199,22 +202,29 @@
 
     <style>
         :root {
-            --page-bg: #020617;
-            --page-bg-alt: #020617;
-            --accent: #2563eb;
-            --accent-soft: rgba(37, 99, 235, 0.12);
-            --accent-strong: #1d4ed8;
-            --muted: #9ca3af;
-            --text-main: #e5e7eb;
-            --card-bg: rgba(15, 23, 42, 0.96);
-            --card-border: rgba(148, 163, 184, 0.25);
-            --card-soft: rgba(15, 23, 42, 0.98);
-            --radius-lg: 18px;
-            --radius-md: 14px;
+            --bg: #0b1220;
+            --bg-deep: #0f172a;
+            --surface: rgba(15, 23, 42, 0.74);
+            --surface-strong: rgba(15, 23, 42, 0.9);
+            --surface-soft: rgba(255, 255, 255, 0.025);
+            --line: rgba(255, 255, 255, 0.08);
+            --line-strong: rgba(255, 255, 255, 0.14);
+            --text: #f8fafc;
+            --text-soft: #dbe4f0;
+            --muted: #93a4bd;
+            --accent: #3b82f6;
+            --accent-strong: #2563eb;
+            --accent-soft: rgba(59, 130, 246, 0.12);
+            --accent-alt: #60a5fa;
+            --shadow-xl: 0 20px 50px rgba(2, 6, 23, 0.24);
+            --shadow-lg: 0 10px 28px rgba(2, 6, 23, 0.16);
+            --radius-xl: 20px;
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 10px;
             --radius-pill: 999px;
-            --shadow-soft: 0 14px 38px rgba(15, 23, 42, 0.72);
-            --shadow-subtle: 0 10px 30px rgba(15, 23, 42, 0.6);
-            --grid-gap: 2rem;
+            --font-body: "Avenir Next", "Segoe UI Variable", "SF Pro Text", -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
         }
 
         * {
@@ -223,494 +233,809 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI Variable", sans-serif;
-            line-height: 1.6;
-            color: var(--text-main);
-            min-height: 100vh;
-            background:
-                radial-gradient(circle at 0% 0%, rgba(37, 99, 235, 0.12), transparent 55%),
-                radial-gradient(circle at 100% 100%, rgba(15, 118, 110, 0.12), transparent 55%),
-                linear-gradient(135deg, var(--page-bg) 0%, #020617 100%);
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+        html {
+            scroll-behavior: smooth;
         }
 
-        body::before {
+        body {
+            min-height: 100vh;
+            font-family: var(--font-body);
+            line-height: 1.72;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top center, rgba(59, 130, 246, 0.08), transparent 30%),
+                linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            font-kerning: normal;
+            font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+            hanging-punctuation: first last;
+        }
+
+        body::before,
+        body::after {
             content: "";
             position: fixed;
             inset: 0;
             pointer-events: none;
-            background-image:
-                linear-gradient(120deg, rgba(148, 163, 184, 0.16) 0%, transparent 30%, transparent 70%, rgba(148, 163, 184, 0.16) 100%);
-            mix-blend-mode: normal;
-            opacity: 0.6;
             z-index: -1;
         }
 
-        .container {
-            max-width: 1160px;
-            margin: 0 auto;
-            padding: 0 24px;
+        body::before {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 32%);
+            opacity: 0.5;
         }
-        
-        /* Improve text readability */
-        p {
-            margin-bottom: 1rem;
-            word-wrap: break-word;
+
+        body::after {
+            background: none;
+            opacity: 0;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        p,
+        li,
+        td,
+        blockquote {
+            max-width: 70ch;
+            text-wrap: pretty;
             hyphens: auto;
         }
 
-        /* Hero Section */
-        .hero {
-            padding: 88px 0 80px;
-            text-align: center;
-            color: var(--text-main);
-            background-image: url('/bg.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-kerning: normal;
+            text-wrap: balance;
+        }
+
+        button,
+        input,
+        textarea,
+        select {
+            font: inherit;
+        }
+
+        .container {
+            width: min(1200px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 48px 0;
+        }
+
+        .section-shell {
             position: relative;
+            background: rgba(15, 23, 42, 0.52);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
             overflow: hidden;
         }
-        
-        .hero::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background:
-                radial-gradient(circle at 0% 0%, rgba(37, 99, 235, 0.35), transparent 54%),
-                radial-gradient(circle at 100% 0%, rgba(30, 64, 175, 0.35), transparent 52%),
-                linear-gradient(135deg, rgba(15, 23, 42, 0.75) 10%, rgba(15, 23, 42, 0.7) 40%, rgba(15, 23, 42, 0.8) 100%);
-            z-index: 0;
+
+        .section-shell::before {
+            display: none;
         }
-        
-        .hero > .container {
+
+        .section-header {
             position: relative;
             z-index: 1;
+            display: grid;
+            gap: 0.8rem;
+            margin-bottom: 1.35rem;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.65rem, 2.4vw, 2.5rem);
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+            color: var(--text);
+        }
+
+        .section-subtitle {
+            max-width: 66ch;
+            color: var(--muted);
+            font-size: 0.99rem;
+            line-height: 1.76;
+            letter-spacing: 0.002em;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            width: fit-content;
+            padding: 0;
+            border-radius: 0;
+            background: transparent;
+            border: 0;
+            color: #bfdbfe;
+            font-size: 0.72rem;
+            font-weight: 650;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding: 8px 0 20px;
+        }
+
+        .hero-bottom {
+            margin-top: 0.85rem;
+            width: 100%;
+            grid-column: 1 / -1;
+        }
+
+        .hero::before {
+            display: none;
+        }
+
+        .hero-shell {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+            gap: clamp(1.1rem, 2.4vw, 2rem);
+            align-items: center;
+            min-height: auto;
+            padding: 1.8rem 0 0.25rem;
+        }
+
+        .hero-copy {
+            max-width: none;
+            min-width: 0;
         }
 
         .hero-logo {
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            gap: 14px;
-            margin-bottom: 2.5rem;
-            padding: 0.55rem 1.4rem;
-            border-radius: var(--radius-pill);
-            border: 1px solid rgba(148, 163, 184, 0.5);
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.98));
-            box-shadow: 0 10px 26px rgba(15, 23, 42, 0.75);
-            font-size: 0.85rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: #cbd5f5;
+            gap: 0.9rem;
+            margin-bottom: 0.55rem;
+            padding: 0;
+            border-radius: 0;
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+            color: #e5edf9;
+            font-weight: 650;
+            letter-spacing: 0.08em;
+            text-transform: none;
+            font-size: 0.88rem;
         }
 
         .hero-logo img {
-            width: 54px;
-            height: 54px;
-            border-radius: 16px;
-            box-shadow: 0 16px 40px rgba(15, 23, 42, 0.85);
-            border: 1px solid rgba(148, 163, 184, 0.4);
-            background: radial-gradient(circle at 0 0, rgba(248, 250, 252, 0.16), transparent 70%);
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            box-shadow: none;
         }
 
-        .hero h1 {
-            font-size: clamp(2.4rem, 3vw, 3rem);
-            font-weight: 720;
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 3.6vw, 3.25rem);
+            line-height: 1.04;
+            letter-spacing: -0.04em;
+            margin: 0.25rem 0 0.55rem;
+            text-wrap: balance;
+            color: var(--text);
+        }
+
+        .hero-copy > .eyebrow {
+            margin-bottom: 0.55rem;
+        }
+
+        .hero-summary {
+            max-width: 72ch;
+            color: var(--text-soft);
+            font-size: clamp(0.98rem, 1.1vw, 1.06rem);
+            line-height: 1.76;
+            letter-spacing: 0.003em;
             margin-bottom: 1rem;
-            line-height: 1.12;
-            letter-spacing: -0.045em;
-            background: linear-gradient(120deg, #e5e7eb, #f9fafb);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            position: relative;
-            display: inline-block;
         }
 
-        .hero p {
-            font-size: 1.06rem;
-            margin-bottom: 2.4rem;
-            opacity: 0.98;
-            max-width: 720px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.8;
-            padding: 1rem 1.4rem;
-            border-radius: var(--radius-lg);
-            backdrop-filter: blur(18px);
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.86), rgba(15, 23, 42, 0.96));
-            border: 1px solid rgba(148, 163, 184, 0.4);
-            box-shadow: var(--shadow-soft);
-            color: #d1d5db;
-        }
-
-        .cta-buttons {
+        .hero-actions {
             display: flex;
-            gap: 1.25rem;
-            justify-content: center;
             flex-wrap: wrap;
+            gap: 0.75rem;
             align-items: center;
+            margin-bottom: 0.85rem;
+        }
+
+        .hero-mobile-download {
+            display: none;
+            margin-top: 0.5rem;
+        }
+
+        .hero-mobile-download img {
+            width: 190px;
+        }
+
+        .hero-note {
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.6;
+            letter-spacing: 0.002em;
+            margin-bottom: 0.8rem;
         }
 
         .btn {
-            padding: 15px 30px;
-            border: none;
-            border-radius: var(--radius-pill);
-            font-size: 1.03rem;
-            font-weight: 600;
-            text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease, border-color 0.22s ease;
-            cursor: pointer;
-            letter-spacing: 0.02em;
-            position: relative;
-            overflow: hidden;
-            isolation: isolate;
+            justify-content: center;
+            gap: 0.65rem;
+            min-height: 48px;
+            padding: 0.8rem 1.1rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 650;
+            font-size: 0.93rem;
+            letter-spacing: 0.01em;
+            transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease, background 0.24s ease, color 0.24s ease;
+            will-change: transform;
         }
 
-        .btn::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at 0 0, rgba(248, 250, 252, 0.32), transparent 60%);
-            opacity: 0;
-            transition: opacity 0.22s ease;
-            z-index: -1;
+        .btn:hover {
+            transform: translateY(-2px);
         }
 
         .btn-primary {
-            background: linear-gradient(120deg, var(--accent-strong), var(--accent));
-            color: white;
-            box-shadow: 0 12px 32px rgba(15, 23, 42, 0.8);
-            border: 1px solid rgba(248, 250, 252, 0.18);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-1px) translateZ(0);
-            box-shadow: 0 16px 38px rgba(15, 23, 42, 0.85);
-        }
-        
-        .btn-primary:hover::before {
-            opacity: 1;
-        }
-        
-        .btn-primary img {
-            display: block;
-            height: auto;
-            max-width: 100%;
-        }
-        
-        /* Desktop: Show QR code container, hide mobile download button */
-        .cta-qr-desktop {
-            display: block;
-        }
-        
-        .cta-mobile {
-            display: none;
-        }
-        
-        .cta-image-desktop {
-            display: block;
-            width: auto;
-            height: auto;
-            max-width: 200px;
-            max-height: 200px;
-            border-radius: 16px;
-            background: radial-gradient(circle at 0 0, rgba(248, 250, 252, 0.16), rgba(15, 23, 42, 0.98));
-            padding: 0;
-            box-shadow: var(--shadow-subtle);
-            border: 1px solid rgba(148, 163, 184, 0.4);
-            margin: 0 auto;
-        }
-        
-        .qr-cta-text {
-            color: var(--muted);
-            font-size: 0.98rem;
-            font-weight: 500;
-            text-align: center;
-            margin-top: 1rem;
-            opacity: 0.95;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-        }
-        
-        /* Mobile: Hide QR code, show download button */
-        @media (max-width: 768px) {
-            .cta-qr-desktop {
-                display: none;
-            }
-            
-            .cta-mobile {
-                display: inline-flex;
-            }
-            
-            .cta-image-mobile {
-                display: block;
-                width: 200px;
-                height: auto;
-                max-width: 100%;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .cta-image-mobile {
-                width: 220px;
-                height: auto;
-                max-width: 100%;
-            }
-        }
-        
-        .btn-primary.cta-mobile {
-            padding: 0;
-            background: none;
-            box-shadow: none;
-            border-radius: 0;
-            border: none;
-        }
-        
-        .btn-primary.cta-mobile:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.4);
+            color: #ffffff;
+            background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
         }
 
         .btn-secondary {
-            background: rgba(15, 23, 42, 0.94);
-            color: var(--muted);
-            border: 1px solid rgba(148, 163, 184, 0.5);
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
 
         .btn-secondary:hover {
-            background: rgba(15, 23, 42, 0.98);
-            transform: translateY(-1px);
-            box-shadow: 0 16px 36px rgba(15, 23, 42, 0.9);
+            box-shadow: 0 14px 34px rgba(1, 8, 20, 0.24);
         }
 
-        /* Features Section */
-        .features {
-            padding: 80px 0;
-            background: linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.96));
+        .btn-inline {
+            width: fit-content;
         }
 
-        .section-title {
-            text-align: center;
-            font-size: 2.25rem;
-            font-weight: 650;
-            margin-bottom: 1.1rem;
-            color: #e5e7eb;
-            letter-spacing: -0.04em;
+        .hero-stage {
+            position: relative;
+            min-height: auto;
+            display: grid;
+            align-items: center;
+            justify-items: start;
         }
 
-        .section-subtitle {
-            text-align: center;
+        .hero-stage::before {
+            display: none;
+        }
+
+        .hero-stage::after {
+            display: none;
+        }
+
+        .hero-visual {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(220px, 280px) minmax(180px, 240px);
+            gap: 0.85rem;
+            align-items: start;
+            justify-content: start;
+            width: 100%;
+        }
+
+        .scan-card,
+        .hero-highlights {
+            position: relative;
+            background: rgba(15, 23, 42, 0.56);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .scan-card {
+            right: auto;
+            top: auto;
+            width: 100%;
+            padding: 0.7rem;
+            border-radius: var(--radius-xl);
+            grid-column: 1;
+            grid-row: 1;
+            z-index: 2;
+            justify-self: start;
+        }
+
+        .scan-card-badge {
+            display: inline-flex;
+            padding: 0.35rem 0.55rem;
+            border-radius: var(--radius-pill);
+            background: rgba(59, 130, 246, 0.14);
+            border: 1px solid rgba(59, 130, 246, 0.22);
+            color: #cfe0ff;
+            font-size: 0.68rem;
+            letter-spacing: 0.04em;
+            line-height: 1.45;
+            margin-bottom: 0.65rem;
+        }
+
+        .scan-card-image {
+            padding: 0.55rem;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+        }
+
+        .scan-card-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .scan-card p {
+            color: var(--text-soft);
+            font-size: 0.84rem;
+            line-height: 1.55;
+            margin: 0.75rem 0 0;
+        }
+
+        .hero-highlights {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(220px, 1fr));
+            gap: 0.65rem;
+            padding: 0;
+            border-radius: var(--radius-lg);
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+            align-items: stretch;
+        }
+
+        .hero-highlight {
+            display: grid;
+            grid-template-columns: 48px 1fr;
+            gap: 0.85rem;
+            align-items: start;
+            padding: 0.72rem 0.78rem;
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: var(--radius-lg);
+        }
+
+        .hero-highlight-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 1.3rem;
+        }
+
+        .hero-highlight-title {
+            display: block;
+            color: var(--text);
+            font-size: 1.02rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-highlight-text {
             color: var(--muted);
-            font-size: 1rem;
-            margin-bottom: 3rem;
-            max-width: 720px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.7;
+            font-size: 0.92rem;
+            line-height: 1.62;
+        }
+
+        .facts-shell,
+        .comparison-shell,
+        .faq-shell {
+            padding: 1.15rem;
+        }
+
+        .facts-shell {
+            margin-top: 0;
+        }
+
+        .facts-top {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: flex-start;
+            margin-bottom: 0.95rem;
+            flex-wrap: wrap;
+        }
+
+        .facts-top .section-title,
+        .comparison-shell .section-title,
+        .faq-shell .section-title {
+            max-width: none;
+        }
+
+        .geo-badge {
+            display: inline-flex;
+            align-items: center;
+            min-height: auto;
+            padding: 0;
+            border-radius: 0;
+            background: transparent;
+            border: 0;
+            color: #d8e6fd;
+            font-size: 0.72rem;
+            font-weight: 650;
+            letter-spacing: 0.08em;
+            line-height: 1.45;
+            text-transform: uppercase;
+        }
+
+        .geo-facts-grid {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 0.65rem;
+        }
+
+        .geo-fact-card {
+            padding: 0.8rem 0.85rem;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            box-shadow: none;
+        }
+
+        .geo-fact-value {
+            display: block;
+            font-family: var(--font-display);
+            color: var(--text);
+            font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+            line-height: 0.97;
+            letter-spacing: -0.04em;
+            margin-bottom: 0.38rem;
+        }
+
+        .geo-fact-label {
+            color: var(--muted);
+            font-size: 0.92rem;
+            line-height: 1.62;
+        }
+
+        .features-shell {
+            display: grid;
+            grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+            gap: 1rem;
+            align-items: start;
+        }
+
+        .features-intro {
+            position: sticky;
+            top: 28px;
+            padding: 0.2rem 0 0;
+            border-radius: 0;
+            background: transparent;
+            border: 0;
+        }
+
+        .features-intro .section-subtitle {
+            margin-bottom: 0.75rem;
+        }
+
+        .features-intro-grid {
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        .features-intro-card {
+            padding: 0.68rem 0.75rem;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .features-intro-card strong {
+            display: block;
+            color: var(--text);
+            font-size: 0.98rem;
+            line-height: 1.35;
+            margin-bottom: 0.32rem;
+        }
+
+        .features-intro-card span {
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.6;
         }
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: var(--grid-gap);
-            margin-top: 2.25rem;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.65rem;
         }
 
         .feature-card {
-            background: var(--card-bg);
-            padding: 2rem 1.9rem;
-            border-radius: var(--radius-lg);
-            text-align: left;
-            transition: transform 0.26s ease, box-shadow 0.26s ease, border-color 0.26s ease, background 0.26s ease;
-            border: 1px solid var(--card-border);
-            box-shadow: 0 10px 26px rgba(15, 23, 42, 0.75);
             position: relative;
+            padding: 0.9rem;
+            border-radius: 14px;
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            box-shadow: none;
             overflow: hidden;
+            transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
         }
 
         .feature-card::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at 0 0, rgba(248, 250, 252, 0.14), transparent 55%);
-            opacity: 0;
-            transition: opacity 0.26s ease;
-            pointer-events: none;
+            display: none;
         }
 
         .feature-card:hover {
-            transform: translateY(-4px) translateZ(0);
-            box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
-            border-color: rgba(248, 250, 252, 0.18);
-            background: var(--card-soft);
+            transform: translateY(-2px);
+            border-color: rgba(216, 230, 253, 0.12);
+            box-shadow: none;
         }
 
-        .feature-card:hover::before {
-            opacity: 1;
+        .feature-card-wide {
+            grid-column: span 2;
         }
 
         .feature-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.96));
-            border-radius: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 1.25rem 0;
-            font-size: 1.5rem;
-            color: #f9fafb;
-            border: 1px solid rgba(148, 163, 184, 0.45);
+            width: 46px;
+            height: 46px;
+            display: grid;
+            place-items: center;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 1.15rem;
+            margin-bottom: 0.8rem;
         }
 
         .feature-card h3 {
-            font-size: 1.16rem;
-            margin-bottom: 0.6rem;
-            color: #e5e7eb;
-            letter-spacing: -0.02em;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.8rem;
+            color: var(--text);
         }
 
         .feature-card p {
             color: var(--muted);
-            line-height: 1.8;
             font-size: 0.99rem;
-            margin-top: 0.4rem;
+            line-height: 1.86;
+            letter-spacing: 0.002em;
         }
 
-        .rating {
-            color: #facc15;
-            font-size: 1.1rem;
-            margin-bottom: 0.85rem;
+        .comparison-layout {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+            gap: 1.15rem;
+            align-items: start;
         }
 
-        /* FAQ Section */
-        .faq {
-            padding: 80px 0;
-            background: linear-gradient(180deg, #020617, #020617);
+        .comparison-copy {
+            padding-right: 1rem;
         }
 
-        .faq-list {
-            max-width: 800px;
-            margin: 0 auto;
+        .comparison-table-wrap {
+            overflow-x: auto;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.02);
         }
 
-        .faq-item {
-            background: var(--card-bg);
-            margin-bottom: 1.4rem;
-            border-radius: var(--radius-md);
-            border: 1px solid var(--card-border);
-            overflow: hidden;
-            transition: box-shadow 0.24s ease, border-color 0.24s ease, background 0.24s ease, transform 0.24s ease;
+        .comparison-table {
+            width: 100%;
+            min-width: 720px;
+            border-collapse: collapse;
         }
 
-        .faq-item:hover {
-            box-shadow: 0 14px 32px rgba(15, 23, 42, 0.85);
-            border-color: rgba(248, 250, 252, 0.18);
-            transform: translateY(-2px);
+        .comparison-table th,
+        .comparison-table td {
+            padding: 0.85rem 0.9rem;
+            text-align: left;
+            vertical-align: top;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
         }
 
-        .faq-question {
-            padding: 1.4rem 1.6rem;
-            font-size: 1.05rem;
-            font-weight: 600;
-            color: #e5e7eb;
-            margin: 0;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .comparison-table thead th {
+            background: rgba(255, 255, 255, 0.04);
+            color: #d8e6fd;
+            font-size: 0.79rem;
+            font-weight: 650;
+            letter-spacing: 0.11em;
+            text-transform: uppercase;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison-table td {
+            color: var(--muted);
+            font-size: 0.96rem;
+            line-height: 1.75;
+        }
+
+        .comparison-table td:first-child {
+            width: 25%;
+            color: var(--text);
+            font-weight: 700;
             letter-spacing: -0.01em;
         }
 
-        .faq-question::after {
-            content: '+';
-            font-size: 1.5rem;
-            color: var(--accent-strong);
-            font-weight: 400;
-            transition: transform 0.24s ease;
+        .comparison-primary {
+            color: #dfe9ff;
         }
 
-        .faq-item.active .faq-question::after {
+        .faq-list {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            gap: 0.6rem;
+        }
+
+        .faq-item {
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            overflow: hidden;
+            transition: border-color 0.24s ease, box-shadow 0.24s ease, transform 0.24s ease;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-2px);
+            border-color: rgba(216, 230, 253, 0.12);
+            box-shadow: none;
+        }
+
+        .faq-question {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 0.9rem 0.95rem;
+            background: transparent;
+            border: none;
+            color: var(--text);
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .faq-question-text {
+            font-size: 1.02rem;
+            font-weight: 700;
+            line-height: 1.52;
+            letter-spacing: -0.015em;
+        }
+
+        .faq-question-icon {
+            flex: 0 0 auto;
+            width: 30px;
+            height: 30px;
+            border-radius: 999px;
+            display: grid;
+            place-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            color: #d8e6fd;
+            font-size: 1.2rem;
+            line-height: 1;
+            transition: transform 0.22s ease;
+        }
+
+        .faq-item.active .faq-question-icon {
             transform: rotate(45deg);
         }
 
         .faq-answer {
-            padding: 0 1.6rem;
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.26s ease, padding 0.26s ease;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            padding: 0 0.95rem;
+        }
+
+        .faq-answer p {
             color: var(--muted);
-            line-height: 1.85;
-            font-size: 0.98rem;
+            font-size: 0.99rem;
+            line-height: 1.9;
+            letter-spacing: 0.002em;
         }
 
         .faq-item.active .faq-answer {
-            max-height: 520px;
-            padding: 0 1.6rem 1.45rem;
+            max-height: 420px;
+            padding: 0 0.95rem 0.95rem;
         }
 
-        /* Footer */
         footer {
-            background: #020617;
-            color: var(--muted);
-            padding: 40px 0 32px;
-            text-align: center;
-            border-top: 1px solid rgba(148, 163, 184, 0.4);
+            padding: 0 0 42px;
+        }
+
+        .footer-shell {
+            position: relative;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 1.4rem;
+            display: grid;
+            gap: 0.8rem;
+            justify-items: center;
         }
 
         .footer-links {
             display: flex;
             justify-content: center;
-            gap: 2.25rem;
-            margin-bottom: 1.1rem;
             flex-wrap: wrap;
+            gap: 0.8rem;
         }
 
         .footer-links a {
-            color: #e5e7eb;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 0.7rem 1.1rem;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.035);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-soft);
             text-decoration: none;
-            opacity: 0.8;
-            transition: opacity 0.2s ease, color 0.2s ease;
-            font-size: 0.92rem;
+            font-size: 0.95rem;
+            letter-spacing: 0.004em;
+            transition: transform 0.22s ease, border-color 0.22s ease, color 0.22s ease, background 0.22s ease;
         }
 
         .footer-links a:hover {
-            opacity: 1;
-            color: var(--accent-strong);
+            transform: translateY(-2px);
+            color: var(--text);
+            border-color: rgba(216, 230, 253, 0.16);
         }
 
-        footer p {
-            font-size: 0.7rem;
-            opacity: 0.7;
-            margin-top: 0.25rem;
+        .footer-copy {
+            color: var(--muted);
+            font-size: 0.8rem;
+            line-height: 1.75;
+            letter-spacing: 0.003em;
+            text-align: center;
+            max-width: 88ch;
         }
 
-        /* Floating CTA */
         .floating-cta {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: radial-gradient(circle at 0 0, var(--accent-strong), var(--accent));
-            color: white;
-            padding: 15px 24px;
-            border-radius: var(--radius-pill);
+            right: 18px;
+            bottom: 18px;
+            z-index: 1000;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 58px;
+            padding: 0.95rem 1.3rem;
+            border-radius: 14px;
             text-decoration: none;
-            font-weight: 620;
-            box-shadow: 0 20px 48px rgba(249, 115, 22, 0.9);
-            transform: translateY(100px);
+            font-weight: 700;
+            color: #ffffff;
+            background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            box-shadow: 0 20px 52px rgba(37, 99, 235, 0.36);
+            transform: translateY(110px);
             opacity: 0;
             transition: transform 0.26s ease, opacity 0.26s ease, box-shadow 0.26s ease;
-            z-index: 1000;
-            font-size: 0.95rem;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
         }
 
         .floating-cta.show {
@@ -718,313 +1043,214 @@
             opacity: 1;
         }
 
-        /* Mobile Optimizations */
-        @media (max-width: 768px) {
-            body {
-                font-size: 16px;
-                line-height: 1.7;
-            }
-            
-            .hero {
-                padding: 64px 0 56px;
-            }
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
 
-            .hero h1 {
-                font-size: 2.05rem;
-                line-height: 1.2;
-                margin-bottom: 0.9rem;
-                letter-spacing: -0.04em;
-            }
+        .reveal.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
-            .hero p {
-                font-size: 1rem;
-                line-height: 1.75;
-                margin-bottom: 2rem;
-                padding: 0.9rem 1.2rem;
-            }
-
-            .hero-logo {
-                font-size: 0.8rem;
-                margin-bottom: 1.6rem;
-                gap: 12px;
-            }
-
-            .hero-logo img {
-                width: 60px;
-                height: 60px;
-            }
-
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-            }
-
-            .btn {
-                width: 100%;
-                max-width: 310px;
-                justify-content: center;
-                padding: 16px 24px;
-                font-size: 0.98rem;
-                min-height: 48px;
-                line-height: 1.5;
-            }
-
-            .features {
-                padding: 56px 0;
-            }
-
-            .section-title {
-                font-size: 1.9rem;
-                margin-bottom: 0.75rem;
-                line-height: 1.25;
-            }
-
-            .section-subtitle {
-                margin-bottom: 2.1rem;
-                padding: 0 0.25rem;
-            }
-
-            .features-grid {
+        @media (max-width: 1100px) {
+            .hero-shell,
+            .features-shell,
+            .comparison-layout {
                 grid-template-columns: 1fr;
-                gap: 1.6rem;
             }
 
-            .feature-card {
-                padding: 1.6rem 1.5rem;
-                border-radius: 18px;
+            .features-intro {
+                position: static;
             }
 
-            .feature-card h3 {
-                font-size: 1.18rem;
-                margin-bottom: 0.55rem;
+            .hero-visual {
+                grid-template-columns: 1fr;
             }
 
-            .feature-card p {
-                font-size: 0.98rem;
-                line-height: 1.85;
-                margin-bottom: 0;
+            .scan-card {
+                grid-column: auto;
+                grid-row: auto;
             }
 
-            .faq {
-                padding: 56px 0;
-            }
-
-            .faq-question {
-                padding: 1.25rem 1.4rem;
-                font-size: 1.02rem;
-                line-height: 1.5;
-            }
-
-            .faq-answer {
-                padding: 0 1.4rem;
-                font-size: 0.99rem;
-                line-height: 1.8;
-            }
-
-            .faq-item.active .faq-answer {
-                padding: 0 1.4rem 1.3rem;
-            }
-
-            .footer-links {
-                flex-direction: column;
-                gap: 0.85rem;
-                margin-bottom: 1.45rem;
-            }
-
-            .footer-links a {
-                padding: 10px 0;
-                font-size: 0.98rem;
-                min-height: 44px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .container {
-                padding: 0 20px;
-            }
-
-            .floating-cta {
-                bottom: 12px;
-                right: 12px;
-                left: 12px;
-                text-align: center;
-                padding: 14px 20px;
-                font-size: 0.9rem;
-                min-height: 48px;
+            .hero-highlights {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
 
-        @media (max-width: 480px) {
-            body {
-                font-size: 16px;
-            }
-            
-            .hero {
-                padding: 52px 0 48px;
-            }
-            
-            .hero h1 {
-                font-size: 1.8rem;
-                line-height: 1.25;
-                letter-spacing: -0.045em;
+        @media (max-width: 820px) {
+            .section {
+                padding: 34px 0;
             }
 
-            .hero p {
-                font-size: 0.97rem;
-                line-height: 1.8;
-                padding: 0.85rem 1rem;
+            .hero {
+                padding: 0 0 6px;
             }
-            
-            .hero-logo {
-                font-size: 0.78rem;
-                margin-bottom: 1.35rem;
+
+            .hero-shell {
+                min-height: auto;
+                padding: 1.15rem 0 0.1rem;
+                gap: 0.95rem;
             }
-            
-            .hero-logo img {
-                width: 56px;
-                height: 56px;
+
+            .hero-title {
+                max-width: none;
+                font-size: clamp(1.6rem, 7.2vw, 2.55rem);
+                line-height: 1.04;
+                margin: 0.2rem 0 0.4rem;
             }
-            
-            .btn {
-                max-width: 100%;
-                padding: 15px 20px;
-                font-size: 0.97rem;
-            }
-            
-            .section-title {
-                font-size: 1.75rem;
-                line-height: 1.3;
+
+            .hero-summary {
+                font-size: 0.94rem;
+                line-height: 1.62;
                 margin-bottom: 0.8rem;
             }
 
-            .section-subtitle {
-                font-size: 0.98rem;
-                margin-bottom: 1.9rem;
-            }
-            
-            .feature-card {
-                padding: 1.4rem 1.3rem;
-            }
-            
-            .feature-card h3 {
-                font-size: 1.12rem;
-            }
-            
-            .feature-card p {
-                font-size: 0.97rem;
-                line-height: 1.85;
-            }
-            
-            .faq-question {
-                font-size: 0.98rem;
-                padding: 1.1rem 1.25rem;
-            }
-            
-            .faq-answer {
-                font-size: 0.97rem;
-                padding: 0 1.25rem;
-            }
-            
-            .faq-item.active .faq-answer {
-                padding: 0 1.25rem 1.15rem;
-            }
-            
-            .container {
-                padding: 0 16px;
-            }
-        }
-
-        @media (hover: none) and (pointer: coarse) {
-            .btn {
-                min-height: 48px;
-                padding: 14px 24px;
-                font-size: 1rem;
-            }
-            
-            .faq-question {
-                min-height: 48px;
-                padding: 1.25rem 1.5rem;
+            .hero-actions {
+                display: none;
             }
 
-            .feature-card {
-                cursor: pointer;
-            }
-
-            .feature-card:hover {
-                transform: none;
-            }
-            
-            /* Improve touch targets */
-            .footer-links a {
-                min-height: 44px;
+            .hero-mobile-download {
                 display: flex;
-                align-items: center;
                 justify-content: center;
+                width: 100%;
+                margin: 0.15rem auto 0.7rem;
             }
 
-            .feature-card:active {
-                transform: scale(0.98);
+            .hero-mobile-download img {
+                width: min(260px, 100%);
+            }
+
+            .hero-note {
+                text-align: center;
+                margin-bottom: 0.65rem;
+            }
+
+            .geo-facts-grid,
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-card-wide {
+                grid-column: auto;
+            }
+
+            .facts-shell,
+            .comparison-shell,
+            .faq-shell {
+                padding: 0.9rem;
+            }
+
+            .facts-top {
+                margin-bottom: 0.7rem;
+            }
+
+            .features-shell,
+            .comparison-layout {
+                gap: 0.9rem;
+            }
+
+            .hero-highlights {
+                grid-template-columns: 1fr;
+                gap: 0.55rem;
+            }
+
+            .hero-highlight {
+                padding: 0.75rem 0.8rem;
+            }
+
+            .floating-cta {
+                left: 14px;
+                right: 14px;
+                bottom: 14px;
+                text-align: center;
+                padding: 0.85rem 1rem;
+                min-height: 52px;
+            }
+
+            .scan-card {
+                display: none;
             }
         }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
+        @media (max-width: 560px) {
+            .container {
+                width: min(100%, calc(100% - 24px));
             }
-            to {
-                opacity: 1;
-                transform: translateY(0);
+
+            .hero-logo {
+                font-size: 0.84rem;
+                letter-spacing: 0.04em;
             }
-        }
 
-        .fade-in-up {
-            animation: fadeInUp 0.6s ease-out;
-        }
+            .hero-logo img {
+                width: 48px;
+                height: 48px;
+            }
 
-        html {
-            scroll-behavior: smooth;
-        }
+            .eyebrow {
+                font-size: 0.68rem;
+                letter-spacing: 0.12em;
+            }
 
-        * {
-            -webkit-tap-highlight-color: transparent;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
+            .section-title {
+                line-height: 1.05;
+                letter-spacing: -0.035em;
+            }
 
-        p, h1, h2, h3, h4, h5, h6, span, a {
-            -webkit-user-select: text;
-            -moz-user-select: text;
-            -ms-user-select: text;
-            user-select: text;
-        }
+            .hero-highlight {
+                grid-template-columns: 42px 1fr;
+                gap: 0.7rem;
+                padding: 0.7rem 0.75rem;
+            }
 
-        input, textarea, select {
-            font-size: 16px;
+            .hero-highlight-icon {
+                width: 42px;
+                height: 42px;
+                border-radius: 14px;
+            }
+
+            .hero-highlight-text {
+                font-size: 0.89rem;
+                line-height: 1.54;
+            }
+
+            .faq-question {
+                padding: 0.85rem 0.9rem;
+            }
+
+            .faq-answer,
+            .faq-item.active .faq-answer {
+                padding-left: 0.9rem;
+                padding-right: 0.9rem;
+            }
+
+            .footer-links {
+                width: 100%;
+            }
+
+            .footer-links a {
+                width: 100%;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
-            *, *::before, *::after {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
+            html {
+                scroll-behavior: auto;
             }
-        }
 
-        @supports (padding: max(0px)) {
-            .hero {
-                padding-left: max(20px, env(safe-area-inset-left));
-                padding-right: max(20px, env(safe-area-inset-right));
+            *,
+            *::before,
+            *::after {
+                animation: none !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
             }
-            
-            .container {
-                padding-left: max(16px, env(safe-area-inset-left));
-                padding-right: max(16px, env(safe-area-inset-right));
+
+            .reveal {
+                opacity: 1;
+                transform: none;
             }
         }
     </style>
@@ -1047,278 +1273,395 @@
      <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-    <!-- Hero Section -->
     <header class="hero" role="banner">
         <div class="container">
-            <div class="hero-logo fade-in-up">
-                <img src="/logo.webp" alt="Criar Curriculum Vitae - Logo Aplicação Profissional para Criar CV" width="60" height="60" loading="eager" fetchpriority="high">
-                <span>Criar CV</span>
-            </div>
-            <h1 class="fade-in-up">Curriculum Vitae Europass Grátis - Crie o Seu CV Profissional em Minutos</h1>
-            <p class="fade-in-up">Curriculum Vitae Europass Grátis é a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online com formato europeu. Utilize o nosso criador de curriculum vitae online para escolher entre mais de 100 modelos curriculum vitae concebidos para todos os setores e níveis de carreira. Obtenha conselhos de especialistas para escrever, personalize o seu design e descarregue o seu curriculum vitae como PDF de alta qualidade pronto para candidaturas. Comece a criar o seu curriculum vitae europass perfeito hoje. Fazer curriculum vitae nunca foi tão fácil com modelos profissionais e conselhos para criar um curriculum vitae que se destaque. Curriculum vitae 2025 com as últimas tendências. Como fazer um curriculum vitae simples em poucos minutos.</p>
-            <div class="cta-buttons fade-in-up" aria-label="Descarregar Aplicação Criar CV">
-                <!-- Desktop: QR code for scanning -->
-                <div class="cta-qr-desktop">
-                    <img src="/qr.png" alt="Digitalize o código QR para descarregar a aplicação Criar CV" class="cta-image-desktop" loading="lazy">
-                    <p class="qr-cta-text">Digitalize com o seu telemóvel para descarregar</p>
+            <div class="hero-shell">
+                <div class="hero-copy reveal">
+                    <div class="hero-logo">
+                        <img src="/logo.webp" alt="Criar Curriculum Vitae - Logo Aplicação Profissional para Criar CV" width="60" height="60" loading="eager" fetchpriority="high">
+                        <span>Criar CV</span>
+                    </div>
+                    <h1 class="hero-title">Curriculum Vitae Europass Grátis - Crie o Seu CV Profissional em Minutos</h1>
+                    <p class="eyebrow">Melhor Aplicação para Criar Curriculum Vitae Europass em iPhone e iPad</p>
+                    <p class="hero-summary">Curriculum Vitae Europass Grátis é a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online com formato europeu. Utilize o nosso criador de curriculum vitae online para escolher entre mais de 100 modelos curriculum vitae concebidos para todos os setores e níveis de carreira. Obtenha conselhos de especialistas para escrever, personalize o seu design e descarregue o seu curriculum vitae como PDF de alta qualidade pronto para candidaturas. Comece a criar o seu curriculum vitae europass perfeito hoje. Fazer curriculum vitae nunca foi tão fácil com modelos profissionais e conselhos para criar um curriculum vitae que se destaque. Curriculum vitae 2025 com as últimas tendências. Como fazer um curriculum vitae simples em poucos minutos.</p>
+                    <div class="hero-actions" aria-label="Descarregar Aplicação Criar CV">
+                        <a href="https://apps.apple.com/pt/app/id1630645768" class="btn btn-primary" rel="nofollow" aria-label="Descarregar Criar CV na App Store" title="Descarregar Aplicação Criar CV">Descarregar Aplicação Criar CV</a>
+                        <a href="#features" class="btn btn-secondary">Saber Mais sobre Criar CV</a>
+                    </div>
+                    <a href="https://apps.apple.com/pt/app/id1630645768" class="hero-mobile-download" rel="nofollow" aria-label="Descarregar Criar CV na App Store" title="Descarregar Aplicação Criar CV">
+                        <img src="/download.svg" alt="Descarregar Criar CV na App Store" width="180" height="60" loading="lazy">
+                    </a>
+                    <p class="hero-note">Toque para criar o seu curriculum vitae profissional</p>
                 </div>
-                <!-- Mobile: Download button -->
-                <a href="https://apps.apple.com/pt/app/id1630645768" class="btn btn-primary cta-mobile" rel="nofollow" aria-label="Descarregar Criar CV na App Store" title="Descarregar Aplicação Criar CV">
-                    <img src="/download.svg" alt="Descarregar Criar CV na App Store" class="cta-image-mobile" width="180" height="60" loading="lazy">
-                </a>
+
+                <div class="hero-stage reveal">
+                    <div class="hero-visual">
+                        <aside class="scan-card" aria-label="Digitalize com o seu telemóvel para descarregar">
+                            <div class="scan-card-badge">Última atualização: 2026-04-16</div>
+                            <div class="scan-card-image">
+                                <img src="/qr.png" alt="Digitalize o código QR para descarregar a aplicação Criar CV" loading="lazy">
+                            </div>
+                            <p>Digitalize com o seu telemóvel para descarregar</p>
+                        </aside>
+                    </div>
+                </div>
+
+                <div class="hero-bottom reveal">
+                    <div class="hero-highlights" aria-label="Por Que Escolher Curriculum Vitae Europass Grátis? Tudo o que Precisa para Criar um CV que Impressiona">
+                        <div class="hero-highlight">
+                            <div class="hero-highlight-icon" aria-hidden="true">🎨</div>
+                            <div>
+                                <span class="hero-highlight-title">100+ Modelos Curriculum Vitae Profissionais</span>
+                                <span class="hero-highlight-text">Navegue pela vasta coleção de modelos curriculum vitae do Curriculum Vitae Europass Grátis concebidos para diferentes setores, níveis de carreira e tipos de trabalho. Seja um recém-licenciado, um profissional de nível médio ou um executivo, o Curriculum Vitae Europass Grátis tem o modelo curriculum vitae perfeito. Personalize cores, fontes e layout para corresponder à sua marca pessoal e aos padrões da indústria. Compatível com formato curriculum vitae europeu, Europass curriculum e curriculum vitae modelo europeu. Modelos de curriculum vitae disponíveis para todos os setores. Curriculum vitae portugal otimizado.</span>
+                            </div>
+                        </div>
+                        <div class="hero-highlight">
+                            <div class="hero-highlight-icon" aria-hidden="true">💡</div>
+                            <div>
+                                <span class="hero-highlight-title">Conselhos de Especialistas e Exemplos de Curriculum Vitae</span>
+                                <span class="hero-highlight-text">Obtenha conselhos profissionais do Curriculum Vitae Europass Grátis sobre como escrever eficazmente a sua experiência profissional, competências e realizações. Descubra o que os empregadores procuram com exemplos reais de curriculum vitae que mostram o que funciona. Os conselhos do Curriculum Vitae Europass Grátis ajudam-no a destacar os seus pontos fortes e a distinguir-se de outros candidatos. Exemplos curriculum vitae incluídos. Exemplo curriculum profissional para cada setor.</span>
+                            </div>
+                        </div>
+                        <div class="hero-highlight">
+                            <div class="hero-highlight-icon" aria-hidden="true">📄</div>
+                            <div>
+                                <span class="hero-highlight-title">Download PDF de Alta Qualidade</span>
+                                <span class="hero-highlight-text">Exporte o seu curriculum vitae do Curriculum Vitae Europass Grátis como PDF de alta qualidade pronto para impressão que parece profissional no ecrã e no papel. Perfeito para enviar por email aos empregadores, carregar em sites de emprego ou imprimir para entrevistas. O seu curriculum vitae manterá a sua formatação e aparência profissional em todas as plataformas. Curriculum vitae pdf disponível para download imediato. Formato curriculum vitae europeu garantido.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- Features Section -->
     <main>
-        <section id="features" class="features">
+        <section class="section" aria-labelledby="geo-facts-title">
             <div class="container">
-                <header>
-                    <h2 class="section-title">Por Que Escolher Curriculum Vitae Europass Grátis? Tudo o que Precisa para Criar um CV que Impressiona</h2>
-                    <p class="section-subtitle">Curriculum Vitae Europass Grátis fornece ferramentas simples e modelos curriculum vitae profissionais para o ajudar a criar um curriculum que chama a atenção dos empregadores e o ajuda a conseguir o emprego dos seus sonhos. Compatível com formato Europass e curriculum vitae europeu.</p>
-                </header>
-                <div class="features-grid">
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="Criação de Curriculum Vitae Rápida e Fácil" role="img">⚡</div>
-                        <h3>Criação de Curriculum Vitae Rápida e Fácil</h3>
-                        <p>O guia intuitivo passo a passo do Curriculum Vitae Europass Grátis ajuda-o a criar um curriculum vitae profissional completo em poucos minutos. Não precisa de se preocupar com a formatação ou ter experiência em design - preencha simplesmente as suas informações, escolha um modelo curriculum vitae, e está pronto para se candidatar. Perfeito para principiantes e profissionais experientes que utilizam o nosso criador de curriculum vitae online. Crie o seu curriculum vitae europass grátis e edite online. Como fazer curriculum vitae em poucos cliques. Fazer curriculum vitae nunca foi tão simples.</p>
-                    </article>
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="100+ Modelos Curriculum Vitae Profissionais" role="img">🎨</div>
-                        <h3>100+ Modelos Curriculum Vitae Profissionais</h3>
-                        <p>Navegue pela vasta coleção de modelos curriculum vitae do Curriculum Vitae Europass Grátis concebidos para diferentes setores, níveis de carreira e tipos de trabalho. Seja um recém-licenciado, um profissional de nível médio ou um executivo, o Curriculum Vitae Europass Grátis tem o modelo curriculum vitae perfeito. Personalize cores, fontes e layout para corresponder à sua marca pessoal e aos padrões da indústria. Compatível com formato curriculum vitae europeu, Europass curriculum e curriculum vitae modelo europeu. Modelos de curriculum vitae disponíveis para todos os setores. Curriculum vitae portugal otimizado.</p>
-                    </article>
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="Conselhos de Especialistas e Exemplos de Curriculum Vitae" role="img">💡</div>
-                        <h3>Conselhos de Especialistas e Exemplos de Curriculum Vitae</h3>
-                        <p>Obtenha conselhos profissionais do Curriculum Vitae Europass Grátis sobre como escrever eficazmente a sua experiência profissional, competências e realizações. Descubra o que os empregadores procuram com exemplos reais de curriculum vitae que mostram o que funciona. Os conselhos do Curriculum Vitae Europass Grátis ajudam-no a destacar os seus pontos fortes e a distinguir-se de outros candidatos. Exemplos curriculum vitae incluídos. Exemplo curriculum profissional para cada setor.</p>
-                    </article>
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="Personalize o Seu Curriculum Vitae" role="img">📱</div>
-                        <h3>Personalize o Seu Curriculum Vitae</h3>
-                        <p>Torne o seu curriculum vitae único com o Curriculum Vitae Europass Grátis adicionando a sua foto profissional, assinatura digital e códigos QR que remetem diretamente para o seu perfil LinkedIn ou portfólio online. Estes toques modernos ajudam-no a destacar-se e facilitam aos empregadores saber mais sobre si. Curriculum vitae editar com todas as funcionalidades. Criar curriculum vitae europeu compatível. Currículo online grátis acessível em qualquer lugar.</p>
-                    </article>
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="Download PDF de Alta Qualidade" role="img">📄</div>
-                        <h3>Download PDF de Alta Qualidade</h3>
-                        <p>Exporte o seu curriculum vitae do Curriculum Vitae Europass Grátis como PDF de alta qualidade pronto para impressão que parece profissional no ecrã e no papel. Perfeito para enviar por email aos empregadores, carregar em sites de emprego ou imprimir para entrevistas. O seu curriculum vitae manterá a sua formatação e aparência profissional em todas as plataformas. Curriculum vitae pdf disponível para download imediato. Formato curriculum vitae europeu garantido.</p>
-                    </article>
-                    <article class="feature-card">
-                        <div class="feature-icon" aria-label="Criador de Carta de Apresentação Incluído" role="img">✉️</div>
-                        <h3>Criador de Carta de Apresentação Incluído</h3>
-                        <p>Complete a sua candidatura com o criador de cartas de apresentação integrado do Curriculum Vitae Europass Grátis. Fornecemos exemplos profissionais de cartas de apresentação e modelos que correspondem ao estilo do seu curriculum vitae. Crie documentos correspondentes para um pacote de candidatura completo e coerente que impressiona os responsáveis pelo recrutamento. Carta de apresentação profissional incluída. Como fazer um curriculum vitae simples passo a passo.</p>
-                    </article>
+                <div class="section-shell facts-shell reveal">
+                    <div class="facts-top">
+                        <div>
+                            <h2 id="geo-facts-title" class="section-title">Dados rápidos</h2>
+                            <p class="section-subtitle">Curriculum Vitae Europass Grátis - a melhor aplicação para criar curriculum vitae profissional. Crie o seu curriculum vitae europass grátis e edite online. Escolha entre 100+ modelos curriculum vitae, obtenha conselhos de especialistas e exporte em PDF. Curriculum vitae online para iPhone e iPad. Fazer curriculum vitae nunca foi tão fácil.</p>
+                        </div>
+                        <div class="geo-badge">Última atualização: 2026-04-16</div>
+                    </div>
+                    <div class="geo-facts-grid">
+                        
+                        <article class="geo-fact-card">
+                            <span class="geo-fact-value">100+</span>
+                            <p class="geo-fact-label">modelos</p>
+                        </article>
+                        
+                        <article class="geo-fact-card">
+                            <span class="geo-fact-value">PDF</span>
+                            <p class="geo-fact-label">exportação PDF</p>
+                        </article>
+                        
+                        <article class="geo-fact-card">
+                            <span class="geo-fact-value">iPhone e iPad</span>
+                            <p class="geo-fact-label">dispositivos móveis</p>
+                        </article>
+                        
+                        <article class="geo-fact-card">
+                            <span class="geo-fact-value">17</span>
+                            <p class="geo-fact-label">idiomas</p>
+                        </article>
+                        
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- FAQ Section -->
-        <section id="faq" class="faq">
+        <section id="features" class="section" aria-labelledby="features-title">
             <div class="container">
-                <header>
-                    <h2 class="section-title">Perguntas Frequentes sobre Curriculum Vitae Europass Grátis</h2>
-                    <p class="section-subtitle">Tudo o que precisa de saber sobre a criação de curriculum vitae profissionais com Curriculum Vitae Europass Grátis, a melhor aplicação para criar curriculum vitae.</p>
-                </header>
-                <div class="faq-list">
-                    <article class="faq-item">
-                        <h3 class="faq-question">O que torna o Curriculum Vitae Europass Grátis a melhor aplicação para criar curriculum vitae?</h3>
-                        <div class="faq-answer">
-                            <p>O Curriculum Vitae Europass Grátis destaca-se como a melhor aplicação para criar curriculum vitae com mais de 100 modelos curriculum vitae profissionais, conselhos de especialistas para escrever, opções de personalização fáceis e exportação PDF sem problemas. Concebemos o Curriculum Vitae Europass Grátis especificamente para utilizadores de iPhone e iPad que querem criar curriculum vitae profissionais rapidamente e facilmente utilizando o nosso criador de curriculum vitae online. Crie o seu curriculum vitae europass grátis e edite online. Como fazer curriculum vitae em poucos minutos. Compatível com curriculum vitae formato europeu e Europass curriculum. Curriculum vitae portugal otimizado.</p>
+                <div class="features-shell">
+                    <header class="features-intro reveal">
+                        <p class="eyebrow">Criar CV</p>
+                        <h2 id="features-title" class="section-title">Por Que Escolher Curriculum Vitae Europass Grátis? Tudo o que Precisa para Criar um CV que Impressiona</h2>
+                        <p class="section-subtitle">Curriculum Vitae Europass Grátis fornece ferramentas simples e modelos curriculum vitae profissionais para o ajudar a criar um curriculum que chama a atenção dos empregadores e o ajuda a conseguir o emprego dos seus sonhos. Compatível com formato Europass e curriculum vitae europeu.</p>
+                        <div class="features-intro-grid">
+                            <div class="features-intro-card">
+                                <strong>100+</strong>
+                                <span>modelos</span>
+                            </div>
+                            <div class="features-intro-card">
+                                <strong>PDF</strong>
+                                <span>exportação PDF</span>
+                            </div>
+                            <div class="features-intro-card">
+                                <strong>iPhone e iPad</strong>
+                                <span>dispositivos móveis</span>
+                            </div>
                         </div>
-                    </article>
-                    <article class="faq-item">
-                        <h3 class="faq-question">Posso usar o Curriculum Vitae Europass Grátis sem experiência em design?</h3>
-                        <div class="faq-answer">
-                            <p>Absolutamente! O Curriculum Vitae Europass Grátis é concebido para todos, independentemente da experiência em design. O nosso guia passo a passo e os modelos curriculum vitae pré-concebidos tornam fácil criar um curriculum vitae de aspeto profissional em poucos minutos. O criador de curriculum vitae online torna o processo simples e intuitivo. Curriculum vitae gratis para todos os utilizadores. Exemplo curriculum incluído para o guiar. Fazer curriculum vitae nunca foi tão simples. Como fazer um curriculum vitae simples em poucos passos.</p>
+                    </header>
+
+                    <div class="features-grid">
+                        <article class="feature-card feature-card-wide reveal">
+                            <div class="feature-icon" aria-label="Criação de Curriculum Vitae Rápida e Fácil" role="img">⚡</div>
+                            <h3>Criação de Curriculum Vitae Rápida e Fácil</h3>
+                            <p>O guia intuitivo passo a passo do Curriculum Vitae Europass Grátis ajuda-o a criar um curriculum vitae profissional completo em poucos minutos. Não precisa de se preocupar com a formatação ou ter experiência em design - preencha simplesmente as suas informações, escolha um modelo curriculum vitae, e está pronto para se candidatar. Perfeito para principiantes e profissionais experientes que utilizam o nosso criador de curriculum vitae online. Crie o seu curriculum vitae europass grátis e edite online. Como fazer curriculum vitae em poucos cliques. Fazer curriculum vitae nunca foi tão simples.</p>
+                        </article>
+                        <article class="feature-card feature-card-wide reveal">
+                            <div class="feature-icon" aria-label="100+ Modelos Curriculum Vitae Profissionais" role="img">🎨</div>
+                            <h3>100+ Modelos Curriculum Vitae Profissionais</h3>
+                            <p>Navegue pela vasta coleção de modelos curriculum vitae do Curriculum Vitae Europass Grátis concebidos para diferentes setores, níveis de carreira e tipos de trabalho. Seja um recém-licenciado, um profissional de nível médio ou um executivo, o Curriculum Vitae Europass Grátis tem o modelo curriculum vitae perfeito. Personalize cores, fontes e layout para corresponder à sua marca pessoal e aos padrões da indústria. Compatível com formato curriculum vitae europeu, Europass curriculum e curriculum vitae modelo europeu. Modelos de curriculum vitae disponíveis para todos os setores. Curriculum vitae portugal otimizado.</p>
+                        </article>
+                        <article class="feature-card reveal">
+                            <div class="feature-icon" aria-label="Conselhos de Especialistas e Exemplos de Curriculum Vitae" role="img">💡</div>
+                            <h3>Conselhos de Especialistas e Exemplos de Curriculum Vitae</h3>
+                            <p>Obtenha conselhos profissionais do Curriculum Vitae Europass Grátis sobre como escrever eficazmente a sua experiência profissional, competências e realizações. Descubra o que os empregadores procuram com exemplos reais de curriculum vitae que mostram o que funciona. Os conselhos do Curriculum Vitae Europass Grátis ajudam-no a destacar os seus pontos fortes e a distinguir-se de outros candidatos. Exemplos curriculum vitae incluídos. Exemplo curriculum profissional para cada setor.</p>
+                        </article>
+                        <article class="feature-card reveal">
+                            <div class="feature-icon" aria-label="Personalize o Seu Curriculum Vitae" role="img">📱</div>
+                            <h3>Personalize o Seu Curriculum Vitae</h3>
+                            <p>Torne o seu curriculum vitae único com o Curriculum Vitae Europass Grátis adicionando a sua foto profissional, assinatura digital e códigos QR que remetem diretamente para o seu perfil LinkedIn ou portfólio online. Estes toques modernos ajudam-no a destacar-se e facilitam aos empregadores saber mais sobre si. Curriculum vitae editar com todas as funcionalidades. Criar curriculum vitae europeu compatível. Currículo online grátis acessível em qualquer lugar.</p>
+                        </article>
+                        <article class="feature-card reveal">
+                            <div class="feature-icon" aria-label="Download PDF de Alta Qualidade" role="img">📄</div>
+                            <h3>Download PDF de Alta Qualidade</h3>
+                            <p>Exporte o seu curriculum vitae do Curriculum Vitae Europass Grátis como PDF de alta qualidade pronto para impressão que parece profissional no ecrã e no papel. Perfeito para enviar por email aos empregadores, carregar em sites de emprego ou imprimir para entrevistas. O seu curriculum vitae manterá a sua formatação e aparência profissional em todas as plataformas. Curriculum vitae pdf disponível para download imediato. Formato curriculum vitae europeu garantido.</p>
+                        </article>
+                        <article class="feature-card reveal">
+                            <div class="feature-icon" aria-label="Criador de Carta de Apresentação Incluído" role="img">✉️</div>
+                            <h3>Criador de Carta de Apresentação Incluído</h3>
+                            <p>Complete a sua candidatura com o criador de cartas de apresentação integrado do Curriculum Vitae Europass Grátis. Fornecemos exemplos profissionais de cartas de apresentação e modelos que correspondem ao estilo do seu curriculum vitae. Crie documentos correspondentes para um pacote de candidatura completo e coerente que impressiona os responsáveis pelo recrutamento. Carta de apresentação profissional incluída. Como fazer um curriculum vitae simples passo a passo.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="comparison-title">
+            <div class="container">
+                <div class="section-shell comparison-shell reveal">
+                    <div class="comparison-layout">
+                        <div class="comparison-copy">
+                            <p class="eyebrow">Melhor Aplicação para Criar Curriculum Vitae Europass em iPhone e iPad</p>
+                            <h2 id="comparison-title" class="section-title">Como o CV Builder se compara</h2>
+                            <p class="section-subtitle">Uma comparação neutra de onde um app dedicado é mais forte e onde alternativas mais simples ainda podem funcionar.</p>
+                            <a href="https://apps.apple.com/pt/app/id1630645768" class="btn btn-primary btn-inline" rel="nofollow" aria-label="Descarregar Criar CV na App Store" title="Descarregar Aplicação Criar CV">Descarregar Aplicação Criar CV</a>
                         </div>
-                    </article>
-                    <article class="faq-item">
-                        <h3 class="faq-question">Em que formato de ficheiro posso descarregar o meu curriculum vitae?</h3>
-                        <div class="faq-answer">
-                            <p>Pode descarregar o seu curriculum vitae do Curriculum Vitae Europass Grátis como ficheiro PDF de alta qualidade que é perfeito para impressão, envio por email aos empregadores ou carregamento em sites de candidatura. O PDF mantém toda a formatação e parece profissional em qualquer dispositivo. Curriculum vitae pdf disponível para download imediato. Formato curriculum vitae europeu garantido. Compatível com sistemas ATS para melhor visibilidade.</p>
+                        <div class="comparison-table-wrap">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>Categoria</th>
+                                        <th>CV Builder</th>
+                                        <th>Editor de documentos</th>
+                                        <th>Arquivos de modelo</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr>
+                                        <td>Modelos incluídos</td>
+                                        <td class="comparison-primary">100+</td>
+                                        <td>Manual</td>
+                                        <td>Varia</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Fluxo mobile</td>
+                                        <td class="comparison-primary">iPhone e iPad</td>
+                                        <td>Genérico</td>
+                                        <td>Depende do arquivo</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Exportação PDF</td>
+                                        <td class="comparison-primary">Incluído</td>
+                                        <td>Depende do editor</td>
+                                        <td>Depende da origem</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Cartas de apresentação</td>
+                                        <td class="comparison-primary">Incluído</td>
+                                        <td>Separado</td>
+                                        <td>Separado</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Melhor para</td>
+                                        <td class="comparison-primary">Criar um currículo completo rapidamente</td>
+                                        <td>Editar um documento existente</td>
+                                        <td>Começar de um layout</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
                         </div>
-                    </article>
-                    <article class="faq-item">
-                        <h3 class="faq-question">Os modelos curriculum vitae são adequados para todos os setores?</h3>
-                        <div class="faq-answer">
-                            <p>Sim, a coleção do Curriculum Vitae Europass Grátis inclui modelos curriculum vitae concebidos para vários setores, incluindo tecnologia, saúde, finanças, educação, marketing e muito mais. Cada modelo curriculum vitae pode ser personalizado para corresponder aos seus requisitos específicos do setor e ao seu estilo pessoal. Compatível com formato curriculum vitae europeu, Europass curriculum e curriculum vitae modelo europeu. Modelos de curriculum vitae disponíveis para todos os setores. Curriculum vitae 2025 com as últimas tendências. Curriculum vitae portugal otimizado.</p>
-                        </div>
-                    </article>
-                    <article class="faq-item">
-                        <h3 class="faq-question">O Curriculum Vitae Europass Grátis funciona em iPhone e iPad?</h3>
-                        <div class="faq-answer">
-                            <p>Sim, o Curriculum Vitae Europass Grátis está otimizado para dispositivos iPhone e iPad. Pode criar e editar o seu curriculum vitae em qualquer dispositivo iOS utilizando o criador de curriculum vitae online, o que torna conveniente trabalhar no seu curriculum onde quer que esteja. Curriculum vitae editar sempre à mão. Criar curriculum vitae europeu compatível. Currículo online grátis acessível em qualquer lugar.</p>
-                        </div>
-                    </article>
-                    <article class="faq-item">
-                        <h3 class="faq-question">Qual é a diferença entre o Curriculum Vitae Europass Grátis e outros criadores de CV?</h3>
-                        <div class="faq-answer">
-                            <p>O Curriculum Vitae Europass Grátis é a melhor aplicação para criar curriculum vitae porque combina funcionalidades poderosas com facilidade de utilização. Ao contrário dos criadores de CV básicos, o Curriculum Vitae Europass Grátis oferece mais de 100 modelos curriculum vitae profissionais, conselhos de especialistas, exemplos de curriculum vitae e exportação PDF sem problemas. O criador de curriculum vitae online torna fácil criar curriculum vitae profissionais que se destacam aos empregadores. Compatível com formato Europass e curriculum europeu. Curriculum vitae gratis com todas as funcionalidades. Como fazer curriculum vitae em poucos minutos para candidaturas completas. Como fazer um curriculum vitae simples passo a passo incluído.</p>
-                        </div>
-                    </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section" aria-labelledby="faq-title">
+            <div class="container">
+                <div class="section-shell faq-shell reveal">
+                    <header class="section-header">
+                        <p class="eyebrow">Criar CV</p>
+                        <h2 id="faq-title" class="section-title">Perguntas Frequentes sobre Curriculum Vitae Europass Grátis</h2>
+                        <p class="section-subtitle">Tudo o que precisa de saber sobre a criação de curriculum vitae profissionais com Curriculum Vitae Europass Grátis, a melhor aplicação para criar curriculum vitae.</p>
+                    </header>
+                    <div class="faq-list">
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">O que torna o Curriculum Vitae Europass Grátis a melhor aplicação para criar curriculum vitae?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>O Curriculum Vitae Europass Grátis destaca-se como a melhor aplicação para criar curriculum vitae com mais de 100 modelos curriculum vitae profissionais, conselhos de especialistas para escrever, opções de personalização fáceis e exportação PDF sem problemas. Concebemos o Curriculum Vitae Europass Grátis especificamente para utilizadores de iPhone e iPad que querem criar curriculum vitae profissionais rapidamente e facilmente utilizando o nosso criador de curriculum vitae online. Crie o seu curriculum vitae europass grátis e edite online. Como fazer curriculum vitae em poucos minutos. Compatível com curriculum vitae formato europeu e Europass curriculum. Curriculum vitae portugal otimizado.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">Posso usar o Curriculum Vitae Europass Grátis sem experiência em design?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Absolutamente! O Curriculum Vitae Europass Grátis é concebido para todos, independentemente da experiência em design. O nosso guia passo a passo e os modelos curriculum vitae pré-concebidos tornam fácil criar um curriculum vitae de aspeto profissional em poucos minutos. O criador de curriculum vitae online torna o processo simples e intuitivo. Curriculum vitae gratis para todos os utilizadores. Exemplo curriculum incluído para o guiar. Fazer curriculum vitae nunca foi tão simples. Como fazer um curriculum vitae simples em poucos passos.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">Em que formato de ficheiro posso descarregar o meu curriculum vitae?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Pode descarregar o seu curriculum vitae do Curriculum Vitae Europass Grátis como ficheiro PDF de alta qualidade que é perfeito para impressão, envio por email aos empregadores ou carregamento em sites de candidatura. O PDF mantém toda a formatação e parece profissional em qualquer dispositivo. Curriculum vitae pdf disponível para download imediato. Formato curriculum vitae europeu garantido. Compatível com sistemas ATS para melhor visibilidade.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">Os modelos curriculum vitae são adequados para todos os setores?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Sim, a coleção do Curriculum Vitae Europass Grátis inclui modelos curriculum vitae concebidos para vários setores, incluindo tecnologia, saúde, finanças, educação, marketing e muito mais. Cada modelo curriculum vitae pode ser personalizado para corresponder aos seus requisitos específicos do setor e ao seu estilo pessoal. Compatível com formato curriculum vitae europeu, Europass curriculum e curriculum vitae modelo europeu. Modelos de curriculum vitae disponíveis para todos os setores. Curriculum vitae 2025 com as últimas tendências. Curriculum vitae portugal otimizado.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">O Curriculum Vitae Europass Grátis funciona em iPhone e iPad?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Sim, o Curriculum Vitae Europass Grátis está otimizado para dispositivos iPhone e iPad. Pode criar e editar o seu curriculum vitae em qualquer dispositivo iOS utilizando o criador de curriculum vitae online, o que torna conveniente trabalhar no seu curriculum onde quer que esteja. Curriculum vitae editar sempre à mão. Criar curriculum vitae europeu compatível. Currículo online grátis acessível em qualquer lugar.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" type="button" aria-expanded="false">
+                                <span class="faq-question-text">Qual é a diferença entre o Curriculum Vitae Europass Grátis e outros criadores de CV?</span>
+                                <span class="faq-question-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>O Curriculum Vitae Europass Grátis é a melhor aplicação para criar curriculum vitae porque combina funcionalidades poderosas com facilidade de utilização. Ao contrário dos criadores de CV básicos, o Curriculum Vitae Europass Grátis oferece mais de 100 modelos curriculum vitae profissionais, conselhos de especialistas, exemplos de curriculum vitae e exportação PDF sem problemas. O criador de curriculum vitae online torna fácil criar curriculum vitae profissionais que se destacam aos empregadores. Compatível com formato Europass e curriculum europeu. Curriculum vitae gratis com todas as funcionalidades. Como fazer curriculum vitae em poucos minutos para candidaturas completas. Como fazer um curriculum vitae simples passo a passo incluído.</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer role="contentinfo">
         <div class="container">
-            <nav class="footer-links" aria-label="Footer navigation">
-                <a href="https://c-basso.github.io/privacy/privacy.html" rel="nofollow">Política de Privacidade</a>
-                <a href="https://c-basso.github.io/privacy/terms.html" rel="nofollow">Termos de Utilização</a>
-                <a href="https://apps.apple.com/pt/app/id1630645768" rel="nofollow" aria-label="Download CV Builder App">Descarregar Aplicação Criar CV</a>
-            </nav>
-            <p>© 2025 c-basso. Todos os direitos reservados. | Curriculum Vitae Europass Grátis - Melhor Aplicação para Criar CV | Criar Curriculum Vitae Profissional | Curriculum Vitae Editar | Curriculum Europass Grátis</p>
+            <div class="footer-shell">
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="https://c-basso.github.io/privacy/privacy.html" rel="nofollow">Política de Privacidade</a>
+                    <a href="https://c-basso.github.io/privacy/terms.html" rel="nofollow">Termos de Utilização</a>
+                    <a href="https://apps.apple.com/pt/app/id1630645768" rel="nofollow" aria-label="Descarregar Criar CV na App Store">Descarregar Aplicação Criar CV</a>
+                </nav>
+                <p class="footer-copy">© 2025 c-basso. Todos os direitos reservados. | Curriculum Vitae Europass Grátis - Melhor Aplicação para Criar CV | Criar Curriculum Vitae Profissional | Curriculum Vitae Editar | Curriculum Europass Grátis</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Floating CTA -->
-    <a href="https://apps.apple.com/pt/app/id1630645768" class="floating-cta" rel="nofollow" aria-label="Download CV Builder App">
+    <a href="https://apps.apple.com/pt/app/id1630645768" class="floating-cta" rel="nofollow" aria-label="Descarregar Criar CV na App Store">
         📱 Descarregar Aplicação Criar CV
     </a>
 
     <script>
-        // Make hero section clickable
-        document.addEventListener('DOMContentLoaded', function() {
-            const hero = document.querySelector('.hero');
-            const appStoreUrl = 'https://apps.apple.com/pt/app/id1630645768';
-            
-            if (hero && appStoreUrl) {
-                hero.addEventListener('click', function(e) {
-                    // Don't trigger if clicking on the download button (it has its own link)
-                    if (e.target.closest('.btn-primary')) {
-                        return;
+        const revealItems = document.querySelectorAll('.reveal');
+
+        if ('IntersectionObserver' in window) {
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        revealObserver.unobserve(entry.target);
                     }
-                    // Open app store link
-                    window.location.href = appStoreUrl;
                 });
-            }
-        });
+            }, {
+                threshold: 0.15,
+                rootMargin: '0px 0px -40px 0px'
+            });
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+            revealItems.forEach((item) => revealObserver.observe(item));
+        } else {
+            revealItems.forEach((item) => item.classList.add('is-visible'));
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener('click', function(event) {
                 const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+
+                if (!target) {
+                    return;
                 }
-            });
-        });
 
-        // Add fade-in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in-up');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all feature cards and other elements
-        document.querySelectorAll('.feature-card, .faq-item').forEach(el => {
-            observer.observe(el);
-        });
-
-        // FAQ Accordion functionality
-        document.querySelectorAll('.faq-question').forEach(question => {
-            question.addEventListener('click', function() {
-                const faqItem = this.parentElement;
-                const isActive = faqItem.classList.contains('active');
-                
-                // Close all other FAQ items
-                document.querySelectorAll('.faq-item').forEach(item => {
-                    item.classList.remove('active');
-                });
-                
-                // Toggle current item
-                if (!isActive) {
-                    faqItem.classList.add('active');
-                }
-            });
-        });
-
-        // Floating CTA visibility - show later when scrolling
-        const floatingCta = document.querySelector('.floating-cta');
-        const appStoreBtn = document.querySelector('.btn-primary');
-        const footerCta = document.querySelector('.footer-links a[href*="apps.apple.com"]');
-        const minScrollDistance = 500; // Minimum scroll distance before showing
-        const scrollThreshold = 0.4; // Show after 40% of page height scrolled
-        
-        function checkScroll() {
-            if (!floatingCta) return;
-            
-            const scrollY = window.scrollY || window.pageYOffset;
-            const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercentage = scrollY / documentHeight;
-            const hasScrolledEnough = scrollY > minScrollDistance || scrollPercentage > scrollThreshold;
-            
-            if (appStoreBtn) {
-                const appStoreRect = appStoreBtn.getBoundingClientRect();
-                const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
-                const appStoreVisible = appStoreRect.top < window.innerHeight && appStoreRect.bottom > 0;
-                const footerVisible = footerRect ? (footerRect.top < window.innerHeight && footerRect.bottom > 0) : false;
-                
-                // Show floating CTA only if:
-                // 1. User has scrolled enough (distance or percentage)
-                // 2. Main CTA buttons are not visible
-                if (hasScrolledEnough && !appStoreVisible && !footerVisible) {
-                    floatingCta.classList.add('show');
-                } else {
-                    floatingCta.classList.remove('show');
-                }
-            }
-        }
-        
-        window.addEventListener('scroll', checkScroll, { passive: true });
-        window.addEventListener('resize', checkScroll);
-        checkScroll();
-
-        // Prevent double-tap zoom on buttons
-        let lastTouchEnd = 0;
-        document.addEventListener('touchend', function (event) {
-            const now = (new Date()).getTime();
-            if (now - lastTouchEnd <= 300) {
                 event.preventDefault();
-            }
-            lastTouchEnd = now;
-        }, false);
-
-        // Add touch feedback for buttons
-        document.querySelectorAll('.btn').forEach(btn => {
-            btn.addEventListener('touchstart', function() {
-                this.style.transform = 'scale(0.95)';
-            });
-            
-            btn.addEventListener('touchend', function() {
-                this.style.transform = '';
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
             });
         });
 
-        // Optimize scroll performance on mobile
-        let ticking = false;
-        function updateScroll() {
-            ticking = false;
-        }
+        const faqItems = document.querySelectorAll('.faq-item');
 
-        function requestTick() {
-            if (!ticking) {
-                requestAnimationFrame(updateScroll);
-                ticking = true;
+        faqItems.forEach((item) => {
+            const button = item.querySelector('.faq-question');
+
+            button.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                faqItems.forEach((faqItem) => {
+                    faqItem.classList.remove('active');
+                    faqItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
+        const floatingCta = document.querySelector('.floating-cta');
+        const primaryCta = document.querySelector('.btn-primary');
+        const footerCta = document.querySelector('.footer-links a[href*="apps.apple.com"]');
+
+        function updateFloatingCta() {
+            if (!floatingCta || !primaryCta) {
+                return;
             }
+
+            const scrollY = window.scrollY || window.pageYOffset;
+            const primaryRect = primaryCta.getBoundingClientRect();
+            const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
+            const primaryVisible = primaryRect.top < window.innerHeight && primaryRect.bottom > 0;
+            const footerVisible = footerRect ? footerRect.top < window.innerHeight && footerRect.bottom > 0 : false;
+            const showCta = scrollY > 420 && !primaryVisible && !footerVisible;
+
+            floatingCta.classList.toggle('show', showCta);
         }
 
-        window.addEventListener('scroll', requestTick, { passive: true });
+        window.addEventListener('scroll', updateFloatingCta, { passive: true });
+        window.addEventListener('resize', updateFloatingCta);
+        updateFloatingCta();
     </script>
 </body>
 </html>

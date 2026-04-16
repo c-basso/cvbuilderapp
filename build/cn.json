@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/cn/app/id1630645768",
     "text": "📱 下载简历制作器"
+  },
+  "geo": {
+    "facts": {
+      "title": "关键信息",
+      "badge": "最近更新: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "模板"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF 导出"
+        },
+        {
+          "value": "iPhone 和 iPad",
+          "label": "移动设备"
+        },
+        {
+          "value": "17",
+          "label": "语言"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "CV Builder 与其他方式的对比",
+      "subtitle": "中立展示：专用简历应用更强的场景，以及更简单替代方案仍然适用的场景。",
+      "columns": {
+        "category": "类别",
+        "primary": "CV Builder",
+        "secondary": "文档编辑器",
+        "tertiary": "模板文件"
+      },
+      "rows": [
+        {
+          "label": "内置模板",
+          "primary": "100+",
+          "secondary": "手动",
+          "tertiary": "因来源而异"
+        },
+        {
+          "label": "移动端流程",
+          "primary": "iPhone 和 iPad",
+          "secondary": "通用",
+          "tertiary": "取决于文件"
+        },
+        {
+          "label": "PDF 导出",
+          "primary": "内置",
+          "secondary": "取决于编辑器",
+          "tertiary": "取决于来源"
+        },
+        {
+          "label": "求职信",
+          "primary": "内置",
+          "secondary": "分开处理",
+          "tertiary": "分开处理"
+        },
+        {
+          "label": "更适合用于",
+          "primary": "快速完成整份简历",
+          "secondary": "编辑已有文档",
+          "tertiary": "从版式开始"
+        }
+      ]
+    }
   }
 }

@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/es/app/id1630645768",
     "text": "📱 Descargar Aplicación Creador de CV"
+  },
+  "geo": {
+    "facts": {
+      "title": "Datos clave",
+      "badge": "Última actualización: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "plantillas"
+        },
+        {
+          "value": "PDF",
+          "label": "exportación PDF"
+        },
+        {
+          "value": "iPhone y iPad",
+          "label": "dispositivos móviles"
+        },
+        {
+          "value": "17",
+          "label": "idiomas"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Cómo se compara CV Builder",
+      "subtitle": "Una comparación neutral de dónde una app especializada destaca y dónde alternativas más simples todavía pueden servir.",
+      "columns": {
+        "category": "Categoría",
+        "primary": "CV Builder",
+        "secondary": "Editor de documentos",
+        "tertiary": "Archivos de plantilla"
+      },
+      "rows": [
+        {
+          "label": "Plantillas incluidas",
+          "primary": "100+",
+          "secondary": "Manual",
+          "tertiary": "Varía"
+        },
+        {
+          "label": "Flujo móvil",
+          "primary": "iPhone y iPad",
+          "secondary": "Genérico",
+          "tertiary": "Depende del archivo"
+        },
+        {
+          "label": "Exportación PDF",
+          "primary": "Incluido",
+          "secondary": "Depende del editor",
+          "tertiary": "Depende del origen"
+        },
+        {
+          "label": "Cartas de presentación",
+          "primary": "Incluido",
+          "secondary": "Por separado",
+          "tertiary": "Por separado"
+        },
+        {
+          "label": "Mejor opción para",
+          "primary": "Crear un CV completo rápidamente",
+          "secondary": "Editar un documento existente",
+          "tertiary": "Empezar desde una plantilla"
+        }
+      ]
+    }
   }
 }

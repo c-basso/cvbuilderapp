@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/nl/app/id1630645768",
     "text": "📱 Download CV Maker"
+  },
+  "geo": {
+    "facts": {
+      "title": "Kernfeiten",
+      "badge": "Laatst bijgewerkt: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "templates"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF-export"
+        },
+        {
+          "value": "iPhone + iPad",
+          "label": "mobiele apparaten"
+        },
+        {
+          "value": "17",
+          "label": "talen"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Hoe CV Builder zich verhoudt",
+      "subtitle": "Een neutrale vergelijking van waar een speciale app sterker is en waar eenvoudigere alternatieven nog kunnen passen.",
+      "columns": {
+        "category": "Categorie",
+        "primary": "CV Builder",
+        "secondary": "Documenteditor",
+        "tertiary": "Templatebestanden"
+      },
+      "rows": [
+        {
+          "label": "Templates inbegrepen",
+          "primary": "100+",
+          "secondary": "Handmatig",
+          "tertiary": "Varieert"
+        },
+        {
+          "label": "Mobiele workflow",
+          "primary": "iPhone + iPad",
+          "secondary": "Algemeen",
+          "tertiary": "Afhankelijk van bestand"
+        },
+        {
+          "label": "PDF-export",
+          "primary": "Inbegrepen",
+          "secondary": "Afhankelijk van editor",
+          "tertiary": "Afhankelijk van bron"
+        },
+        {
+          "label": "Motivatiebrieven",
+          "primary": "Inbegrepen",
+          "secondary": "Los",
+          "tertiary": "Los"
+        },
+        {
+          "label": "Beste keuze voor",
+          "primary": "Snel een volledig cv maken",
+          "secondary": "Een bestaand document bewerken",
+          "tertiary": "Beginnen vanaf een layout"
+        }
+      ]
+    }
   }
 }

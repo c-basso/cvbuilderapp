@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/pl/app/id1630645768",
     "text": "📱 Pobierz Kreator CV"
+  },
+  "geo": {
+    "facts": {
+      "title": "Najważniejsze fakty",
+      "badge": "Ostatnia aktualizacja: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "szablonów"
+        },
+        {
+          "value": "PDF",
+          "label": "eksport PDF"
+        },
+        {
+          "value": "iPhone i iPad",
+          "label": "urządzenia mobilne"
+        },
+        {
+          "value": "17",
+          "label": "języków"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Jak wypada CV Builder",
+      "subtitle": "Neutralne porównanie: gdzie wyspecjalizowana aplikacja ma przewagę, a gdzie prostsze alternatywy nadal mogą wystarczyć.",
+      "columns": {
+        "category": "Kategoria",
+        "primary": "CV Builder",
+        "secondary": "Edytor dokumentów",
+        "tertiary": "Pliki szablonów"
+      },
+      "rows": [
+        {
+          "label": "Szablony w zestawie",
+          "primary": "100+",
+          "secondary": "Ręcznie",
+          "tertiary": "Różnie"
+        },
+        {
+          "label": "Praca mobilna",
+          "primary": "iPhone i iPad",
+          "secondary": "Ogólne",
+          "tertiary": "Zależy od pliku"
+        },
+        {
+          "label": "Eksport PDF",
+          "primary": "W zestawie",
+          "secondary": "Zależy od edytora",
+          "tertiary": "Zależy od źródła"
+        },
+        {
+          "label": "Listy motywacyjne",
+          "primary": "W zestawie",
+          "secondary": "Osobno",
+          "tertiary": "Osobno"
+        },
+        {
+          "label": "Najlepsze zastosowanie",
+          "primary": "Szybkiego stworzenia pełnego CV",
+          "secondary": "Edycji istniejącego dokumentu",
+          "tertiary": "Startu od gotowego układu"
+        }
+      ]
+    }
   }
 }

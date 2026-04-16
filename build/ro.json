@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/ro/app/id1630645768",
     "text": "📱 Descarcă Creator CV"
+  },
+  "geo": {
+    "facts": {
+      "title": "Date rapide",
+      "badge": "Ultima actualizare: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "șabloane"
+        },
+        {
+          "value": "PDF",
+          "label": "export PDF"
+        },
+        {
+          "value": "iPhone și iPad",
+          "label": "dispozitive mobile"
+        },
+        {
+          "value": "17",
+          "label": "limbi"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Cum se compară Creator CV",
+      "subtitle": "O comparație neutră a zonelor în care o aplicație dedicată este mai puternică și a celor în care alternativele mai simple încă pot fi suficiente.",
+      "columns": {
+        "category": "Categorie",
+        "primary": "Creator CV",
+        "secondary": "Editor de documente",
+        "tertiary": "Fișiere șablon"
+      },
+      "rows": [
+        {
+          "label": "Șabloane incluse",
+          "primary": "100+",
+          "secondary": "Manual",
+          "tertiary": "Variază"
+        },
+        {
+          "label": "Flux mobil",
+          "primary": "iPhone și iPad",
+          "secondary": "Generic",
+          "tertiary": "Depinde de fișier"
+        },
+        {
+          "label": "Export PDF",
+          "primary": "Inclus",
+          "secondary": "Depinde de editor",
+          "tertiary": "Depinde de sursă"
+        },
+        {
+          "label": "Scrisori de intenție",
+          "primary": "Inclus",
+          "secondary": "Separat",
+          "tertiary": "Separat"
+        },
+        {
+          "label": "Potrivit în special pentru",
+          "primary": "Crearea rapidă a unui CV complet",
+          "secondary": "Editarea unui document existent",
+          "tertiary": "Pornirea de la un layout"
+        }
+      ]
+    }
   }
 }

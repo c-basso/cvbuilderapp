@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/vn/app/id1630645768",
     "text": "📱 Tải Trình tạo CV"
+  },
+  "geo": {
+    "facts": {
+      "title": "Thông tin nhanh",
+      "badge": "Cập nhật lần cuối: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "mẫu"
+        },
+        {
+          "value": "PDF",
+          "label": "xuất PDF"
+        },
+        {
+          "value": "iPhone và iPad",
+          "label": "thiết bị di động"
+        },
+        {
+          "value": "17",
+          "label": "ngôn ngữ"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "CV Builder so với các lựa chọn khác",
+      "subtitle": "So sánh trung lập về điểm mạnh của ứng dụng chuyên dụng và những trường hợp các lựa chọn đơn giản hơn vẫn có thể phù hợp.",
+      "columns": {
+        "category": "Danh mục",
+        "primary": "CV Builder",
+        "secondary": "Trình soạn thảo tài liệu",
+        "tertiary": "Tệp mẫu"
+      },
+      "rows": [
+        {
+          "label": "Mẫu có sẵn",
+          "primary": "100+",
+          "secondary": "Thủ công",
+          "tertiary": "Khác nhau"
+        },
+        {
+          "label": "Quy trình di động",
+          "primary": "iPhone và iPad",
+          "secondary": "Chung",
+          "tertiary": "Phụ thuộc tệp"
+        },
+        {
+          "label": "Xuất PDF",
+          "primary": "Có sẵn",
+          "secondary": "Phụ thuộc trình soạn thảo",
+          "tertiary": "Phụ thuộc nguồn"
+        },
+        {
+          "label": "Thư xin việc",
+          "primary": "Có sẵn",
+          "secondary": "Tách riêng",
+          "tertiary": "Tách riêng"
+        },
+        {
+          "label": "Phù hợp nhất cho",
+          "primary": "Tạo nhanh một CV hoàn chỉnh",
+          "secondary": "Chỉnh sửa tài liệu có sẵn",
+          "tertiary": "Bắt đầu từ bố cục"
+        }
+      ]
+    }
   }
 }

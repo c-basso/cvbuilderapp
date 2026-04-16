@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/fr/app/id1630645768",
     "text": "📱 Télécharger l'Application CV Designer"
+  },
+  "geo": {
+    "facts": {
+      "title": "Points clés",
+      "badge": "Dernière mise à jour : 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "modèles"
+        },
+        {
+          "value": "PDF",
+          "label": "export PDF"
+        },
+        {
+          "value": "iPhone et iPad",
+          "label": "appareils mobiles"
+        },
+        {
+          "value": "17",
+          "label": "langues"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Comment CV Builder se compare",
+      "subtitle": "Comparaison neutre des cas où une app dédiée est plus forte et de ceux où des alternatives plus simples peuvent suffire.",
+      "columns": {
+        "category": "Catégorie",
+        "primary": "CV Builder",
+        "secondary": "Éditeur de documents",
+        "tertiary": "Fichiers de modèles"
+      },
+      "rows": [
+        {
+          "label": "Modèles inclus",
+          "primary": "100+",
+          "secondary": "Manuel",
+          "tertiary": "Variable"
+        },
+        {
+          "label": "Parcours mobile",
+          "primary": "iPhone et iPad",
+          "secondary": "Générique",
+          "tertiary": "Dépend du fichier"
+        },
+        {
+          "label": "Export PDF",
+          "primary": "Inclus",
+          "secondary": "Dépend de l'éditeur",
+          "tertiary": "Dépend de la source"
+        },
+        {
+          "label": "Lettres de motivation",
+          "primary": "Inclus",
+          "secondary": "Séparé",
+          "tertiary": "Séparé"
+        },
+        {
+          "label": "Convient le mieux à",
+          "primary": "Créer un CV complet rapidement",
+          "secondary": "Modifier un document existant",
+          "tertiary": "Partir d'une mise en page"
+        }
+      ]
+    }
   }
 }

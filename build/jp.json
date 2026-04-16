@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/jp/app/id1630645768",
     "text": "📱 履歴書作成アプリをダウンロード"
+  },
+  "geo": {
+    "facts": {
+      "title": "クイックファクト",
+      "badge": "最終更新: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "テンプレート"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF書き出し"
+        },
+        {
+          "value": "iPhone と iPad",
+          "label": "モバイル端末"
+        },
+        {
+          "value": "17",
+          "label": "言語"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "CV Builder の比較",
+      "subtitle": "専用アプリが強い点と、よりシンプルな代替手段でも足りる場面を中立的に比較します。",
+      "columns": {
+        "category": "項目",
+        "primary": "CV Builder",
+        "secondary": "文書エディタ",
+        "tertiary": "テンプレートファイル"
+      },
+      "rows": [
+        {
+          "label": "同梱テンプレート",
+          "primary": "100+",
+          "secondary": "手動",
+          "tertiary": "変動あり"
+        },
+        {
+          "label": "モバイル操作",
+          "primary": "iPhone と iPad",
+          "secondary": "汎用",
+          "tertiary": "ファイル次第"
+        },
+        {
+          "label": "PDF書き出し",
+          "primary": "含まれる",
+          "secondary": "エディタ次第",
+          "tertiary": "入手元次第"
+        },
+        {
+          "label": "カバーレター",
+          "primary": "含まれる",
+          "secondary": "別対応",
+          "tertiary": "別対応"
+        },
+        {
+          "label": "向いている用途",
+          "primary": "履歴書を一気に素早く作成",
+          "secondary": "既存書類の編集",
+          "tertiary": "レイアウトから開始"
+        }
+      ]
+    }
   }
 }

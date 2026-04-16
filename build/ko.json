@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/kr/app/id1630645768",
     "text": "📱 이력서 작성기 다운로드"
+  },
+  "geo": {
+    "facts": {
+      "title": "핵심 정보",
+      "badge": "마지막 업데이트: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "템플릿"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF 내보내기"
+        },
+        {
+          "value": "iPhone + iPad",
+          "label": "모바일 기기"
+        },
+        {
+          "value": "17",
+          "label": "언어"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "CV Builder 비교",
+      "subtitle": "전용 앱이 강한 부분과 더 단순한 대안으로도 충분한 부분을 중립적으로 비교합니다.",
+      "columns": {
+        "category": "항목",
+        "primary": "CV Builder",
+        "secondary": "문서 편집기",
+        "tertiary": "템플릿 파일"
+      },
+      "rows": [
+        {
+          "label": "포함된 템플릿",
+          "primary": "100+",
+          "secondary": "수동",
+          "tertiary": "다름"
+        },
+        {
+          "label": "모바일 작업 흐름",
+          "primary": "iPhone + iPad",
+          "secondary": "일반형",
+          "tertiary": "파일에 따라 다름"
+        },
+        {
+          "label": "PDF 내보내기",
+          "primary": "포함",
+          "secondary": "편집기에 따라 다름",
+          "tertiary": "출처에 따라 다름"
+        },
+        {
+          "label": "커버레터",
+          "primary": "포함",
+          "secondary": "별도",
+          "tertiary": "별도"
+        },
+        {
+          "label": "적합한 용도",
+          "primary": "완성형 이력서를 빠르게 작성",
+          "secondary": "기존 문서 편집",
+          "tertiary": "레이아웃부터 시작"
+        }
+      ]
+    }
   }
 }

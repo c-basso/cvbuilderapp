@@ -20,6 +20,13 @@ Usage notes:
 - Each skill invocation is stateless
 </usage>
 
+## Project Rules
+
+- Localized content must live only in locale JSON files under `build/*.json`.
+- Do not create shared locale-content modules such as `build/geoSharedContent.js`.
+- Do not add locale-content generator scripts such as `build/generateMissingLocaleJson.js`.
+- `build/build.js` may derive shared technical fields at build time (for example `alternate_languages`, canonical fallbacks, timestamps, schema defaults), but user-facing copy and per-locale comparison/facts text must come from the locale JSON files.
+
 <available_skills>
 
 <skill>

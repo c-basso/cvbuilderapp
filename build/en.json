@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/app/id1630645768",
     "text": "📱 Download CV Builder App"
+  },
+  "geo": {
+    "facts": {
+      "title": "Quick Facts",
+      "badge": "Last updated: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "templates"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF export"
+        },
+        {
+          "value": "iPhone + iPad",
+          "label": "mobile devices"
+        },
+        {
+          "value": "17",
+          "label": "languages"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "How CV Builder compares",
+      "subtitle": "A neutral comparison of where a dedicated resume app is stronger and where simpler alternatives may still fit.",
+      "columns": {
+        "category": "Category",
+        "primary": "CV Builder",
+        "secondary": "Document editor",
+        "tertiary": "Template files"
+      },
+      "rows": [
+        {
+          "label": "Templates included",
+          "primary": "100+",
+          "secondary": "Manual",
+          "tertiary": "Varies"
+        },
+        {
+          "label": "Mobile workflow",
+          "primary": "iPhone + iPad",
+          "secondary": "Generic",
+          "tertiary": "Depends on file"
+        },
+        {
+          "label": "PDF export",
+          "primary": "Included",
+          "secondary": "Depends on editor",
+          "tertiary": "Depends on source"
+        },
+        {
+          "label": "Cover letters",
+          "primary": "Included",
+          "secondary": "Separate",
+          "tertiary": "Separate"
+        },
+        {
+          "label": "Best fit",
+          "primary": "Fast end-to-end creation",
+          "secondary": "Editing an existing document",
+          "tertiary": "Starting from a layout"
+        }
+      ]
+    }
   }
 }

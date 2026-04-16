@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/tr/app/id1630645768",
     "text": "📱 CV Oluşturucu uygulamasını indir"
+  },
+  "geo": {
+    "facts": {
+      "title": "Hızlı bilgiler",
+      "badge": "Son güncelleme: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "şablon"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF çıktısı"
+        },
+        {
+          "value": "iPhone ve iPad",
+          "label": "mobil cihazlar"
+        },
+        {
+          "value": "17",
+          "label": "dil"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "CV Builder nasıl konumlanıyor",
+      "subtitle": "Özel bir uygulamanın nerede daha güçlü olduğunu ve daha basit alternatiflerin nerede hâlâ yeterli olabileceğini nötr biçimde karşılaştırır.",
+      "columns": {
+        "category": "Kategori",
+        "primary": "CV Builder",
+        "secondary": "Belge düzenleyici",
+        "tertiary": "Şablon dosyaları"
+      },
+      "rows": [
+        {
+          "label": "Dahil şablonlar",
+          "primary": "100+",
+          "secondary": "Manuel",
+          "tertiary": "Değişir"
+        },
+        {
+          "label": "Mobil iş akışı",
+          "primary": "iPhone ve iPad",
+          "secondary": "Genel",
+          "tertiary": "Dosyaya bağlı"
+        },
+        {
+          "label": "PDF çıktısı",
+          "primary": "Dahil",
+          "secondary": "Düzenleyiciye bağlı",
+          "tertiary": "Kaynağa bağlı"
+        },
+        {
+          "label": "Ön yazılar",
+          "primary": "Dahil",
+          "secondary": "Ayrı",
+          "tertiary": "Ayrı"
+        },
+        {
+          "label": "En uygun kullanım",
+          "primary": "Tam özgeçmişi hızlı oluşturma",
+          "secondary": "Mevcut bir belgeyi düzenleme",
+          "tertiary": "Bir düzenden başlama"
+        }
+      ]
+    }
   }
 }

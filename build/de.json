@@ -125,5 +125,71 @@
   "floating_cta": {
     "url": "https://apps.apple.com/de/app/id1630645768",
     "text": "📱 CV Maker App herunterladen"
+  },
+  "geo": {
+    "facts": {
+      "title": "Wichtige Fakten",
+      "badge": "Zuletzt aktualisiert: 2026-04-16",
+      "items": [
+        {
+          "value": "100+",
+          "label": "Vorlagen"
+        },
+        {
+          "value": "PDF",
+          "label": "PDF-Export"
+        },
+        {
+          "value": "iPhone und iPad",
+          "label": "mobile Geräte"
+        },
+        {
+          "value": "17",
+          "label": "Sprachen"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Wie sich CV Builder einordnet",
+      "subtitle": "Ein neutraler Vergleich: Wo eine spezialisierte App stärker ist und wo einfachere Alternativen noch ausreichen können.",
+      "columns": {
+        "category": "Kategorie",
+        "primary": "CV Builder",
+        "secondary": "Dokumenteneditor",
+        "tertiary": "Vorlagendateien"
+      },
+      "rows": [
+        {
+          "label": "Vorlagen enthalten",
+          "primary": "100+",
+          "secondary": "Manuell",
+          "tertiary": "Variiert"
+        },
+        {
+          "label": "Mobiler Ablauf",
+          "primary": "iPhone und iPad",
+          "secondary": "Allgemein",
+          "tertiary": "Abhängig von der Datei"
+        },
+        {
+          "label": "PDF-Export",
+          "primary": "Enthalten",
+          "secondary": "Abhängig vom Editor",
+          "tertiary": "Abhängig von der Quelle"
+        },
+        {
+          "label": "Anschreiben",
+          "primary": "Enthalten",
+          "secondary": "Getrennt",
+          "tertiary": "Getrennt"
+        },
+        {
+          "label": "Am besten geeignet für",
+          "primary": "Schnelle Erstellung eines kompletten Lebenslaufs",
+          "secondary": "Bearbeitung eines vorhandenen Dokuments",
+          "tertiary": "Start mit einem Layout"
+        }
+      ]
+    }
   }
 }

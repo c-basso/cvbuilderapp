@@ -1,0 +1,41 @@
+# CV Builder
+
+> CV Builder - the best CV builder app to create professional resumes and CVs. Choose from 100+ CV builder templates, get expert tips, and export as PDF. CV builder online for iPhone and iPad.
+
+## Main Sections
+- [Home](https://cvbuilderapp.com/): Main landing page for the app and feature overview
+- [FAQ](https://cvbuilderapp.com/#faq): Answers to common questions about features, devices, and PDF export
+- [Localized Pages](https://cvbuilderapp.com/): Language-specific landing pages for supported markets
+
+## Key Facts
+- Product type: Resume builder and CV builder app for iPhone and iPad
+- Templates: 100+ resume and CV templates
+- Export: High-quality PDF export
+- Current version: 1.20.11
+- App Store ID: 1630645768
+- Supported languages: 17
+- Feature coverage: 6+ highlighted features
+- Last updated: 2026-04-16
+
+## Language Pages
+- [en](https://cvbuilderapp.com/)
+- [ru](https://cvbuilderapp.com/ru/)
+- [es](https://cvbuilderapp.com/es/)
+- [fr](https://cvbuilderapp.com/fr/)
+- [de](https://cvbuilderapp.com/de/)
+- [it](https://cvbuilderapp.com/it/)
+- [pt](https://cvbuilderapp.com/pt/)
+- [ja](https://cvbuilderapp.com/jp/)
+- [ko](https://cvbuilderapp.com/ko/)
+- [nl](https://cvbuilderapp.com/nl/)
+- [pl](https://cvbuilderapp.com/pl/)
+- [ro](https://cvbuilderapp.com/ro/)
+- [th](https://cvbuilderapp.com/th/)
+- [tr](https://cvbuilderapp.com/tr/)
+- [uk](https://cvbuilderapp.com/uk/)
+- [vi](https://cvbuilderapp.com/vi/)
+- [zh-CN](https://cvbuilderapp.com/cn/)
+
+## Contact
+- Website: https://cvbuilderapp.com/
+- Support: mailto:c-basso@ya.ru

@@ -11,7 +11,9 @@ const {
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
 const URLS_PATH = path.join(ROOT_DIR, 'urls.txt');
+const LLMS_PATH = path.join(ROOT_DIR, 'llms.txt');
 const BUILD_TIMESTAMP = Date.now();
+const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
 const CURRENT_YEAR = new Date().getFullYear();
 const DEFAULT_SITE_NAME = 'CV Builder';
 const DEFAULT_OG_LOGO = `${SITE_URL}logo.webp`;
@@ -59,6 +61,45 @@ function writeUrlsFile() {
     fs.writeFileSync(URLS_PATH, URLS.map(({ url }) => url).join('\n'), 'utf8');
     console.log('✅ Successfully built urls.txt file');
     console.log(`📁 Output saved to: ${URLS_PATH}`);
+    console.log('');
+}
+
+function writeLlmsFile(defaultLocaleData) {
+    const templateCount = Array.isArray(defaultLocaleData.features?.items)
+        ? `${defaultLocaleData.features.items.length}+ highlighted features`
+        : 'Resume and CV builder features';
+
+    const llmsContent = [
+        `# ${defaultLocaleData.app_info?.name || DEFAULT_SITE_NAME}`,
+        '',
+        `> ${stripHtml(defaultLocaleData.meta?.description)}`,
+        '',
+        '## Main Sections',
+        `- [Home](${SITE_URL}): Main landing page for the app and feature overview`,
+        `- [FAQ](${SITE_URL}#faq): Answers to common questions about features, devices, and PDF export`,
+        `- [Localized Pages](${SITE_URL}): Language-specific landing pages for supported markets`,
+        '',
+        '## Key Facts',
+        `- Product type: Resume builder and CV builder app for iPhone and iPad`,
+        `- Templates: 100+ resume and CV templates`,
+        `- Export: High-quality PDF export`,
+        `- Current version: ${defaultLocaleData.app_info?.version || 'Unknown'}`,
+        `- App Store ID: ${defaultLocaleData.meta?.app_store_id || '1630645768'}`,
+        `- Supported languages: ${LANGUAGES.length}`,
+        `- Feature coverage: ${templateCount}`,
+        `- Last updated: ${BUILD_DATE_ISO}`,
+        '',
+        '## Language Pages',
+        ...ALTERNATE_LANGUAGE_LINKS.map(({ hreflang, url }) => `- [${hreflang}](${url})`),
+        '',
+        '## Contact',
+        `- Website: ${SITE_URL}`,
+        `- Support: ${defaultLocaleData.footer?.support_url || 'mailto:c-basso@ya.ru'}`
+    ].join('\n');
+
+    fs.writeFileSync(LLMS_PATH, `${llmsContent}\n`, 'utf8');
+    console.log('✅ Successfully built llms.txt file');
+    console.log(`📁 Output saved to: ${LLMS_PATH}`);
     console.log('');
 }
 
@@ -145,6 +186,7 @@ function normalizeMeta(data, lang) {
     data.meta.og_logo = data.meta.og_logo || DEFAULT_OG_LOGO;
     data.meta.og_site_name = data.meta.og_site_name || DEFAULT_SITE_NAME;
     data.meta.og_locale = data.meta.og_locale || OG_LOCALE_BY_LANGUAGE[lang] || OG_LOCALE_BY_LANGUAGE.en;
+    data.meta.last_updated_iso = BUILD_DATE_ISO;
 }
 
 function normalizeFooter(data) {
@@ -167,6 +209,7 @@ function buildOrganizationStructuredData(data) {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: data.meta?.og_site_name || data.app_info?.name || DEFAULT_SITE_NAME,
+        description: stripHtml(data.meta?.description),
         url: data.meta?.canonical || SITE_URL,
         logo: data.meta?.og_logo || DEFAULT_OG_LOGO
     };
@@ -191,6 +234,8 @@ function buildWebsiteStructuredData(data) {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: fallbackName,
+            description: stripHtml(data.meta?.description),
+            inLanguage: data.meta?.lang,
             url: data.meta?.canonical || SITE_URL
         };
         return;
@@ -199,6 +244,8 @@ function buildWebsiteStructuredData(data) {
     if (typeof data.seo.structured_data.website === 'object') {
         data.seo.structured_data.website.url = data.meta?.canonical;
         data.seo.structured_data.website.name = data.seo.structured_data.website.name || fallbackName;
+        data.seo.structured_data.website.description = data.seo.structured_data.website.description || stripHtml(data.meta?.description);
+        data.seo.structured_data.website.inLanguage = data.seo.structured_data.website.inLanguage || data.meta?.lang;
     }
 }
 
@@ -436,8 +483,10 @@ function main() {
     }
 
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
+    const defaultLocaleData = preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
 
     writeUrlsFile();
+    writeLlmsFile(defaultLocaleData);
 
     for (const lang of LANGUAGES) {
         try {

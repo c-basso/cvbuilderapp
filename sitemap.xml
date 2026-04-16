@@ -11,6 +11,16 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cvbuilderapp.com/de/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://cvbuilderapp.com/it/" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://cvbuilderapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cvbuilderapp.com/jp/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cvbuilderapp.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cvbuilderapp.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cvbuilderapp.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cvbuilderapp.com/ro/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://cvbuilderapp.com/th/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cvbuilderapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cvbuilderapp.com/uk/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://cvbuilderapp.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cvbuilderapp.com/cn/" />
     <priority>1.0</priority>
   </url>
 
