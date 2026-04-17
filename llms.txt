@@ -15,7 +15,7 @@
 - App Store ID: 1630645768
 - Supported languages: 17
 - Feature coverage: 6+ highlighted features
-- Last updated: 2026-04-16
+- Last updated: 2026-04-17
 
 ## Language Pages
 - [en](https://cvbuilderapp.com/)
