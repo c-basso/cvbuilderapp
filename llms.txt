@@ -1,6 +1,6 @@
 # CV Builder
 
-> CV Builder - the best CV builder app to create professional resumes and CVs. Choose from 100+ CV builder templates, get expert tips, and export as PDF. CV builder online for iPhone and iPad.
+> Create a professional resume or CV with 100+ templates, expert writing tips, and PDF export on iPhone and iPad.
 
 ## Main Sections
 - [Home](https://cvbuilderapp.com/): Main landing page for the app and feature overview
