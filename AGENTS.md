@@ -20,13 +20,6 @@ Usage notes:
 - Each skill invocation is stateless
 </usage>
 
-## Project Rules
-
-- Localized content must live only in locale JSON files under `build/*.json`.
-- Do not create shared locale-content modules such as `build/geoSharedContent.js`.
-- Do not add locale-content generator scripts such as `build/generateMissingLocaleJson.js`.
-- `build/build.js` may derive shared technical fields at build time (for example `alternate_languages`, canonical fallbacks, timestamps, schema defaults), but user-facing copy and per-locale comparison/facts text must come from the locale JSON files.
-
 <available_skills>
 
 <skill>
@@ -38,6 +31,12 @@ Usage notes:
 <skill>
 <name>geo-optimization</name>
 <description>"Generative Engine Optimization (GEO) for AI search visibility. Optimize content to appear in ChatGPT, Perplexity, Claude, and Google AI Overviews. Use when optimizing websites, pages, or content for LLM discoverability and citation."</description>
+<location>project</location>
+</skill>
+
+<skill>
+<name>seo-audit</name>
+<description>When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.</description>
 <location>project</location>
 </skill>
 
