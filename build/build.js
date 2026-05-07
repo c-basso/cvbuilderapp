@@ -6,7 +6,8 @@ const {
     URLS,
     SITE_URL,
     DEFAULT_LANGUAGE,
-    LANGUAGES
+    LANGUAGES,
+    SITE_LAST_UPDATED_AT
 } = require('./constants');
 
 const ROOT_DIR = path.join(__dirname, '..');
@@ -231,6 +232,21 @@ function normalizeFooter(data) {
     }
 }
 
+function normalizeGeoFacts(data) {
+    const badge = data.geo?.facts?.badge;
+    if (typeof badge !== 'string') {
+        return;
+    }
+
+    // Keep localized label, replace only trailing ISO date.
+    if (/\d{4}-\d{2}-\d{2}$/.test(badge)) {
+        data.geo.facts.badge = badge.replace(/\d{4}-\d{2}-\d{2}$/, SITE_LAST_UPDATED_AT);
+        return;
+    }
+
+    data.geo.facts.badge = `${badge}: ${SITE_LAST_UPDATED_AT}`;
+}
+
 function ensureSeoShape(data) {
     data.seo = data.seo || {};
     data.seo.structured_data = data.seo.structured_data || {};
@@ -363,6 +379,7 @@ function buildBreadcrumbStructuredData(data) {
 async function preparePageData(data, lang) {
     await normalizeMeta(data, lang);
     normalizeFooter(data);
+    normalizeGeoFacts(data);
     ensureSeoShape(data);
     buildOrganizationStructuredData(data);
     buildSoftwareApplicationStructuredData(data);
