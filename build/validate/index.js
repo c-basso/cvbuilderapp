@@ -13,7 +13,7 @@ async function main() {
   console.log('');
   
   // Run Open Graph validator (includes image size check)
-  console.log('2. Validating Open Graph meta tags and image size...');
+  console.log('2. Validating Open Graph / Twitter Card meta tags and image size...');
   const openGraphResult = await validateOpenGraph();
   results.push({ name: 'Open Graph', result: openGraphResult });
   console.log('');

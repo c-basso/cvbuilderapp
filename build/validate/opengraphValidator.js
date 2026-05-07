@@ -1,11 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 const { LANGUAGES, DEFAULT_LANGUAGE, SITE_URL } = require('../constants');
+const { readImageDimensions } = require('../lib/imageDimensions');
 
 const MAX_SIZE_KB = 600;
 const MAX_SIZE_BYTES = MAX_SIZE_KB * 1024;
 
-// Required Open Graph meta tags
+/**
+ * Источники по спецификации: Open Graph — https://ogp.me/ ; Twitter Cards — документация X.
+ *
+ * В CI проверяется не «минимум ogp.me», а набор правил этого репозитория: базовые четыре поля OGP
+ * плюс то, что нужно для стабильных превью и бренда (длина og:description, og:site_name,
+ * og:locale, og:logo, размеры og/twitter image, лимит веса файла и т.д.). Упростить до голого
+ * ogp.me можно, ослабив REQUIRED_* и связанные проверки ниже.
+ *
+ * Синтаксис по документации: OGP — теги `og:*` в атрибуте `property` (RDFa), как на ogp.me;
+ * Twitter Cards — теги `twitter:*` в атрибуте `name`. См. validateMetaRdfaConventions().
+ */
+
+// Required Open Graph meta tags (project rules; superset of ogp.me core four)
 const REQUIRED_OG_TAGS = [
   'og:title',
   'og:description',
@@ -14,7 +27,9 @@ const REQUIRED_OG_TAGS = [
   'og:url',
   'og:site_name',
   'og:locale',
-  'og:logo'
+  'og:logo',
+  'og:image:width',
+  'og:image:height'
 ];
 
 // Optional but recommended Open Graph meta tags
@@ -22,20 +37,87 @@ const OPTIONAL_OG_TAGS = [
   'og:image:alt'
 ];
 
+/** Twitter / X Cards — https://developer.twitter.com/en/docs/twitter-for-websites/cards */
+const REQUIRED_TWITTER_TAGS = [
+  'twitter:card',
+  'twitter:title',
+  'twitter:description',
+  'twitter:image',
+  'twitter:image:width',
+  'twitter:image:height'
+];
+
+/** Recommended; many crawlers fall back to og:url / canonical if omitted */
+const OPTIONAL_TWITTER_TAGS = ['twitter:url'];
+
+const VALID_TWITTER_CARD_TYPES = new Set([
+  'summary',
+  'summary_large_image',
+  'app',
+  'player'
+]);
+
 // Description length constraints
 const OG_DESCRIPTION_MIN_LENGTH = 110;
 const OG_DESCRIPTION_MAX_LENGTH = 160;
 
 function extractMetaTags(html) {
   const metaTags = {};
-  const re = /<meta\s+(?:property|name)=["']([^"']+)["']\s+content=["']([^"']+)["']/g;
+  const re = /<meta\b([^>]*?)>/gi;
   let m;
   while ((m = re.exec(html))) {
-    const property = m[1];
-    const content = m[2];
-    metaTags[property] = content;
+    const attrs = m[1];
+    const nameMatch = attrs.match(/\b(?:property|name)=["']([^"']+)["']/i);
+    const contentMatch = attrs.match(/\bcontent=["']([^"']*)["']/i);
+    if (nameMatch && contentMatch) {
+      metaTags[nameMatch[1]] = contentMatch[1];
+    }
   }
   return metaTags;
+}
+
+/**
+ * Open Graph (https://ogp.me/) — разметка через property="og:...".
+ * Twitter / X Cards — через name="twitter:..." (не property).
+ */
+function validateMetaRdfaConventions(html, { lang }) {
+  const errors = [];
+  const re = /<meta\b([^>]*?)>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const attrs = m[1];
+    const propMatch = attrs.match(/\bproperty=["']([^"']+)["']/i);
+    const nameMatch = attrs.match(/\bname=["']([^"']+)["']/i);
+    const contentMatch = attrs.match(/\bcontent=["']([^"']*)["']/i);
+    if (!contentMatch) {
+      continue;
+    }
+
+    if (propMatch && nameMatch) {
+      errors.push(
+        `${lang}: one <meta> must not use both property and name (property="${propMatch[1]}", name="${nameMatch[1]}")`
+      );
+      continue;
+    }
+
+    if (propMatch) {
+      const key = propMatch[1];
+      if (key.startsWith('twitter:')) {
+        errors.push(
+          `${lang}: Twitter Card "${key}" must use name=, not property= (X Cards markup)`
+        );
+      }
+    } else if (nameMatch) {
+      const key = nameMatch[1];
+      if (key.startsWith('og:')) {
+        errors.push(
+          `${lang}: Open Graph "${key}" must use property=, not name= (https://ogp.me/)`
+        );
+      }
+    }
+  }
+
+  return errors;
 }
 
 function validateOpenGraphTags(html, { file, lang }) {
@@ -98,11 +180,12 @@ function validateOpenGraphTags(html, { file, lang }) {
     }
   }
 
-  // Validate og:type
+  // Validate og:type (see global types at https://ogp.me/ — not only bare "music"/"video")
   if (found['og:type']) {
-    const validTypes = ['website', 'article', 'book', 'profile', 'music', 'video'];
-    if (!validTypes.includes(found['og:type'])) {
-      warnings.push(`og:type "${found['og:type']}" is not a common type (common: ${validTypes.join(', ')})`);
+    if (!isPlausibleOgType(found['og:type'])) {
+      warnings.push(
+        `og:type "${found['og:type']}" is unusual; ogp.me uses e.g. website, article, book, profile, music.*, video.*, or a namespaced type`
+      );
     }
   }
 
@@ -121,6 +204,140 @@ function validateOpenGraphTags(html, { file, lang }) {
     found,
     meta: { file, lang }
   };
+}
+
+function validateTwitterTags(html, { file, lang }) {
+  const metaTags = extractMetaTags(html);
+  const errors = [];
+  const warnings = [];
+  const found = {};
+
+  for (const tag of REQUIRED_TWITTER_TAGS) {
+    if (!metaTags[tag]) {
+      errors.push(`Missing required Twitter Card tag: ${tag}`);
+    } else {
+      found[tag] = metaTags[tag];
+      if (!metaTags[tag].trim()) {
+        errors.push(`Twitter Card tag ${tag} has empty content`);
+      }
+    }
+  }
+
+  for (const tag of OPTIONAL_TWITTER_TAGS) {
+    if (metaTags[tag]) {
+      found[tag] = metaTags[tag];
+    }
+  }
+
+  if (found['twitter:card'] && !VALID_TWITTER_CARD_TYPES.has(found['twitter:card'])) {
+    errors.push(
+      `twitter:card must be one of: ${[...VALID_TWITTER_CARD_TYPES].join(', ')} (found: ${found['twitter:card']})`
+    );
+  }
+
+  if (found['twitter:image']) {
+    const imageUrl = found['twitter:image'];
+    if (!imageUrl.startsWith('http://') && !imageUrl.startsWith('https://')) {
+      errors.push(`twitter:image must be an absolute URL (found: ${imageUrl})`);
+    }
+  }
+
+  if (found['twitter:url']) {
+    const url = found['twitter:url'];
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      errors.push(`twitter:url must be an absolute URL (found: ${url})`);
+    }
+  }
+
+  for (const tag of OPTIONAL_TWITTER_TAGS) {
+    if (!metaTags[tag]) {
+      warnings.push(`Optional Twitter Card tag missing (recommended): ${tag}`);
+    }
+  }
+
+  return {
+    ok: errors.length === 0,
+    errors,
+    warnings,
+    found,
+    meta: { file, lang }
+  };
+}
+
+function isPlausibleOgType(value) {
+  if (!value) return false;
+  const builtins = new Set(['website', 'article', 'book', 'profile']);
+  if (builtins.has(value)) return true;
+  // Verticals from ogp.me: music.song, video.movie, etc.
+  if (/^(music|video)\.[a-z_]+$/i.test(value)) return true;
+  // User-defined namespaced types use a colon (CURIE)
+  if (value.includes(':')) return true;
+  return false;
+}
+
+function resolveSiteImageUrlToLocalPath(imageUrl, projectRoot) {
+  if (!imageUrl || typeof imageUrl !== 'string') return null;
+  if (imageUrl.startsWith(SITE_URL)) {
+    const relativePath = imageUrl.replace(SITE_URL, '');
+    return path.join(projectRoot, relativePath);
+  }
+  return path.join(projectRoot, imageUrl);
+}
+
+/**
+ * Ensures og:image:* / twitter:image:* width and height match the local raster file bytes.
+ */
+async function validateDeclaredImageDimensions(metaTags, projectRoot, { file, lang }) {
+  const errors = [];
+  const bases = ['og:image', 'twitter:image'];
+
+  for (const base of bases) {
+    const wKey = `${base}:width`;
+    const hKey = `${base}:height`;
+    const wStr = metaTags[wKey];
+    const hStr = metaTags[hKey];
+
+    if (!wStr?.trim() || !hStr?.trim()) {
+      continue;
+    }
+
+    const wTag = parseInt(wStr, 10);
+    const hTag = parseInt(hStr, 10);
+    if (!Number.isFinite(wTag) || wTag <= 0 || !Number.isFinite(hTag) || hTag <= 0) {
+      errors.push(
+        `${wKey} and ${hKey} must be positive integers (${lang}: "${wStr}", "${hStr}")`
+      );
+      continue;
+    }
+
+    const imageUrl = metaTags[base];
+    const localPath = resolveSiteImageUrlToLocalPath(imageUrl, projectRoot);
+
+    if (!localPath || !fs.existsSync(localPath)) {
+      errors.push(
+        `Cannot verify ${base} dimensions: file missing for URL (${imageUrl})`
+      );
+      continue;
+    }
+
+    let actual;
+    try {
+      actual = await readImageDimensions(localPath);
+    } catch (e) {
+      errors.push(
+        `Cannot read dimensions of ${path.relative(projectRoot, localPath)}: ${e.message}`
+      );
+      continue;
+    }
+
+    if (actual.width !== wTag || actual.height !== hTag) {
+      errors.push(
+        `${base}: meta declares ${wTag}×${hTag} but ${path.relative(projectRoot, localPath)} is ${actual.width}×${actual.height} (${lang})`
+      );
+    }
+  }
+
+  return errors;
 }
 
 function validateImageSize(ogImageUrl, { file, lang }) {
@@ -180,14 +397,14 @@ function validateImageSize(ogImageUrl, { file, lang }) {
   };
 }
 
-function validateOpenGraph() {
+async function validateOpenGraph() {
   const projectRoot = path.join(__dirname, '..', '..');
   const results = [];
   let allTagsOk = true;
   let allImagesOk = true;
 
   // Validate Open Graph tags in HTML files
-  console.log('Validating Open Graph meta tags...');
+  console.log('Validating Open Graph and Twitter Card meta tags...');
   const ogImageUrls = new Set();
   
   for (const lang of LANGUAGES) {
@@ -208,21 +425,44 @@ function validateOpenGraph() {
     }
 
     const html = fs.readFileSync(htmlPath, 'utf8');
+    const metaTags = extractMetaTags(html);
+    const rdfaErrors = validateMetaRdfaConventions(html, { lang });
     const tagResult = validateOpenGraphTags(html, { file: htmlPath, lang });
+    const twitterResult = validateTwitterTags(html, { file: htmlPath, lang });
+    const dimensionErrors = await validateDeclaredImageDimensions(metaTags, projectRoot, {
+      file: htmlPath,
+      lang
+    });
 
-    if (!tagResult.ok) {
+    const tagsOk =
+      tagResult.ok &&
+      twitterResult.ok &&
+      dimensionErrors.length === 0 &&
+      rdfaErrors.length === 0;
+    const mergedErrors = [
+      ...rdfaErrors,
+      ...tagResult.errors,
+      ...twitterResult.errors,
+      ...dimensionErrors
+    ];
+    const mergedWarnings = [...tagResult.warnings, ...twitterResult.warnings];
+
+    if (!tagsOk) {
       allTagsOk = false;
       results.push({
-        ...tagResult,
+        ok: false,
+        errors: mergedErrors,
+        warnings: mergedWarnings,
+        meta: { file: htmlPath, lang },
         type: 'tags'
       });
     } else {
-      console.log(`  ${lang}: All required Open Graph tags found`);
-      if (tagResult.warnings.length > 0) {
+      console.log(`  ${lang}: All required Open Graph and Twitter Card tags found`);
+      if (mergedWarnings.length > 0) {
         console.log(`  ${lang}: Warnings:`);
-        tagResult.warnings.forEach(w => console.log(`    - ${w}`));
+        mergedWarnings.forEach(w => console.log(`    - ${w}`));
       }
-      
+
       // Collect og:image URL for validation
       if (tagResult.found['og:image']) {
         ogImageUrls.add(tagResult.found['og:image']);
@@ -296,10 +536,17 @@ function validateOpenGraph() {
       }
     }
   } else {
-    console.log('\n✅ Open Graph validation OK: all tags present and image size within limit');
+    console.log('\n✅ Open Graph / Twitter Card validation OK: all tags present and image size within limit');
   }
 
   return { ok: allOk, results };
 }
 
-module.exports = { validateOpenGraph };
+module.exports = {
+  validateOpenGraph,
+  validateOpenGraphTags,
+  validateTwitterTags,
+  extractMetaTags,
+  validateMetaRdfaConventions,
+  validateDeclaredImageDimensions
+};

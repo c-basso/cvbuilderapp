@@ -13,5 +13,8 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "jsonld": "^9.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
   }
 }

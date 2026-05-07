@@ -52,6 +52,13 @@ const EXPECTED_JSON_LD_TYPES = [
 
 const INDEX_NOW_KEY = 'BHyEKml9wPWc9rnQEIp44o2u';
 
+/**
+ * ISO date (UTC) for “content / numbers last updated” in {{statistics.last_updated}}.
+ * Edit this when you refresh stats copy; month+year is rendered per locale in `getStatisticsLastUpdated`.
+ */
+const SITE_LAST_UPDATED_AT = new Date().toISOString().slice(0, 10);
+
+
 // https://www.indexnow.org/searchengines.json
 const INDEX_NOW_ENGINES = [
     'indexnow.yep.com',
@@ -71,5 +78,6 @@ module.exports = {
     EXPECTED_JSON_LD_TYPES,
     INDEX_NOW_KEY,
     INDEX_NOW_ENGINES,
-    ADDITIONAL_URLS
+    ADDITIONAL_URLS,
+    SITE_LAST_UPDATED_AT
 };

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { readImageDimensions } = require('./lib/imageDimensions');
 
 const {
     URLS,
@@ -17,6 +18,7 @@ const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
 const CURRENT_YEAR = new Date().getFullYear();
 const DEFAULT_SITE_NAME = 'CV Builder';
 const DEFAULT_OG_LOGO = `${SITE_URL}logo.webp`;
+const DEFAULT_SOCIAL_IMAGE_DIMENSIONS = { width: 1200, height: 630 };
 
 /** Keep template compatibility and explicit hreflang values in one place. */
 const ALTERNATE_LANGUAGE_LINKS = URLS.map(({ code, hreflang, url }) => ({
@@ -148,6 +150,35 @@ function getPreviewPath(lang) {
     return `${SITE_URL}${fs.existsSync(absolutePath) ? relativePath : 'site_preview.png'}`;
 }
 
+function getPreviewImageLocalPath(lang) {
+    const localizedPath = path.join(ROOT_DIR, lang === DEFAULT_LANGUAGE ? 'site_preview.png' : `${lang}/site_preview.png`);
+    if (fs.existsSync(localizedPath)) {
+        return localizedPath;
+    }
+    return path.join(ROOT_DIR, 'site_preview.png');
+}
+
+const previewImageDimensionsCache = new Map();
+
+async function getPreviewImageDimensions(lang) {
+    const localPath = getPreviewImageLocalPath(lang);
+    if (previewImageDimensionsCache.has(localPath)) {
+        return previewImageDimensionsCache.get(localPath);
+    }
+
+    try {
+        const dimensions = await readImageDimensions(localPath);
+        previewImageDimensionsCache.set(localPath, dimensions);
+        return dimensions;
+    } catch (error) {
+        console.warn(
+            `Warning [${lang}]: failed to read preview image dimensions for ${path.relative(ROOT_DIR, localPath)} (${error.message}); using fallback ${DEFAULT_SOCIAL_IMAGE_DIMENSIONS.width}x${DEFAULT_SOCIAL_IMAGE_DIMENSIONS.height}`
+        );
+        previewImageDimensionsCache.set(localPath, DEFAULT_SOCIAL_IMAGE_DIMENSIONS);
+        return DEFAULT_SOCIAL_IMAGE_DIMENSIONS;
+    }
+}
+
 function getCanonicalUrl(meta, lang) {
     return (
         meta.canonical ||
@@ -166,12 +197,13 @@ function removeAlternateMetaFields(meta) {
     }
 }
 
-function normalizeMeta(data, lang) {
+async function normalizeMeta(data, lang) {
     data.meta = data.meta || {};
     removeAlternateMetaFields(data.meta);
 
     const canonicalUrl = getCanonicalUrl(data.meta, lang);
     const previewPath = getPreviewPath(lang);
+    const previewDimensions = await getPreviewImageDimensions(lang);
 
     data.meta.lang = data.meta.lang || lang;
     data.meta.html_lang = data.meta.html_lang || HTML_LANG_BY_CODE[lang] || data.meta.lang;
@@ -183,6 +215,10 @@ function normalizeMeta(data, lang) {
     data.meta.twitter_url = canonicalUrl;
     data.meta.og_image = previewPath;
     data.meta.twitter_image = previewPath;
+    data.meta.og_image_width = String(previewDimensions.width);
+    data.meta.og_image_height = String(previewDimensions.height);
+    data.meta.twitter_image_width = String(previewDimensions.width);
+    data.meta.twitter_image_height = String(previewDimensions.height);
     data.meta.og_logo = data.meta.og_logo || DEFAULT_OG_LOGO;
     data.meta.og_site_name = data.meta.og_site_name || DEFAULT_SITE_NAME;
     data.meta.og_locale = data.meta.og_locale || OG_LOCALE_BY_LANGUAGE[lang] || OG_LOCALE_BY_LANGUAGE.en;
@@ -324,8 +360,8 @@ function buildBreadcrumbStructuredData(data) {
     };
 }
 
-function preparePageData(data, lang) {
-    normalizeMeta(data, lang);
+async function preparePageData(data, lang) {
+    await normalizeMeta(data, lang);
     normalizeFooter(data);
     ensureSeoShape(data);
     buildOrganizationStructuredData(data);
@@ -454,14 +490,14 @@ function renderTemplate(template, data, lang) {
     return cleanupJsonArtifacts(withVariables);
 }
 
-function buildPage(template, lang) {
+async function buildPage(template, lang) {
     const outputDirectory = getOutputDirectory(lang);
     const outputPath = getOutputPath(lang);
     const jsonPath = getJsonPath(lang);
 
     ensureDirectoryExists(outputDirectory);
 
-    const data = preparePageData(readJsonFile(jsonPath), lang);
+    const data = await preparePageData(readJsonFile(jsonPath), lang);
     const result = renderTemplate(template, data, lang);
 
     fs.writeFileSync(outputPath, result, 'utf8');
@@ -470,7 +506,7 @@ function buildPage(template, lang) {
     console.log(`📁 Output saved to: ${outputPath}`);
 }
 
-function main() {
+async function main() {
     const missingTranslations = getMissingTranslationFiles();
 
     if (missingTranslations.length > 0) {
@@ -483,14 +519,14 @@ function main() {
     }
 
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
-    const defaultLocaleData = preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
+    const defaultLocaleData = await preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
 
     writeUrlsFile();
     writeLlmsFile(defaultLocaleData);
 
     for (const lang of LANGUAGES) {
         try {
-            buildPage(template, lang);
+            await buildPage(template, lang);
         } catch (error) {
             console.error(`❌ Error building ${lang}.html:`, error.message);
             process.exit(1);
@@ -498,4 +534,7 @@ function main() {
     }
 }
 
-main();
+main().catch((error) => {
+    console.error('❌ Unexpected build error:', error.message);
+    process.exit(1);
+});
