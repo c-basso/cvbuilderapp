@@ -542,6 +542,10 @@ async function main() {
     writeLlmsFile(defaultLocaleData);
 
     for (const lang of LANGUAGES) {
+        if (lang === DEFAULT_LANGUAGE && fs.existsSync(path.join(__dirname, 'landing.js'))) {
+            console.log(`⏭️  Skipping ${lang}.html — English homepage is built by build/landing.js`);
+            continue;
+        }
         try {
             await buildPage(template, lang);
         } catch (error) {

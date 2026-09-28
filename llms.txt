@@ -15,7 +15,7 @@
 - App Store ID: 1630645768
 - Supported languages: 17
 - Feature coverage: 6+ highlighted features
-- Last updated: 2026-05-07
+- Last updated: 2026-09-28
 
 ## Language Pages
 - [en](https://cvbuilderapp.com/)
@@ -39,3 +39,19 @@
 ## Contact
 - Website: https://cvbuilderapp.com/
 - Support: mailto:c-basso@ya.ru
+
+## Guides
+- [How to Make a Resume on iPhone in 15 Minutes](https://cvbuilderapp.com/guides/how-to-make-a-resume-on-iphone/): The fastest way to go from blank screen to a job-ready PDF — without a laptop.
+- [How to Save Your Resume as a PDF on iPhone](https://cvbuilderapp.com/guides/save-resume-as-pdf-on-iphone/): Three reliable ways to get a PDF resume out of your iPhone and into an application.
+- [CV Maker App: Create a Professional CV on Your Phone](https://cvbuilderapp.com/guides/cv-maker-app/): What a CV maker app does, what your CV must include, and how to finish one today.
+- [How to Write a Cover Letter on Your iPhone](https://cvbuilderapp.com/guides/cover-letter-app/): A 4-paragraph template, examples, and how to export a matching PDF from your phone.
+- [How to Add a QR Code to Your Resume](https://cvbuilderapp.com/guides/qr-code-on-resume/): Link printed resumes to your LinkedIn or portfolio — and where to place the code.
+- [How to Tailor Your Resume to Each Job](https://cvbuilderapp.com/guides/tailor-resume-to-job-description/): A repeatable 10-minute routine to match every application to the job ad.
+- [How to Choose the Best Resume Builder App for iPhone](https://cvbuilderapp.com/guides/best-resume-builder-app-for-iphone/): An honest 8-point checklist to pick a resume app that won’t waste your time.
+- [How to Write a CV That Gets Interviews](https://cvbuilderapp.com/guides/how-to-write-a-cv/): A section-by-section walkthrough with examples, length rules and mistakes to avoid.
+- [How to Make a Resume With No Work Experience](https://cvbuilderapp.com/guides/resume-with-no-experience/): Turn school, projects, volunteering and part-time gigs into a first resume that gets calls.
+- [How to Choose a Professional Resume Template](https://cvbuilderapp.com/guides/resume-templates/): Match a template to your industry, seniority and how you’ll apply — in 3 decisions.
+- [Resume Summary Examples (and How to Write Yours)](https://cvbuilderapp.com/guides/resume-summary-examples/): A simple 3-part formula and copy-ready summaries for every career stage.
+- [How to Make an ATS-Friendly Resume](https://cvbuilderapp.com/guides/ats-friendly-resume/): The format rules and keyword habits that keep your resume readable by job portals.
+- [CV vs Resume: What’s the Difference?](https://cvbuilderapp.com/guides/cv-vs-resume/): Length, purpose and regional differences — plus which one your application needs.
+- [Should You Put a Photo on Your CV?](https://cvbuilderapp.com/guides/cv-with-photo/): Country-by-country norms, photo tips, and how to add one cleanly.

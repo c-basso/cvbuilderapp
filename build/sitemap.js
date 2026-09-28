@@ -25,6 +25,17 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
     lines.push('  </url>');
     lines.push('');
   }
+  const { GUIDES } = require('./landing/guides');
+  const guideUrls = [`${SITE_URL}guides/`, ...GUIDES.map((g) => `${SITE_URL}guides/${g.slug}/`)];
+  const today = new Date().toISOString().slice(0, 10);
+  for (const loc of guideUrls) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${loc}</loc>`);
+    lines.push(`    <lastmod>${today}</lastmod>`);
+    lines.push(`    <priority>${loc.endsWith('guides/') ? '0.8' : '0.7'}</priority>`);
+    lines.push('  </url>');
+    lines.push('');
+  }
   lines.push('</urlset>');
 
   fs.writeFileSync(sitemapPath, lines.join('\n') + '\n', 'utf8');

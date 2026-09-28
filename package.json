@@ -1,7 +1,8 @@
 {
   "name": "cvbuilderapp",
   "scripts": {
-    "build": "node build/build.js",
+    "build": "node build/build.js && node build/landing.js",
+    "build:landing": "node build/landing.js",
     "validate": "node build/validate/index.js",
     "sitemap": "node build/sitemap.js",
     "start": "npx http-server",
