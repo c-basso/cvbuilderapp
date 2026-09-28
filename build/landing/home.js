@@ -19,7 +19,7 @@ const FAQ = [
     { q: 'Can I keep different resumes for different jobs?', a: 'Yes. Store multiple resumes in the app and tailor the summary, skills and bullet order for each type of role.', link: 'tailor-resume-to-job-description' },
     { q: 'Can I add a photo, signature or QR code?', a: 'Yes. CV Builder has Photo and signature options and a Links & QR codes section that turns your LinkedIn or portfolio URL into a scannable code.', link: 'qr-code-on-resume' },
     { q: 'What is the difference between a CV and a resume?', a: 'In the US and Canada a resume is a 1–2 page job document and a CV is a longer academic record; in the UK, Europe and most other countries “CV” means the job document. CV Builder makes both.', link: 'cv-vs-resume' },
-    { q: 'Does it work on iPad and Mac?', a: `Yes. CV Builder runs on iPhone and iPad (${S.MIN_IOS} or later) and on Macs with Apple silicon.`, link: 'best-resume-builder-app-for-iphone' },
+    { q: 'Does it work on iPad?', a: `Yes. CV Builder runs on both iPhone and iPad (${S.MIN_IOS} or later), and the larger iPad screen makes previewing your resume easier.`, link: 'best-resume-builder-app-for-iphone' },
     { q: 'Is my data private?', a: 'Your resume data is stored on your device. The App Store privacy label lists only purchases and identifiers, not linked to your identity, and your personal information is not sold.', link: null }
 ];
 
@@ -61,7 +61,7 @@ function render(guides, lastmod) {
         <p style="margin:0;color:var(--muted)">Listed as “${esc(S.STORE_NAME)}” · ${esc(S.STORE_SUBTITLE)}</p>
         <ul class="meta-row">
           <li><strong>${S.RATING}★</strong> ${S.RATING_COUNT} ratings</li>
-          <li><strong>iPhone · iPad · Mac</strong> (Apple silicon)</li>
+          <li><strong>iPhone · iPad</strong></li>
           <li><strong>${S.MIN_IOS}+</strong></li>
           <li><strong>Free</strong> · In-app purchases</li>
         </ul>
@@ -154,7 +154,7 @@ function render(guides, lastmod) {
             alternateName: [S.STORE_NAME, 'CV Maker', 'Resume Builder'],
             description: 'Resume builder and CV maker app for iPhone and iPad with 100+ templates, cover letters and PDF export.',
             url: S.SITE_URL,
-            operatingSystem: 'iOS, iPadOS, macOS',
+            operatingSystem: 'iOS, iPadOS',
             applicationCategory: 'BusinessApplication',
             applicationSubCategory: 'Productivity',
             softwareVersion: S.VERSION,

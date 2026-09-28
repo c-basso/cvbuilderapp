@@ -20,7 +20,7 @@
 | Age rating | 4+ |
 | Size | 57.9 MB |
 | Version | 1.23.0 (Sep 18–19, 2026) — "bugs fixes and UI improvements" |
-| Compatibility | iPhone & iPad, iOS 18.6+; Mac with Apple M1+ (macOS 15.6+, "Designed for iPad") |
+| Compatibility | iPhone & iPad, iOS 18.6+ |
 | Store languages | English + 30 more (Spanish, French, Portuguese, Italian, German, Turkish, Ukrainian, Russian, Croatian, Czech, Danish, Dutch, Filipino, Finnish, Greek, Hebrew, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian Bokmål, Polish, Romanian, Simplified Chinese, Slovak, Swedish, Thai, Traditional Chinese, Vietnamese) |
 | In-app UI languages (per description) | 9 — English, Spanish, French, Portuguese, Italian, German, Turkish, Ukrainian, Russian |
 | Family Sharing | Supported |

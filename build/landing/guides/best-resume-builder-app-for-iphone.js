@@ -56,7 +56,7 @@ module.exports = {
             ['Cover letters, photo & signature', 'All in the same app.'],
             ['Multiple resumes, on-device data', 'Store several resumes; your data stays on your device. Free to download with a free trial; premium plans include a lifetime option.']
         ],
-        outro: 'Rated 4.8★ from 148 ratings on the US App Store. Works on iPhone and iPad (and Apple-silicon Macs).'
+        outro: 'Rated 4.8★ from 148 ratings on the US App Store. Works on iPhone and iPad.'
     },
     faq: [
         { q: 'What is the best resume builder app for iPhone?', a: 'The best app is the one that exports a clean, text-based PDF, offers a wide range of templates, lets you keep multiple versions and stores your data privately. CV Builder covers all of these with 100+ templates and one-tap PDF export.' },
