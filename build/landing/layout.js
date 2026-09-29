@@ -139,10 +139,10 @@ ${o.lastmod ? `<meta name="last-modified" content="${o.lastmod}">` : ''}
 <meta name="twitter:image:height" content="${S.OG_IMAGE_H}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="${L.font ? L.font.href : 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap'}">
+${L.font && !L.font.href ? '' : `<link rel="stylesheet" href="${L.font ? L.font.href : 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap'}">`}
 ${o.preload ? `<link rel="preload" as="image" href="${o.preload}" fetchpriority="high">` : ''}
 ${(o.schema || []).map(jsonLd).join('\n')}
-<style>${CSS}${L.font ? `:root{--font-display:${L.font.family}}` : ''}</style>
+<style>${CSS}${L.font ? `:root{--font-display:${L.font.family}}` : ''}${L.css || ''}</style>
 ${METRIKA}
 </head>
 <body>

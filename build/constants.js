@@ -49,7 +49,9 @@ const ADDITIONAL_URLS = [
     `${SITE_URL}it/guide/`,
     ...require('./landing/guides-it').GUIDES.map((g) => `${SITE_URL}it/guide/${g.slug}/`),
     `${SITE_URL}pt/guias/`,
-    ...require('./landing/guides-pt').GUIDES.map((g) => `${SITE_URL}pt/guias/${g.slug}/`)
+    ...require('./landing/guides-pt').GUIDES.map((g) => `${SITE_URL}pt/guias/${g.slug}/`),
+    `${SITE_URL}jp/guides/`,
+    ...require('./landing/guides-jp').GUIDES.map((g) => `${SITE_URL}jp/guides/${g.slug}/`)
 ];
 
 // Expected JSON-LD types that should be present on each generated page.

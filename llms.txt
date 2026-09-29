@@ -151,3 +151,19 @@
 - [Como escolher um modelo de curriculum vitae](https://cvbuilderapp.com/pt/guias/modelos-de-curriculo/): Escolha o modelo por setor, nível e canal — em 3 decisões.
 - [Como fazer um currículo compatível com ATS](https://cvbuilderapp.com/pt/guias/curriculo-ats/): Formatação e palavras-chave para os portais lerem bem o seu CV.
 - [Deve pôr foto no currículo?](https://cvbuilderapp.com/pt/guias/curriculo-com-foto/): Costumes por país, como deve ser a foto e como a inserir bem.
+
+## Guides (ja)
+- [英文履歴書（レジュメ）の書き方：日本の履歴書との違いと例文](https://cvbuilderapp.com/jp/guides/eibun-rirekisho-kakikata/): 日本の履歴書との違い、構成、英語表記と例文をまとめて。
+- [iPhoneで英文レジュメを15分で作る方法](https://cvbuilderapp.com/jp/guides/sumaho-resume-sakusei/): パソコンなしで、白紙からPDFまで最短ルートで。
+- [外資系転職で通るレジュメの作り方](https://cvbuilderapp.com/jp/guides/gaishikei-tenshoku-resume/): 外資系が見るポイント、成果の書き方、必要書類をまとめて。
+- [iPhoneでレジュメをPDFにする方法](https://cvbuilderapp.com/jp/guides/resume-pdf-iphone/): iPhoneからPDFを作って送るための確実な3つの方法。
+- [履歴書・レジュメ作成アプリの選び方（iPhone）](https://cvbuilderapp.com/jp/guides/rirekisho-app/): 日本式か英文か、PDF・料金・プライバシーまで8つのポイントで比較。
+- [英文カバーレターの書き方：構成と例文](https://cvbuilderapp.com/jp/guides/eigo-cover-letter/): 4段落構成と例文テンプレート、レジュメとお揃いのPDFまで。
+- [英文レジュメのSummary（自己PR）の書き方と例文](https://cvbuilderapp.com/jp/guides/jiko-pr-summary/): 3ステップの型と、職種別・新卒・キャリアチェンジの例文。
+- [職務経歴書の書き方と英文レジュメへの活かし方](https://cvbuilderapp.com/jp/guides/shokumu-keirekisho/): 構成の型、職務要約の例文、英文レジュメへの転用まで。
+- [CVとレジュメ（Resume）の違い](https://cvbuilderapp.com/jp/guides/cv-resume-chigai/): 長さ・内容・国ごとの違いと、日本の書類との対応関係。
+- [レジュメを応募先ごとに最適化する方法](https://cvbuilderapp.com/jp/guides/resume-ouboshaki-betsu/): 10分でできる、求人ごとのレジュメ最適化ルーティン。
+- [職歴なしでも書ける英文レジュメ（新卒・学生向け）](https://cvbuilderapp.com/jp/guides/shinsotsu-eibun-resume/): 学業・インターン・アルバイト・留学を英文レジュメで活かす方法。
+- [英文レジュメのテンプレートの選び方](https://cvbuilderapp.com/jp/guides/resume-template/): 業界・経験・応募方法の3つで選ぶテンプレートの決め方。
+- [ATS（採用管理システム）に強いレジュメの作り方](https://cvbuilderapp.com/jp/guides/ats-resume/): 採用管理システムに正しく読まれる書式とキーワードのコツ。
+- [英文レジュメに写真は必要か：国別ルールと注意点](https://cvbuilderapp.com/jp/guides/resume-shashin/): 国ごとの慣習と、写真あり・なしの版の作り分け方。
