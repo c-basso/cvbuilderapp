@@ -135,3 +135,19 @@
 - [Come scegliere un modello di curriculum vitae](https://cvbuilderapp.com/it/guide/modelli-curriculum/): Scegli il modello in base a settore, livello e canale — in 3 decisioni.
 - [Come fare un curriculum compatibile con gli ATS](https://cvbuilderapp.com/it/guide/curriculum-ats/): Formattazione e parole chiave per far leggere bene il CV ai portali.
 - [Serve la foto nel curriculum?](https://cvbuilderapp.com/it/guide/curriculum-con-foto/): Usanze per paese, come deve essere la foto e come inserirla bene.
+
+## Guides (pt)
+- [Como fazer o currículo no iPhone em 15 minutos](https://cvbuilderapp.com/pt/guias/curriculo-no-telemovel/): O caminho mais rápido do ecrã em branco ao PDF pronto, sem computador.
+- [Como guardar o currículo em PDF no iPhone](https://cvbuilderapp.com/pt/guias/curriculo-pdf-iphone/): Três métodos fiáveis para tirar o CV em PDF do iPhone e enviá-lo.
+- [Curriculum vitae Europass: guia completo](https://cvbuilderapp.com/pt/guias/curriculo-europass/): O que é, quando é pedido, como se preenche e a alternativa moderna.
+- [Como escolher a aplicação para fazer o currículo no iPhone](https://cvbuilderapp.com/pt/guias/app-para-fazer-curriculo/): Uma checklist honesta em 8 pontos para não perder tempo com a aplicação errada.
+- [Fazer um currículo grátis: opções honestas e como fazer](https://cvbuilderapp.com/pt/guias/fazer-curriculo-gratis/): O que é mesmo grátis, o que pôr no CV e como chegar ao PDF.
+- [Como escrever uma carta de apresentação eficaz](https://cvbuilderapp.com/pt/guias/carta-de-apresentacao/): Estrutura em 4 parágrafos, modelo para copiar e PDF no estilo do seu CV.
+- [Como adaptar o currículo a cada vaga](https://cvbuilderapp.com/pt/guias/adaptar-curriculo-a-vaga/): Uma rotina de 10 minutos para cada CV bater certo com o anúncio.
+- [Como fazer um curriculum vitae simples e eficaz](https://cvbuilderapp.com/pt/guias/como-fazer-um-curriculo/): Cada secção explicada com exemplos, tamanho certo e erros a evitar.
+- [Perfil profissional do currículo: exemplos e como escrever](https://cvbuilderapp.com/pt/guias/perfil-profissional-curriculo/): Uma fórmula em 3 partes e exemplos prontos para cada fase da carreira.
+- [Que competências pôr no currículo](https://cvbuilderapp.com/pt/guias/competencias-curriculo/): Competências técnicas e pessoais, como escolhê-las e exemplos por profissão.
+- [Como fazer um currículo sem experiência profissional](https://cvbuilderapp.com/pt/guias/curriculo-sem-experiencia/): Estudos, estágios, projetos e voluntariado transformados num primeiro CV eficaz.
+- [Como escolher um modelo de curriculum vitae](https://cvbuilderapp.com/pt/guias/modelos-de-curriculo/): Escolha o modelo por setor, nível e canal — em 3 decisões.
+- [Como fazer um currículo compatível com ATS](https://cvbuilderapp.com/pt/guias/curriculo-ats/): Formatação e palavras-chave para os portais lerem bem o seu CV.
+- [Deve pôr foto no currículo?](https://cvbuilderapp.com/pt/guias/curriculo-com-foto/): Costumes por país, como deve ser a foto e como a inserir bem.
