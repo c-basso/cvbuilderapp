@@ -13,7 +13,7 @@ function render(L, guides, lastmod, alternates) {
       <span class="eyebrow">${H.eyebrow}</span>
       <h1>${H.h1}</h1>
       <p class="lede">${H.lede}</p>
-      <div class="rating" aria-label="${esc(H.ratingAria(L))}"><span class="stars" aria-hidden="true">★★★★★</span><span>${H.ratingText(L)}</span></div>
+      ${L.rating ? `<div class="rating" aria-label="${esc(H.ratingAria(L))}"><span class="stars" aria-hidden="true">★★★★★</span><span>${H.ratingText(L)}</span></div>` : ''}
       <div class="hero-ctas">
         ${storeBadge(L, true)}
         <a class="btn btn-ghost" href="#how-it-works">${H.seeHow}</a>
@@ -27,7 +27,7 @@ function render(L, guides, lastmod, alternates) {
       <img class="s2" src="${shot(L, 2)}" alt="" width="640" height="1385" fetchpriority="high">
       <img class="s3" src="${shot(L, 4, '-sm')}" alt="" width="320" height="692" loading="eager">
       <div class="float-card a">📄<span>${H.floatPdf}<small>${H.floatPdfSub}</small></span></div>
-      <div class="float-card b">⭐ ${L.num(L.rating)}<small>&nbsp;App Store</small></div>
+      ${L.rating ? `<div class="float-card b">⭐ ${L.num(L.rating)}<small>&nbsp;App Store</small></div>` : ''}
     </div>
   </div>
 </header>
@@ -142,7 +142,7 @@ function render(L, guides, lastmod, alternates) {
             image: abs('/assets/appstore/icon-512.webp'),
             screenshot: L.screenshots.map((s) => abs(shot(L, s.n))),
             offers: { '@type': 'Offer', price: '0', priceCurrency: L.priceCurrency, availability: 'https://schema.org/InStock' },
-            aggregateRating: { '@type': 'AggregateRating', ratingValue: L.rating, ratingCount: L.ratingCount, bestRating: 5, worstRating: 1 },
+            ...(L.rating ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: L.rating, ratingCount: L.ratingCount, bestRating: 5, worstRating: 1 } } : {}),
             author: { '@type': 'Person', name: S.DEVELOPER },
             publisher: { '@type': 'Organization', name: S.PUBLISHER },
             featureList: H.features

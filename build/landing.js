@@ -1,13 +1,13 @@
 /**
  * Builds the landing page + keyword guides for each locale in build/landing/locales.js
- * (en → /, /guides/…; ru → /ru/, /ru/guides/…).
+ * (en → /, /guides/…; ru → /ru/, /ru/guides/…; es → /es/, /es/guias/…).
  * Other locales are still built by build.js from template.html + <lang>.json.
  *   node build/landing.js
  */
 const fs = require('fs');
 const path = require('path');
 const S = require('./landing/site');
-const { LOCALES, byCode } = require('./landing/locales');
+const { LOCALES, hubAlternates, guideAlternates } = require('./landing/locales');
 const home = require('./landing/home');
 const guide = require('./landing/guide');
 const { abs, guideUrl } = require('./landing/layout');
@@ -30,29 +30,6 @@ const homeAlternates = [
     { hreflang: 'x-default', href: S.SITE_URL }
 ];
 
-const hubAlternates = [
-    ...LOCALES.map((L) => ({ hreflang: L.lang, href: abs(guideUrl(L)) })),
-    { hreflang: 'x-default', href: abs(guideUrl(byCode.en)) }
-];
-
-/** Guide pairs: RU guide with `en` field ↔ EN guide with that slug. */
-function guideAlternates(L, g) {
-    let enSlug = null, ruSlug = null;
-    if (L.code === 'en') {
-        enSlug = g.slug;
-        ruSlug = (byCode.ru.guides.find((x) => x.en === g.slug) || {}).slug || null;
-    } else {
-        ruSlug = g.slug;
-        enSlug = g.en || null;
-    }
-    if (!enSlug || !ruSlug) return [];
-    return [
-        { hreflang: 'en', href: abs(guideUrl(byCode.en, enSlug)) },
-        { hreflang: 'ru', href: abs(guideUrl(byCode.ru, ruSlug)) },
-        { hreflang: 'x-default', href: abs(guideUrl(byCode.en, enSlug)) }
-    ];
-}
-
 function updateLlms() {
     const llmsPath = path.join(ROOT, 'llms.txt');
     if (!fs.existsSync(llmsPath)) return;
@@ -69,7 +46,7 @@ function updateLlms() {
 
 for (const L of LOCALES) {
     write(rel(L.base), home.render(L, L.guides, LASTMOD, homeAlternates));
-    write(rel(guideUrl(L)), guide.renderHub(L, L.guides, LASTMOD, hubAlternates));
+    write(rel(guideUrl(L)), guide.renderHub(L, L.guides, LASTMOD, hubAlternates()));
     for (const g of L.guides) write(rel(guideUrl(L, g.slug)), guide.render(L, g, L.guides, LASTMOD, guideAlternates(L, g)));
 }
 updateLlms();

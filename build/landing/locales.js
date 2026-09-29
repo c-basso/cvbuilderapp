@@ -1,6 +1,38 @@
 /** Locales that get the new landing page + guides. Others still use build/template.html. */
 const en = require('./i18n/en');
 const ru = require('./i18n/ru');
+const es = require('./i18n/es');
 en.guides = require('./guides').GUIDES;
 ru.guides = require('./guides-ru').GUIDES;
-module.exports = { LOCALES: [en, ru], byCode: { en, ru } };
+es.guides = require('./guides-es').GUIDES;
+
+const LOCALES = [en, ru, es];
+const byCode = Object.fromEntries(LOCALES.map((L) => [L.code, L]));
+
+function lazyLayout() { return require('./layout'); }
+
+/** hreflang alternates for the guides hub (all locales). */
+function hubAlternates() {
+    const { abs, guideUrl } = lazyLayout();
+    return [
+        ...LOCALES.map((L) => ({ hreflang: L.lang, href: abs(guideUrl(L)) })),
+        { hreflang: 'x-default', href: abs(guideUrl(en)) }
+    ];
+}
+
+/** hreflang alternates for a guide: every locale's guide that maps to the same EN slug (via `en` field). */
+function guideAlternates(L, g) {
+    const { abs, guideUrl } = lazyLayout();
+    const enSlug = L.code === 'en' ? g.slug : g.en;
+    if (!enSlug) return [];
+    const alts = [];
+    for (const X of LOCALES) {
+        const match = X.code === 'en' ? X.guides.find((x) => x.slug === enSlug) : X.guides.find((x) => x.en === enSlug);
+        if (match) alts.push({ hreflang: X.lang, href: abs(guideUrl(X, match.slug)) });
+    }
+    if (alts.length < 2) return [];
+    alts.push({ hreflang: 'x-default', href: abs(guideUrl(en, enSlug)) });
+    return alts;
+}
+
+module.exports = { LOCALES, byCode, hubAlternates, guideAlternates };
