@@ -103,3 +103,19 @@
 - [Comment faire un CV compatible ATS](https://cvbuilderapp.com/fr/guides/cv-ats/): Mise en forme et mots-clés pour que les logiciels de recrutement lisent bien votre CV.
 - [Faut-il mettre une photo sur son CV ?](https://cvbuilderapp.com/fr/guides/cv-avec-photo/): Usages par pays, conseils pour la photo et comment l’ajouter proprement.
 - [Comment faire un CV en anglais](https://cvbuilderapp.com/fr/guides/cv-en-anglais/): Structure, titres, traduction des diplômes et erreurs de franglais à éviter.
+
+## Guides (de)
+- [Lebenslauf am iPhone erstellen – in 15 Minuten](https://cvbuilderapp.com/de/ratgeber/lebenslauf-am-handy-erstellen/): Der schnellste Weg vom leeren Bildschirm zum fertigen PDF – ohne Computer.
+- [Lebenslauf am iPhone als PDF speichern](https://cvbuilderapp.com/de/ratgeber/lebenslauf-als-pdf-iphone/): Drei zuverlässige Wege zum PDF-Lebenslauf auf dem iPhone – und ab in die Bewerbung.
+- [Die richtige Lebenslauf-App fürs iPhone finden](https://cvbuilderapp.com/de/ratgeber/lebenslauf-app/): Eine ehrliche 8-Punkte-Checkliste, damit Sie keine Zeit mit der falschen App verlieren.
+- [Lebenslauf kostenlos am Handy erstellen: die Anleitung](https://cvbuilderapp.com/de/ratgeber/lebenslauf-kostenlos-erstellen/): Was ein Lebenslauf-Generator kann, was hineingehört und wie Sie heute zum PDF kommen.
+- [Anschreiben für die Bewerbung schreiben](https://cvbuilderapp.com/de/ratgeber/anschreiben/): Aufbau in 4 Absätzen, Muster zum Anpassen und PDF im Stil Ihres Lebenslaufs.
+- [Den Lebenslauf an jede Stelle anpassen](https://cvbuilderapp.com/de/ratgeber/lebenslauf-anpassen/): Eine 10-Minuten-Routine, damit jeder Lebenslauf zur Anzeige passt.
+- [Lebenslauf schreiben, der zu Vorstellungsgesprächen führt](https://cvbuilderapp.com/de/ratgeber/lebenslauf-schreiben/): Jeder Abschnitt erklärt, mit Beispielen, Längenregeln und typischen Fehlern.
+- [Tabellarischer Lebenslauf: Aufbau und Muster](https://cvbuilderapp.com/de/ratgeber/tabellarischer-lebenslauf/): Aufbau, Reihenfolge, Datumsformat und Unterschrift – mit Muster.
+- [Kurzprofil im Lebenslauf: Beispiele und Formel](https://cvbuilderapp.com/de/ratgeber/kurzprofil-lebenslauf/): Eine Formel in 3 Teilen und Beispiele für jede Karrierestufe.
+- [Lebenslauf ohne Berufserfahrung schreiben](https://cvbuilderapp.com/de/ratgeber/lebenslauf-ohne-berufserfahrung/): Schule, Praktika, Projekte und Ehrenamt – zu einem starken ersten Lebenslauf.
+- [Die richtige Lebenslauf-Vorlage wählen](https://cvbuilderapp.com/de/ratgeber/lebenslauf-vorlagen/): Vorlage nach Branche, Karrierestufe und Bewerbungsweg wählen – in 3 Entscheidungen.
+- [Einen ATS-tauglichen Lebenslauf erstellen](https://cvbuilderapp.com/de/ratgeber/lebenslauf-ats/): Formatierung und Schlüsselwörter, damit Bewerberportale Ihren Lebenslauf richtig lesen.
+- [Bewerbungsfoto: Ja oder nein – und wie?](https://cvbuilderapp.com/de/ratgeber/bewerbungsfoto/): Rechtslage, Gepflogenheiten, Tipps für das Foto und sauberes Einfügen.
+- [Europass-Lebenslauf: wann er sich lohnt und die Alternative](https://cvbuilderapp.com/de/ratgeber/europass-lebenslauf/): Wann Europass sinnvoll ist, seine Abschnitte, Sprachniveaus und die Alternative.

@@ -3,12 +3,14 @@ const en = require('./i18n/en');
 const ru = require('./i18n/ru');
 const es = require('./i18n/es');
 const fr = require('./i18n/fr');
+const de = require('./i18n/de');
 en.guides = require('./guides').GUIDES;
 ru.guides = require('./guides-ru').GUIDES;
 es.guides = require('./guides-es').GUIDES;
 fr.guides = require('./guides-fr').GUIDES;
+de.guides = require('./guides-de').GUIDES;
 
-const LOCALES = [en, ru, es, fr];
+const LOCALES = [en, ru, es, fr, de];
 const byCode = Object.fromEntries(LOCALES.map((L) => [L.code, L]));
 
 function lazyLayout() { return require('./layout'); }
