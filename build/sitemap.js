@@ -25,16 +25,32 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
     lines.push('  </url>');
     lines.push('');
   }
-  const { GUIDES } = require('./landing/guides');
-  const guideUrls = [`${SITE_URL}guides/`, ...GUIDES.map((g) => `${SITE_URL}guides/${g.slug}/`)];
+  const { LOCALES } = require('./landing/locales');
+  const { guideUrl, abs } = require('./landing/layout');
   const today = new Date().toISOString().slice(0, 10);
-  for (const loc of guideUrls) {
+  const byCode = Object.fromEntries(LOCALES.map((L) => [L.code, L]));
+  const pushUrl = (loc, priority, alts) => {
     lines.push('  <url>');
     lines.push(`    <loc>${loc}</loc>`);
+    for (const a of alts) lines.push(`    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${a.href}" />`);
     lines.push(`    <lastmod>${today}</lastmod>`);
-    lines.push(`    <priority>${loc.endsWith('guides/') ? '0.8' : '0.7'}</priority>`);
+    lines.push(`    <priority>${priority}</priority>`);
     lines.push('  </url>');
     lines.push('');
+  };
+  const hubAlts = [...LOCALES.map((L) => ({ hreflang: L.lang, href: abs(guideUrl(L)) })), { hreflang: 'x-default', href: abs(guideUrl(byCode.en)) }];
+  for (const L of LOCALES) {
+    pushUrl(abs(guideUrl(L)), '0.8', hubAlts);
+    for (const g of L.guides) {
+      const enSlug = L.code === 'en' ? g.slug : g.en;
+      const ruG = byCode.ru && byCode.ru.guides.find((x) => (L.code === 'en' ? x.en === g.slug : x.slug === g.slug));
+      const alts = enSlug && ruG ? [
+        { hreflang: 'en', href: abs(guideUrl(byCode.en, enSlug)) },
+        { hreflang: 'ru', href: abs(guideUrl(byCode.ru, ruG.slug)) },
+        { hreflang: 'x-default', href: abs(guideUrl(byCode.en, enSlug)) }
+      ] : [];
+      pushUrl(abs(guideUrl(L, g.slug)), '0.7', alts);
+    }
   }
   lines.push('</urlset>');
 

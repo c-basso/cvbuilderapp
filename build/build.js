@@ -12,6 +12,7 @@ const {
 
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
+const LANDING_LOCALES = require('./landing/locales').LOCALES.map((L) => L.code);
 const URLS_PATH = path.join(ROOT_DIR, 'urls.txt');
 const LLMS_PATH = path.join(ROOT_DIR, 'llms.txt');
 const BUILD_TIMESTAMP = Date.now();
@@ -542,8 +543,8 @@ async function main() {
     writeLlmsFile(defaultLocaleData);
 
     for (const lang of LANGUAGES) {
-        if (lang === DEFAULT_LANGUAGE && fs.existsSync(path.join(__dirname, 'landing.js'))) {
-            console.log(`⏭️  Skipping ${lang}.html — English homepage is built by build/landing.js`);
+        if (LANDING_LOCALES.includes(lang)) {
+            console.log(`⏭️  Skipping ${lang}.html — homepage is built by build/landing.js`);
             continue;
         }
         try {

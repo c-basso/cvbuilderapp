@@ -15,7 +15,7 @@
 - App Store ID: 1630645768
 - Supported languages: 17
 - Feature coverage: 6+ highlighted features
-- Last updated: 2026-09-28
+- Last updated: 2026-09-29
 
 ## Language Pages
 - [en](https://cvbuilderapp.com/)
@@ -40,7 +40,7 @@
 - Website: https://cvbuilderapp.com/
 - Support: mailto:c-basso@ya.ru
 
-## Guides
+## Guides (en)
 - [How to Make a Resume on iPhone in 15 Minutes](https://cvbuilderapp.com/guides/how-to-make-a-resume-on-iphone/): The fastest way to go from blank screen to a job-ready PDF — without a laptop.
 - [How to Save Your Resume as a PDF on iPhone](https://cvbuilderapp.com/guides/save-resume-as-pdf-on-iphone/): Three reliable ways to get a PDF resume out of your iPhone and into an application.
 - [CV Maker App: Create a Professional CV on Your Phone](https://cvbuilderapp.com/guides/cv-maker-app/): What a CV maker app does, what your CV must include, and how to finish one today.
@@ -55,3 +55,19 @@
 - [How to Make an ATS-Friendly Resume](https://cvbuilderapp.com/guides/ats-friendly-resume/): The format rules and keyword habits that keep your resume readable by job portals.
 - [CV vs Resume: What’s the Difference?](https://cvbuilderapp.com/guides/cv-vs-resume/): Length, purpose and regional differences — plus which one your application needs.
 - [Should You Put a Photo on Your CV?](https://cvbuilderapp.com/guides/cv-with-photo/): Country-by-country norms, photo tips, and how to add one cleanly.
+
+## Guides (ru)
+- [Как составить резюме на iPhone за 15 минут](https://cvbuilderapp.com/ru/guides/kak-sostavit-rezyume-na-iphone/): Самый быстрый путь от пустого экрана до готового PDF — без компьютера.
+- [Как сохранить резюме в PDF на iPhone](https://cvbuilderapp.com/ru/guides/rezyume-v-pdf-na-iphone/): Три надёжных способа получить PDF-резюме с iPhone и отправить его работодателю.
+- [Конструктор резюме: как создать резюме на телефоне](https://cvbuilderapp.com/ru/guides/konstruktor-rezyume/): Что умеет конструктор резюме, что должно быть в резюме и как получить PDF уже сегодня.
+- [Как написать сопроводительное письмо к резюме](https://cvbuilderapp.com/ru/guides/soprovoditelnoe-pismo/): Структура из 4 абзацев, готовый шаблон и PDF в стиле вашего резюме.
+- [Как адаптировать резюме под вакансию](https://cvbuilderapp.com/ru/guides/rezyume-pod-vakansiyu/): Повторяемый 10-минутный алгоритм, чтобы каждое резюме попадало в вакансию.
+- [Как выбрать приложение для создания резюме на iPhone](https://cvbuilderapp.com/ru/guides/prilozhenie-dlya-rezyume/): Честный чек-лист из 8 пунктов, чтобы не потерять время на неудачное приложение.
+- [Как правильно составить резюме, чтобы звали на собеседования](https://cvbuilderapp.com/ru/guides/kak-sostavit-rezyume/): Разбор каждого раздела с примерами, правила объёма и ошибки, которых стоит избегать.
+- [Что написать в резюме о себе: примеры и формула](https://cvbuilderapp.com/ru/guides/o-sebe-v-rezyume/): Простая формула из 3 частей и готовые примеры для любого этапа карьеры.
+- [Ключевые навыки в резюме: что указать и примеры](https://cvbuilderapp.com/ru/guides/klyuchevye-navyki-v-rezyume/): Какие навыки писать, как брать их из вакансии и примеры для популярных профессий.
+- [Как составить резюме без опыта работы](https://cvbuilderapp.com/ru/guides/rezyume-bez-opyta-raboty/): Учёба, проекты, стажировки и подработки — как превратить их в первое сильное резюме.
+- [Как выбрать шаблон резюме](https://cvbuilderapp.com/ru/guides/shablony-rezyume/): Подберите шаблон под сферу, уровень и способ отклика — за 3 решения.
+- [Как составить резюме на английском языке](https://cvbuilderapp.com/ru/guides/rezyume-na-angliyskom/): Структура, названия разделов, примеры фраз и ошибки при переводе резюме.
+- [Нужно ли фото в резюме и каким оно должно быть](https://cvbuilderapp.com/ru/guides/rezyume-s-foto/): Когда фото помогает, требования к снимку и как аккуратно добавить его в резюме.
+- [CV и резюме: в чём разница](https://cvbuilderapp.com/ru/guides/cv-i-rezyume-raznica/): Объём, назначение и различия по странам — и что нужно именно вам.

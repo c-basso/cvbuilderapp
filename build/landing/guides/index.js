@@ -16,18 +16,4 @@ const ORDER = [
     'cv-with-photo'
 ];
 
-const GUIDES = ORDER.map((slug) => {
-    const g = require(`./${slug}`);
-    if (g.slug !== slug) throw new Error(`Guide slug mismatch: ${slug} vs ${g.slug}`);
-    return g;
-});
-
-const BY_SLUG = Object.fromEntries(GUIDES.map((g) => [g.slug, g]));
-
-for (const g of GUIDES) {
-    for (const r of g.related || []) {
-        if (!BY_SLUG[r]) throw new Error(`Guide ${g.slug} links to unknown related guide ${r}`);
-    }
-}
-
-module.exports = { GUIDES, BY_SLUG };
+module.exports = require('./load')(__dirname, ORDER);

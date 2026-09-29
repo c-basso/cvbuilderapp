@@ -37,7 +37,9 @@ const URLS = LANGUAGES.map((code) => ({
 const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`,
     `${SITE_URL}guides/`,
-    ...require('./landing/guides').GUIDES.map((g) => `${SITE_URL}guides/${g.slug}/`)
+    ...require('./landing/guides').GUIDES.map((g) => `${SITE_URL}guides/${g.slug}/`),
+    `${SITE_URL}ru/guides/`,
+    ...require('./landing/guides-ru').GUIDES.map((g) => `${SITE_URL}ru/guides/${g.slug}/`)
 ];
 
 // Expected JSON-LD types that should be present on each generated page.
