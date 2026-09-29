@@ -119,3 +119,19 @@
 - [Einen ATS-tauglichen Lebenslauf erstellen](https://cvbuilderapp.com/de/ratgeber/lebenslauf-ats/): Formatierung und Schlüsselwörter, damit Bewerberportale Ihren Lebenslauf richtig lesen.
 - [Bewerbungsfoto: Ja oder nein – und wie?](https://cvbuilderapp.com/de/ratgeber/bewerbungsfoto/): Rechtslage, Gepflogenheiten, Tipps für das Foto und sauberes Einfügen.
 - [Europass-Lebenslauf: wann er sich lohnt und die Alternative](https://cvbuilderapp.com/de/ratgeber/europass-lebenslauf/): Wann Europass sinnvoll ist, seine Abschnitte, Sprachniveaus und die Alternative.
+
+## Guides (it)
+- [Come fare il curriculum sull’iPhone in 15 minuti](https://cvbuilderapp.com/it/guide/curriculum-sul-telefono/): La strada più veloce dalla pagina bianca al PDF pronto, senza computer.
+- [Come salvare il curriculum in PDF sull’iPhone](https://cvbuilderapp.com/it/guide/curriculum-pdf-iphone/): Tre metodi affidabili per ottenere il CV in PDF dall’iPhone e inviarlo.
+- [Curriculum vitae europeo: guida completa](https://cvbuilderapp.com/it/guide/curriculum-europeo/): Cos’è, quando serve, come si compila e l’alternativa moderna.
+- [Come scegliere l’app per fare il curriculum su iPhone](https://cvbuilderapp.com/it/guide/app-curriculum/): Una checklist onesta in 8 punti per non perdere tempo con l’app sbagliata.
+- [Creare un curriculum gratis: opzioni oneste e come farlo](https://cvbuilderapp.com/it/guide/creare-curriculum-gratis/): Cosa è davvero gratis, cosa mettere nel CV e come arrivare al PDF.
+- [Come scrivere una lettera di presentazione efficace](https://cvbuilderapp.com/it/guide/lettera-di-presentazione/): Struttura in 4 paragrafi, modello da copiare e PDF nello stile del tuo CV.
+- [Come adattare il curriculum a ogni offerta](https://cvbuilderapp.com/it/guide/adattare-curriculum-offerta/): Una routine di 10 minuti per far combaciare ogni CV con l’annuncio.
+- [Come fare un curriculum vitae che porta ai colloqui](https://cvbuilderapp.com/it/guide/come-fare-un-curriculum/): Ogni sezione spiegata con esempi, lunghezza giusta, privacy ed errori da evitare.
+- [Profilo personale del curriculum: esempi e come scriverlo](https://cvbuilderapp.com/it/guide/profilo-personale-curriculum/): Una formula in 3 parti ed esempi pronti per ogni fase della carriera.
+- [Quali competenze inserire nel curriculum](https://cvbuilderapp.com/it/guide/competenze-curriculum/): Hard e soft skill, come sceglierle dall’annuncio ed esempi per professione.
+- [Come fare un curriculum senza esperienza lavorativa](https://cvbuilderapp.com/it/guide/curriculum-senza-esperienza/): Studi, tirocini, progetti e volontariato trasformati in un primo CV efficace.
+- [Come scegliere un modello di curriculum vitae](https://cvbuilderapp.com/it/guide/modelli-curriculum/): Scegli il modello in base a settore, livello e canale — in 3 decisioni.
+- [Come fare un curriculum compatibile con gli ATS](https://cvbuilderapp.com/it/guide/curriculum-ats/): Formattazione e parole chiave per far leggere bene il CV ai portali.
+- [Serve la foto nel curriculum?](https://cvbuilderapp.com/it/guide/curriculum-con-foto/): Usanze per paese, come deve essere la foto e come inserirla bene.
