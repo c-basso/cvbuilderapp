@@ -167,3 +167,35 @@
 - [英文レジュメのテンプレートの選び方](https://cvbuilderapp.com/jp/guides/resume-template/): 業界・経験・応募方法の3つで選ぶテンプレートの決め方。
 - [ATS（採用管理システム）に強いレジュメの作り方](https://cvbuilderapp.com/jp/guides/ats-resume/): 採用管理システムに正しく読まれる書式とキーワードのコツ。
 - [英文レジュメに写真は必要か：国別ルールと注意点](https://cvbuilderapp.com/jp/guides/resume-shashin/): 国ごとの慣習と、写真あり・なしの版の作り分け方。
+
+## Guides (ko)
+- [영문 이력서 작성법: 한국식 이력서와의 차이와 예시](https://cvbuilderapp.com/ko/guides/yeongmun-iryeokseo/): 한국식 이력서와의 차이, 구성, 영어 표기와 예문을 한눈에.
+- [아이폰으로 영문 이력서를 15분 만에 만드는 법](https://cvbuilderapp.com/ko/guides/smartphone-resume/): PC 없이 빈 화면에서 PDF 완성까지 가장 빠른 길.
+- [외국계 기업 영문 이력서 작성법](https://cvbuilderapp.com/ko/guides/oegugye-resume/): 국문 이력서와 다른 점과 성과 중심 쓰기.
+- [아이폰에서 이력서를 PDF로 만드는 법](https://cvbuilderapp.com/ko/guides/resume-pdf-iphone/): 아이폰에서 PDF를 만들고 보내는 확실한 3가지 방법.
+- [이력서 앱 고르는 법 (아이폰)](https://cvbuilderapp.com/ko/guides/iryeokseo-app/): 한국식이냐 영문이냐, PDF·요금·개인정보까지 8가지 기준.
+- [영문 커버레터 작성법](https://cvbuilderapp.com/ko/guides/yeongmun-cover-letter/): 4단 구성과 예시 문장으로 한 페이지 커버레터 완성.
+- [자기소개서와 커버레터, 무엇이 다른가](https://cvbuilderapp.com/ko/guides/jagisogaeseo-cover-letter/): 목적·길이·구성 비교와 바꿔 쓰는 요령.
+- [영문 이력서 Summary(자기소개 요약) 쓰는 법](https://cvbuilderapp.com/ko/guides/resume-summary/): 2~3문장 공식과 바로 쓰는 직무별 예시.
+- [CV와 Resume의 차이](https://cvbuilderapp.com/ko/guides/cv-resume-chai/): 길이·내용·국가별 차이를 한눈에.
+- [채용 공고별로 이력서를 맞춤화하는 법](https://cvbuilderapp.com/ko/guides/resume-tailor/): 키워드 추출부터 버전 관리까지 5단계.
+- [신입·무경력 영문 이력서 쓰는 법](https://cvbuilderapp.com/ko/guides/sinip-yeongmun-resume/): 인턴·프로젝트·동아리를 성과로 바꾸는 법.
+- [영문 이력서 템플릿 선택 가이드](https://cvbuilderapp.com/ko/guides/resume-template/): 직무별로 어울리는 디자인과 ATS 호환성.
+- [ATS(채용 관리 시스템)에 강한 이력서 작성법](https://cvbuilderapp.com/ko/guides/ats-resume/): ATS가 읽는 방식과 서식·키워드 체크리스트.
+- [영문 이력서 사진, 넣을까 말까](https://cvbuilderapp.com/ko/guides/resume-photo/): 국가별 관행과 사진을 넣는 경우의 기준.
+
+## Guides (nl)
+- [Een cv maken in 7 stappen](https://cvbuilderapp.com/nl/tips/cv-maken/): De indeling, wat je per onderdeel schrijft en veelgemaakte fouten.
+- [Zo maak je een cv op je iPhone](https://cvbuilderapp.com/nl/tips/cv-maken-op-telefoon/): Zonder laptop een professioneel cv in 15–30 minuten.
+- [Een cv-app kiezen voor je iPhone](https://cvbuilderapp.com/nl/tips/cv-app/): Checklist: sjablonen, PDF, taal, privacy en prijs.
+- [CV Maker: je cv maken zonder opmaakgedoe](https://cvbuilderapp.com/nl/tips/cv-maker/): Wat een cv maker doet en hoe je hem gebruikt.
+- [Zo schrijf je een sterke motivatiebrief](https://cvbuilderapp.com/nl/tips/motivatiebrief-schrijven/): Vier alinea’s, sterke openingszinnen en een nette afsluiting.
+- [Je cv als PDF opslaan op de iPhone](https://cvbuilderapp.com/nl/tips/cv-opslaan-als-pdf/): Drie betrouwbare manieren om een PDF te maken en te versturen.
+- [Gratis een cv maken: de eerlijke opties](https://cvbuilderapp.com/nl/tips/gratis-cv-maken/): Echt gratis opties versus apps met premium.
+- [Een persoonlijk profiel schrijven voor je cv](https://cvbuilderapp.com/nl/tips/persoonlijk-profiel-cv/): Formule in drie zinnen en voorbeelden per beroep.
+- [CV-voorbeelden en sjablonen kiezen](https://cvbuilderapp.com/nl/tips/cv-voorbeeld-sjablonen/): Klassiek, modern of creatief: per branche het juiste ontwerp.
+- [Een cv maken zonder werkervaring](https://cvbuilderapp.com/nl/tips/cv-zonder-werkervaring/): Opleiding, stages en bijbanen omzetten in resultaten.
+- [Zo pas je je cv aan op elke vacature](https://cvbuilderapp.com/nl/tips/cv-aanpassen-vacature/): Van kernwoorden tot een eigen versie per vacature.
+- [Een cv dat door ATS-systemen komt](https://cvbuilderapp.com/nl/tips/ats-cv/): Hoe ATS leest en een checklist voor opmaak en kernwoorden.
+- [Een foto op je cv: wel of niet?](https://cvbuilderapp.com/nl/tips/cv-met-foto/): Gewoonten per land en eisen voor een goede cv-foto.
+- [Het Europass-cv uitgelegd](https://cvbuilderapp.com/nl/tips/europass-cv/): Wanneer Europass nodig is en wanneer een eigen cv beter werkt.
