@@ -87,3 +87,19 @@
 - [Cómo hacer un currículum compatible con ATS](https://cvbuilderapp.com/es/guias/cv-ats/): Reglas de formato y palabras clave para que los portales lean bien tu CV.
 - [¿Hay que poner foto en el currículum?](https://cvbuilderapp.com/es/guias/curriculum-con-foto/): Normas por país, cómo debe ser la foto y cómo añadirla bien.
 - [Hoja de vida, currículum vitae y resume: diferencias](https://cvbuilderapp.com/es/guias/hoja-de-vida-y-curriculum/): Extensión, uso y diferencias por país, y cuál necesitas tú.
+
+## Guides (fr)
+- [Comment faire un CV sur iPhone en 15 minutes](https://cvbuilderapp.com/fr/guides/faire-un-cv-sur-iphone/): Le chemin le plus rapide de l’écran vide au PDF prêt à envoyer, sans ordinateur.
+- [Comment enregistrer son CV en PDF sur iPhone](https://cvbuilderapp.com/fr/guides/cv-en-pdf-iphone/): Trois méthodes fiables pour sortir un CV PDF de l’iPhone et l’envoyer.
+- [Comment choisir une application pour faire son CV sur iPhone](https://cvbuilderapp.com/fr/guides/application-cv/): Une checklist honnête en 8 points pour ne pas perdre de temps avec une mauvaise app.
+- [Créer un CV gratuitement sur téléphone : le guide pratique](https://cvbuilderapp.com/fr/guides/creer-un-cv-gratuit/): Ce que fait un créateur de CV, ce que doit contenir votre CV et comment avoir le PDF aujourd’hui.
+- [Comment écrire une lettre de motivation qui fonctionne](https://cvbuilderapp.com/fr/guides/lettre-de-motivation/): La structure vous-moi-nous, un modèle à copier et un PDF au style de votre CV.
+- [Comment adapter son CV à chaque offre](https://cvbuilderapp.com/fr/guides/adapter-son-cv-a-une-offre/): Une routine de 10 minutes pour que chaque CV colle à l’offre.
+- [Comment faire un CV qui décroche des entretiens](https://cvbuilderapp.com/fr/guides/comment-faire-un-cv/): Chaque rubrique expliquée avec exemples, règles de longueur et erreurs à éviter.
+- [Phrase d’accroche du CV : exemples et méthode](https://cvbuilderapp.com/fr/guides/accroche-cv/): Une formule en 3 parties et des exemples prêts à adapter pour chaque profil.
+- [Quelles compétences mettre sur un CV ?](https://cvbuilderapp.com/fr/guides/competences-cv/): Savoir-faire, savoir-être, comment les choisir et exemples par métier.
+- [Comment faire un CV sans expérience professionnelle](https://cvbuilderapp.com/fr/guides/cv-sans-experience/): Formation, stages, projets et bénévolat transformés en un premier CV efficace.
+- [Comment choisir un modèle de CV](https://cvbuilderapp.com/fr/guides/modele-de-cv/): Choisissez un modèle selon secteur, niveau et mode de candidature, en 3 décisions.
+- [Comment faire un CV compatible ATS](https://cvbuilderapp.com/fr/guides/cv-ats/): Mise en forme et mots-clés pour que les logiciels de recrutement lisent bien votre CV.
+- [Faut-il mettre une photo sur son CV ?](https://cvbuilderapp.com/fr/guides/cv-avec-photo/): Usages par pays, conseils pour la photo et comment l’ajouter proprement.
+- [Comment faire un CV en anglais](https://cvbuilderapp.com/fr/guides/cv-en-anglais/): Structure, titres, traduction des diplômes et erreurs de franglais à éviter.

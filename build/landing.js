@@ -1,6 +1,6 @@
 /**
  * Builds the landing page + keyword guides for each locale in build/landing/locales.js
- * (en → /, /guides/…; ru → /ru/, /ru/guides/…; es → /es/, /es/guias/…).
+ * (en → /, /guides/…; ru → /ru/, /ru/guides/…; es → /es/, /es/guias/…; fr → /fr/, /fr/guides/…).
  * Other locales are still built by build.js from template.html + <lang>.json.
  *   node build/landing.js
  */
