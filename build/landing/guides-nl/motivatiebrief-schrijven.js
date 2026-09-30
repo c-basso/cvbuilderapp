@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'Motivatiebrief',
     title: 'Motivatiebrief schrijven: opbouw, voorbeeldzinnen en tips',
     h1: 'Zo schrijf je een sterke motivatiebrief',
-    description: 'Een motivatiebrief of sollicitatiebrief schrijven: de opbouw in vier alinea’s, sterke openingszinnen, hoe lang hij mag zijn en hoe je hem maakt in dezelfde stijl als je cv.',
+    description: 'Een motivatiebrief schrijven: opbouw in vier alinea’s, sterke openingszinnen, de juiste lengte en een brief in dezelfde stijl als je cv.',
     cardText: 'Vier alinea’s, sterke openingszinnen en een nette afsluiting.',
     lede: 'Je cv laat zien wat je hebt gedaan; je motivatiebrief laat zien waarom je bij deze baan past. Zo bouw je hem op.',
     tldr: ['Maximaal één A4.', 'Opening → waarom jij → waarom dit bedrijf → afsluiting.', 'Geen herhaling van je cv, maar een verhaal.', 'Versturen als PDF, in de stijl van je cv.'],

@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'Persoonlijk profiel',
     title: 'Persoonlijk profiel op je cv: formule en 5 voorbeelden',
     h1: 'Een persoonlijk profiel schrijven voor je cv',
-    description: 'Hoe schrijf je een sterk persoonlijk profiel bovenaan je cv? Een eenvoudige formule in drie zinnen en voorbeelden voor starters, administratie, sales, zorg en IT.',
+    description: 'Een sterk persoonlijk profiel voor je cv: een formule in drie zinnen en voorbeelden voor starters, administratie, sales, zorg en IT.',
     cardText: 'Formule in drie zinnen en voorbeelden per beroep.',
     lede: 'Het persoonlijk profiel is het eerste wat een recruiter leest. In drie zinnen maak je duidelijk wie je bent en wat je brengt.',
     tldr: ['Formule: wie je bent + ervaring + beste resultaat + wat je zoekt.', '2–4 zinnen.', 'Per vacature aanpassen.', 'Geen clichés als “flexibel en stressbestendig” zonder bewijs.'],

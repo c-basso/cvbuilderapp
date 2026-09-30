@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV-voorbeelden en sjablonen',
     title: 'CV voorbeeld en sjablonen: welk ontwerp past bij jou?',
     h1: 'CV-voorbeelden en sjablonen kiezen',
-    description: 'Welk cv-sjabloon kies je? Klassiek, modern of creatief per branche, waar je op let voor ATS en leesbaarheid, en hoe je 100+ cv-voorbeelden bekijkt met je eigen gegevens.',
+    description: 'Welk cv-sjabloon kies je? Klassiek, modern of creatief per branche, waar je op let voor ATS en hoe je 100+ cv-voorbeelden bekijkt met je eigen gegevens.',
     cardText: 'Klassiek, modern of creatief: per branche het juiste ontwerp.',
     lede: 'Een sjabloon moet je inhoud laten opvallen, niet zichzelf. Zo kies je een ontwerp dat past bij je branche.',
     tldr: ['Finance, juridisch, overheid: klassiek.', 'Tech, marketing: modern.', 'Creatief: opvallend, met portfolio.', 'Via grote portals: kies een eenvoudige indeling in één kolom.'],

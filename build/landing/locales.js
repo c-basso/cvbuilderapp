@@ -9,6 +9,13 @@ const pt = require('./i18n/pt');
 const jp = require('./i18n/jp');
 const ko = require('./i18n/ko');
 const nl = require('./i18n/nl');
+const pl = require('./i18n/pl');
+const ro = require('./i18n/ro');
+const th = require('./i18n/th');
+const tr = require('./i18n/tr');
+const uk = require('./i18n/uk');
+const vi = require('./i18n/vi');
+const cn = require('./i18n/cn');
 en.guides = require('./guides').GUIDES;
 ru.guides = require('./guides-ru').GUIDES;
 es.guides = require('./guides-es').GUIDES;
@@ -19,8 +26,15 @@ pt.guides = require('./guides-pt').GUIDES;
 jp.guides = require('./guides-jp').GUIDES;
 ko.guides = require('./guides-ko').GUIDES;
 nl.guides = require('./guides-nl').GUIDES;
+pl.guides = require('./guides-pl').GUIDES;
+ro.guides = require('./guides-ro').GUIDES;
+th.guides = require('./guides-th').GUIDES;
+tr.guides = require('./guides-tr').GUIDES;
+uk.guides = require('./guides-uk').GUIDES;
+vi.guides = require('./guides-vi').GUIDES;
+cn.guides = require('./guides-cn').GUIDES;
 
-const LOCALES = [en, ru, es, fr, de, it, pt, jp, ko, nl];
+const LOCALES = [en, ru, es, fr, de, it, pt, jp, ko, nl, pl, ro, th, tr, uk, vi, cn];
 const byCode = Object.fromEntries(LOCALES.map((L) => [L.code, L]));
 
 function lazyLayout() { return require('./layout'); }

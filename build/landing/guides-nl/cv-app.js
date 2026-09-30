@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'Beste cv-app',
     title: 'De beste cv-app voor iPhone: waar let je op?',
     h1: 'Een cv-app kiezen voor je iPhone',
-    description: 'Waar let je op bij een cv-app voor de iPhone? Sjablonen, PDF-export, sollicitatiebrief, Nederlandse taal, privacy en prijs. Met een checklist om apps te vergelijken.',
+    description: 'Waar let je op bij een cv-app voor de iPhone? Sjablonen, PDF-export, sollicitatiebrief, Nederlandse taal, privacy en prijs, met een handige checklist.',
     cardText: 'Checklist: sjablonen, PDF, taal, privacy en prijs.',
     lede: 'Er zijn tientallen cv-apps. Met deze checklist zie je snel welke app past bij hoe jij solliciteert.',
     tldr: ['Genoeg rustige sjablonen.', 'PDF met echte tekst (ATS-leesbaar).', 'Sollicitatiebrief in dezelfde stijl.', 'Duidelijke prijs vóór je betaalt.'],

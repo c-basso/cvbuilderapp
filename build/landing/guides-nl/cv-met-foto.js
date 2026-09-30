@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV met foto',
     title: 'CV met foto: wel of niet doen, en welke foto kies je?',
     h1: 'Een foto op je cv: wel of niet?',
-    description: 'Hoort er een foto op je cv? Wat gebruikelijk is in Nederland, België en andere landen, waar een goede cv-foto aan voldoet en hoe je hem toevoegt of weglaat in de app.',
+    description: 'Hoort er een foto op je cv? Wat gebruikelijk is in Nederland, België en andere landen, wat een goede cv-foto is en hoe je hem toevoegt of weglaat.',
     cardText: 'Gewoonten per land en eisen voor een goede cv-foto.',
     lede: 'In Nederland en België zie je vaak een foto op het cv, maar het is niet verplicht. Zo beslis je wat voor jou werkt.',
     tldr: ['Nederland en België: gebruikelijk, niet verplicht.', 'VS, VK, Canada: weglaten.', 'Duitsland, Oostenrijk: vaak wel.', 'Recente, professionele foto met rustige achtergrond.'],

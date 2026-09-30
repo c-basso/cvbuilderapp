@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'Gratis cv maken',
     title: 'Gratis cv maken: wat kan echt gratis en waar betaal je voor?',
     h1: 'Gratis een cv maken: de eerlijke opties',
-    description: 'Welke manieren om een cv te maken zijn echt gratis (Word, Google Docs, Europass) en waar betaal je bij cv-apps en online builders voor? Een eerlijk overzicht met tips.',
+    description: 'Welke manieren om een cv te maken zijn echt gratis (Word, Google Docs, Europass) en waar betaal je voor bij cv-apps en online builders? Een eerlijk overzicht.',
     cardText: 'Echt gratis opties versus apps met premium.',
     lede: 'Veel “gratis” cv-makers vragen pas geld bij het downloaden. Hier zie je wat echt gratis is en wat niet.',
     tldr: ['Echt gratis: Word, Google Docs, Pages, Europass.', 'Apps en online builders: vaak gratis proberen, betalen voor export.', 'Check de prijs vóór je begint.'],

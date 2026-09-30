@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV Maker app',
     title: 'CV Maker app: in minuten een professioneel cv op iPhone',
     h1: 'CV Maker: je cv maken zonder opmaakgedoe',
-    description: 'Wat doet een cv maker precies, voor wie is het handig en hoe maak je er in een kwartier een professioneel cv mee op je iPhone of iPad? Met de stappen in CV Maker.',
+    description: 'Wat doet een cv maker, voor wie is het handig en hoe maak je er in een kwartier een professioneel cv mee op je iPhone of iPad? Met de stappen in de app.',
     cardText: 'Wat een cv maker doet en hoe je hem gebruikt.',
     lede: 'Een cv maker zet jouw inhoud automatisch in een strakke lay-out. Jij focust op wat je schrijft, de app regelt hoe het eruitziet.',
     tldr: ['Invullen per sectie, opmaak automatisch.', 'Wisselen van sjabloon zonder opnieuw te typen.', 'Export als PDF.', 'Ideaal voor starters, switchers en ervaren professionals.'],

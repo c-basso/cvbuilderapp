@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV maken',
     title: 'CV maken: zo schrijf je een sterk cv (met indeling en tips)',
     h1: 'Een cv maken in 7 stappen',
-    description: 'Zo maak je een goed cv: de juiste indeling, wat je per onderdeel invult, hoe lang je cv mag zijn en welke fouten je vermijdt. Plus hoe je het in 15 minuten op je iPhone maakt.',
+    description: 'Zo maak je een goed cv: de juiste indeling, wat je per onderdeel invult, hoe lang je cv mag zijn en welke fouten je vermijdt. Plus: cv maken op je iPhone.',
     cardText: 'De indeling, wat je per onderdeel schrijft en veelgemaakte fouten.',
     lede: 'Een recruiter kijkt gemiddeld maar een paar seconden naar je cv. Met de juiste indeling en concrete resultaten val je in die seconden op.',
     tldr: ['Indeling: personalia → profiel → werkervaring → opleiding → vaardigheden → talen.', 'Werkervaring antichronologisch, met resultaten in cijfers.', 'Eén tot twee pagina’s.', 'Altijd als PDF versturen.'],

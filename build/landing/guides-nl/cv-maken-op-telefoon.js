@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV op je telefoon',
     title: 'CV maken op je telefoon (iPhone): stap voor stap',
     h1: 'Zo maak je een cv op je iPhone',
-    description: 'Een cv maken op je telefoon zonder laptop: welke apps werken, hoe je je cv stap voor stap opbouwt op de iPhone en hoe je het als PDF verstuurt naar een werkgever.',
+    description: 'Een cv maken op je telefoon zonder laptop: welke apps werken, hoe je stap voor stap je cv opbouwt op de iPhone en hoe je het als PDF verstuurt.',
     cardText: 'Zonder laptop een professioneel cv in 15–30 minuten.',
     lede: 'Geen laptop bij de hand? Met de juiste app maak je op je iPhone net zo goed een professioneel cv. Zo pak je het aan.',
     tldr: ['Gebruik een cv-app in plaats van een teksteditor.', 'Vul sectie voor sectie in.', 'Kies een rustig sjabloon.', 'Exporteer als PDF en mail of upload hem.'],

@@ -6,7 +6,7 @@ module.exports = {
     navTitle: 'CV per vacature',
     title: 'Je cv aanpassen aan de vacature in 5 stappen',
     h1: 'Zo pas je je cv aan op elke vacature',
-    description: 'Je cv afstemmen op een vacature in vijf stappen: kernwoorden uit de vacaturetekst halen, je profiel en resultaten herschikken en per sollicitatie een eigen versie bewaren.',
+    description: 'Je cv afstemmen op een vacature in vijf stappen: kernwoorden uit de vacaturetekst, profiel en resultaten herschikken en een versie per sollicitatie.',
     cardText: 'Van kernwoorden tot een eigen versie per vacature.',
     lede: 'Eén cv voor alle vacatures levert minder uitnodigingen op. In tien minuten stem je het af op de functie.',
     tldr: ['Haal 5–10 kernwoorden uit de vacature.', 'Pas je profiel aan op de functie.', 'Zet relevante resultaten bovenaan.', 'Bewaar een versie per werkgever.'],

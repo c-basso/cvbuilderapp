@@ -55,7 +55,21 @@ const ADDITIONAL_URLS = [
     `${SITE_URL}ko/guides/`,
     ...require('./landing/guides-ko').GUIDES.map((g) => `${SITE_URL}ko/guides/${g.slug}/`),
     `${SITE_URL}nl/tips/`,
-    ...require('./landing/guides-nl').GUIDES.map((g) => `${SITE_URL}nl/tips/${g.slug}/`)
+    ...require('./landing/guides-nl').GUIDES.map((g) => `${SITE_URL}nl/tips/${g.slug}/`),
+    `${SITE_URL}pl/poradniki/`,
+    ...require('./landing/guides-pl').GUIDES.map((g) => `${SITE_URL}pl/poradniki/${g.slug}/`),
+    `${SITE_URL}ro/ghiduri/`,
+    ...require('./landing/guides-ro').GUIDES.map((g) => `${SITE_URL}ro/ghiduri/${g.slug}/`),
+    `${SITE_URL}th/guides/`,
+    ...require('./landing/guides-th').GUIDES.map((g) => `${SITE_URL}th/guides/${g.slug}/`),
+    `${SITE_URL}tr/rehber/`,
+    ...require('./landing/guides-tr').GUIDES.map((g) => `${SITE_URL}tr/rehber/${g.slug}/`),
+    `${SITE_URL}uk/guides/`,
+    ...require('./landing/guides-uk').GUIDES.map((g) => `${SITE_URL}uk/guides/${g.slug}/`),
+    `${SITE_URL}vi/huong-dan/`,
+    ...require('./landing/guides-vi').GUIDES.map((g) => `${SITE_URL}vi/huong-dan/${g.slug}/`),
+    `${SITE_URL}cn/guides/`,
+    ...require('./landing/guides-cn').GUIDES.map((g) => `${SITE_URL}cn/guides/${g.slug}/`)
 ];
 
 // Expected JSON-LD types that should be present on each generated page.
