@@ -38,12 +38,12 @@ function render(L, guides, lastmod, alternates) {
       <img class="icon" src="${ICON}" alt="${esc(H.iconAlt)}" width="96" height="96">
       <div>
         <h2 id="download-h">${H.downloadH2}</h2>
-        <p style="margin:0;color:var(--muted)">${esc(H.listedAs(L))}</p>
+        <p class="listed">${esc(H.listedAs(L))}</p>
         <ul class="meta-row">${H.meta(L).map((m) => `<li>${m}</li>`).join('')}</ul>
       </div>
       <div class="download-actions">
-        <div class="store-wrap">${storeBadge(L)}</div>
-        <div class="qr-box"><img class="qr" src="/assets/images/qr.png" alt="${esc(H.qrAlt)}" width="104" height="104" loading="lazy"><div class="qr-label">${H.qrLabel}</div></div>
+        ${storeBadge(L)}
+        <div class="qr-box"><img class="qr" src="/assets/images/qr.png" alt="${esc(H.qrAlt)}" width="84" height="84" loading="lazy"><div class="qr-label">${H.qrLabel}</div></div>
       </div>
     </div>
   </div>
