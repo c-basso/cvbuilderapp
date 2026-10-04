@@ -1,2 +1,6 @@
 node_modules
 .DS_Store
+.env
+service_account.json
+# Search Console exports (build/gsc-report.js) — never commit
+gsc/

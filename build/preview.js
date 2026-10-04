@@ -127,7 +127,7 @@ function optimizeImage(imagePath) {
 (async () => {
     for (let item of URLS) {
         const screenshotPath = DEFAULT_LANGUAGE === item.code
-            ? path.resolve(__dirname, '..', 'site_preview.png')
+            ? path.resolve(__dirname, '..', 'assets', 'images', 'site_preview.png')
             : path.resolve(__dirname, '..', item.code, 'site_preview.png');
 
         await takeHtmlPageScreenshot({

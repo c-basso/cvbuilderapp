@@ -17,7 +17,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'VND',
     ogImage: 'vi/site_preview.png',
-    badge: '/download-vi.svg',
+    badge: '/assets/images/download-vi.svg',
     shotDir: '/assets/appstore/',
     font: { href: 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800&display=swap', family: '"Be Vietnam Pro",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif' },
     num: (n) => String(n).replace('.', ','),

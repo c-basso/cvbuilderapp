@@ -117,8 +117,8 @@ ${alternates}
 <meta name="color-scheme" content="light dark">
 ${o.lastmod ? `<meta name="last-modified" content="${o.lastmod}">` : ''}
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta property="og:type" content="${o.ogType || 'website'}">
 <meta property="og:url" content="${url}">
@@ -129,7 +129,7 @@ ${o.lastmod ? `<meta name="last-modified" content="${o.lastmod}">` : ''}
 <meta property="og:image:height" content="${S.OG_IMAGE_H}">
 <meta property="og:site_name" content="${S.BRAND}">
 <meta property="og:locale" content="${L.ogLocale}">
-<meta property="og:logo" content="${abs('logo.webp')}">
+<meta property="og:logo" content="${abs('assets/images/logo.webp')}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="${url}">
 <meta name="twitter:title" content="${esc(o.ogTitle || o.title)}">

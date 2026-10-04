@@ -15,7 +15,7 @@
 - App Store ID: 1630645768
 - Supported languages: 17
 - Feature coverage: 6+ highlighted features
-- Last updated: 2026-09-30
+- Last updated: 2026-10-04
 
 ## Language Pages
 - [en](https://cvbuilderapp.com/)
@@ -57,7 +57,7 @@
 - [Should You Put a Photo on Your CV?](https://cvbuilderapp.com/guides/cv-with-photo/): Country-by-country norms, photo tips, and how to add one cleanly.
 
 ## Guides (ru)
-- [Как составить резюме на iPhone за 15 минут](https://cvbuilderapp.com/ru/guides/kak-sostavit-rezyume-na-iphone/): Самый быстрый путь от пустого экрана до готового PDF — без компьютера.
+- [Как создать резюме на айфоне за 15 минут](https://cvbuilderapp.com/ru/guides/kak-sostavit-rezyume-na-iphone/): Самый быстрый путь от пустого экрана до готового PDF — без компьютера.
 - [Как сохранить резюме в PDF на iPhone](https://cvbuilderapp.com/ru/guides/rezyume-v-pdf-na-iphone/): Три надёжных способа получить PDF-резюме с iPhone и отправить его работодателю.
 - [Конструктор резюме: как создать резюме на телефоне](https://cvbuilderapp.com/ru/guides/konstruktor-rezyume/): Что умеет конструктор резюме, что должно быть в резюме и как получить PDF уже сегодня.
 - [Как написать сопроводительное письмо к резюме](https://cvbuilderapp.com/ru/guides/soprovoditelnoe-pismo/): Структура из 4 абзацев, готовый шаблон и PDF в стиле вашего резюме.
@@ -139,7 +139,8 @@
 ## Guides (pt)
 - [Como fazer o currículo no iPhone em 15 minutos](https://cvbuilderapp.com/pt/guias/curriculo-no-telemovel/): O caminho mais rápido do ecrã em branco ao PDF pronto, sem computador.
 - [Como guardar o currículo em PDF no iPhone](https://cvbuilderapp.com/pt/guias/curriculo-pdf-iphone/): Três métodos fiáveis para tirar o CV em PDF do iPhone e enviá-lo.
-- [Curriculum vitae Europass: guia completo](https://cvbuilderapp.com/pt/guias/curriculo-europass/): O que é, quando é pedido, como se preenche e a alternativa moderna.
+- [Curriculum vitae Europass (modelo europeu): guia completo](https://cvbuilderapp.com/pt/guias/curriculo-europass/): Modelo europeu: o que é, como criar grátis, como se preenche e a alternativa moderna.
+- [Como editar e atualizar o seu CV Europass](https://cvbuilderapp.com/pt/guias/editar-cv-europass/): Atualizar o CV Europass no portal oficial, voltar a carregar o PDF e resolver problemas comuns.
 - [Como escolher a aplicação para fazer o currículo no iPhone](https://cvbuilderapp.com/pt/guias/app-para-fazer-curriculo/): Uma checklist honesta em 8 pontos para não perder tempo com a aplicação errada.
 - [Fazer um currículo grátis: opções honestas e como fazer](https://cvbuilderapp.com/pt/guias/fazer-curriculo-gratis/): O que é mesmo grátis, o que pôr no CV e como chegar ao PDF.
 - [Como escrever uma carta de apresentação eficaz](https://cvbuilderapp.com/pt/guias/carta-de-apresentacao/): Estrutura em 4 parágrafos, modelo para copiar e PDF no estilo do seu CV.

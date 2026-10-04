@@ -16,7 +16,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'KRW',
     ogImage: 'ko/site_preview.png',
-    badge: '/download-ko.svg',
+    badge: '/assets/images/download-ko.svg',
     shotDir: '/assets/appstore/',
     font: { href: null, family: '"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif' },
     css: 'body{font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;line-height:1.75;word-break:keep-all}h1,h2,h3{letter-spacing:-.01em;line-height:1.35}',

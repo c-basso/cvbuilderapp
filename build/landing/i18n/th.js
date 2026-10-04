@@ -17,7 +17,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'THB',
     ogImage: 'th/site_preview.png',
-    badge: '/download-th.svg',
+    badge: '/assets/images/download-th.svg',
     shotDir: '/assets/appstore/',
     font: { href: 'https://fonts.googleapis.com/css2?family=Prompt:wght@600;700&display=swap', family: '"Prompt",Thonburi,"Noto Sans Thai",system-ui,sans-serif' },
     css: 'body{font-family:-apple-system,Thonburi,"Noto Sans Thai","Leelawadee UI",system-ui,sans-serif;line-height:1.8}h1,h2,h3{line-height:1.4;letter-spacing:0}',

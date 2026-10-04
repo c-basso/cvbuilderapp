@@ -19,7 +19,7 @@ module.exports = {
     ratingCount: 212,
     priceCurrency: 'RUB',
     ogImage: 'ru/site_preview.png',
-    badge: '/download-ru.svg',
+    badge: '/assets/images/download-ru.svg',
     shotDir: '/assets/appstore/ru/',
     font: { href: 'https://fonts.googleapis.com/css2?family=Onest:wght@700;800&display=swap', family: '"Onest",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif' },
     num: (n) => String(n).replace('.', ','),

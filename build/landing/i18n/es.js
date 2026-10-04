@@ -18,7 +18,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'EUR',
     ogImage: 'es/site_preview.png',
-    badge: '/download-es.svg',
+    badge: '/assets/images/download-es.svg',
     shotDir: '/assets/appstore/es/',
     num: (n) => String(n).replace('.', ','),
     dateFmt: (iso) => new Date(iso).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }),

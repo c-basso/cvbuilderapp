@@ -94,7 +94,7 @@ function render(L, g, guides, lastmod, alternates) {
             inLanguage: L.lang,
             image: [abs(shot(L, g.app.screenshot)), abs(L.ogImage)],
             author: { '@type': 'Organization', name: t.teamName, url: abs(L.base) },
-            publisher: { '@type': 'Organization', name: S.BRAND, logo: { '@type': 'ImageObject', url: abs('logo.webp') } },
+            publisher: { '@type': 'Organization', name: S.BRAND, logo: { '@type': 'ImageObject', url: abs('assets/images/logo.webp') } },
             about: { '@type': 'MobileApplication', name: S.BRAND, operatingSystem: 'iOS', applicationCategory: 'BusinessApplication', installUrl: L.storeUrl }
         },
         {

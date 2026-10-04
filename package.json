@@ -9,11 +9,13 @@
     "site:preview": "node build/preview.js",
     "index:now": "node build/indexnow.js",
     "push": "git add . && git commit -m 'wip' && git push origin main",
-    "deploy": "npm run build && npm run validate && npm run sitemap && npm run push"
+    "deploy": "npm run build && npm run validate && npm run sitemap && npm run push",
+    "gsc": "node build/gsc-report.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "jsonld": "^9.0.0"
+    "jsonld": "^9.0.0",
+    "googleapis": "^173.0.0"
   },
   "dependencies": {
     "sharp": "^0.34.5"

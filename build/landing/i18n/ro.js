@@ -16,7 +16,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'RON',
     ogImage: 'ro/site_preview.png',
-    badge: '/download-ro.svg',
+    badge: '/assets/images/download-ro.svg',
     shotDir: '/assets/appstore/',
     num: (n) => String(n).replace('.', ','),
     dateFmt: (iso) => new Date(iso).toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' }),

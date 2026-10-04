@@ -43,7 +43,7 @@ function render(L, guides, lastmod, alternates) {
       </div>
       <div class="download-actions">
         <div class="store-wrap">${storeBadge(L)}</div>
-        <div class="qr-box"><img class="qr" src="/qr.png" alt="${esc(H.qrAlt)}" width="104" height="104" loading="lazy"><div class="qr-label">${H.qrLabel}</div></div>
+        <div class="qr-box"><img class="qr" src="/assets/images/qr.png" alt="${esc(H.qrAlt)}" width="104" height="104" loading="lazy"><div class="qr-label">${H.qrLabel}</div></div>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@ function render(L, guides, lastmod, alternates) {
             publisher: { '@type': 'Organization', name: S.PUBLISHER },
             featureList: H.features
         },
-        { '@context': 'https://schema.org', '@type': 'Organization', name: S.BRAND, url: S.SITE_URL, logo: abs('logo.webp'), email: S.SUPPORT_EMAIL, sameAs: [L.storeUrl] },
+        { '@context': 'https://schema.org', '@type': 'Organization', name: S.BRAND, url: S.SITE_URL, logo: abs('assets/images/logo.webp'), email: S.SUPPORT_EMAIL, sameAs: [L.storeUrl] },
         { '@context': 'https://schema.org', '@type': 'WebSite', name: S.BRAND, url, inLanguage: L.lang, description: H.siteDescription },
         {
             '@context': 'https://schema.org',

@@ -17,7 +17,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'CNY',
     ogImage: 'cn/site_preview.png',
-    badge: '/download-cn.svg',
+    badge: '/assets/images/download-cn.svg',
     shotDir: '/assets/appstore/',
     font: { href: null, family: '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif' },
     css: 'body{font-family:"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.8}h1,h2,h3{letter-spacing:0;line-height:1.35}.eyebrow{letter-spacing:.06em}',

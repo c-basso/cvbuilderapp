@@ -7,6 +7,7 @@ Fonte: `relatedQueries_pt.csv` (curriculum vitae europass 100, curriculum vitae 
 | 1 | fazer currículo no telemóvel | curriculo-no-telemovel | how-to-make-a-resume-on-iphone |
 | 2 | currículo em PDF iPhone | curriculo-pdf-iphone | save-resume-as-pdf-on-iphone |
 | 3 | **curriculum vitae europass** (top) | curriculo-europass | — |
+| 3b | **editar cv europass** / atualizar / alterar (GSC: 5.4k impr., pos ~10) | editar-cv-europass | — |
 | 4 | aplicação para fazer currículo | app-para-fazer-curriculo | best-resume-builder-app-for-iphone |
 | 5 | currículo grátis (+190%) | fazer-curriculo-gratis | cv-maker-app |
 | 6 | carta de apresentação | carta-de-apresentacao | cover-letter-app |

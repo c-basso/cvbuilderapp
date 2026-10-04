@@ -44,3 +44,10 @@ Usage notes:
 <!-- SKILLS_TABLE_END -->
 
 </skills_system>
+
+## App facts for site copy (keep pages honest)
+
+- The app cannot import or upload a PDF yet: CV data is entered manually.
+- It does not create or edit the official Europass file.
+- PDF export and all templates are premium (free trial); download is free.
+- UI languages: EN, ES, FR, PT, IT, DE, TR, UK, RU, NL. There is no JA/KO/ZH/TH/VI/PL/RO UI.

@@ -19,7 +19,7 @@ module.exports = {
     ratingCount: null,
     priceCurrency: 'JPY',
     ogImage: 'jp/site_preview.png',
-    badge: '/download-jp.svg',
+    badge: '/assets/images/download-jp.svg',
     shotDir: '/assets/appstore/',
     font: { href: null, family: '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",system-ui,sans-serif' },
     css: 'body{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",system-ui,sans-serif;line-height:1.8}h1,h2,h3{letter-spacing:0;line-height:1.35}.eyebrow{letter-spacing:.06em}',

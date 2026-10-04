@@ -13,7 +13,7 @@ module.exports = {
     ratingCount: 27,
     priceCurrency: 'TRY',
     ogImage: 'tr/site_preview.png',
-    badge: '/download-tr.svg',
+    badge: '/assets/images/download-tr.svg',
     shotDir: '/assets/appstore/',
     num: (n) => String(n).replace('.', ','),
     dateFmt: (iso) => new Date(iso).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' }),

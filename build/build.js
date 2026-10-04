@@ -19,7 +19,7 @@ const BUILD_TIMESTAMP = Date.now();
 const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
 const CURRENT_YEAR = new Date().getFullYear();
 const DEFAULT_SITE_NAME = 'CV Builder';
-const DEFAULT_OG_LOGO = `${SITE_URL}logo.webp`;
+const DEFAULT_OG_LOGO = `${SITE_URL}assets/images/logo.webp`;
 const DEFAULT_SOCIAL_IMAGE_DIMENSIONS = { width: 1200, height: 630 };
 
 /** Keep template compatibility and explicit hreflang values in one place. */
@@ -147,17 +147,17 @@ function getMissingTranslationFiles() {
 }
 
 function getPreviewPath(lang) {
-    const relativePath = lang === DEFAULT_LANGUAGE ? 'site_preview.png' : `${lang}/site_preview.png`;
+    const relativePath = lang === DEFAULT_LANGUAGE ? 'assets/images/site_preview.png' : `${lang}/site_preview.png`;
     const absolutePath = path.join(ROOT_DIR, relativePath);
-    return `${SITE_URL}${fs.existsSync(absolutePath) ? relativePath : 'site_preview.png'}`;
+    return `${SITE_URL}${fs.existsSync(absolutePath) ? relativePath : 'assets/images/site_preview.png'}`;
 }
 
 function getPreviewImageLocalPath(lang) {
-    const localizedPath = path.join(ROOT_DIR, lang === DEFAULT_LANGUAGE ? 'site_preview.png' : `${lang}/site_preview.png`);
+    const localizedPath = path.join(ROOT_DIR, lang === DEFAULT_LANGUAGE ? 'assets/images/site_preview.png' : `${lang}/site_preview.png`);
     if (fs.existsSync(localizedPath)) {
         return localizedPath;
     }
-    return path.join(ROOT_DIR, 'site_preview.png');
+    return path.join(ROOT_DIR, 'assets', 'images', 'site_preview.png');
 }
 
 const previewImageDimensionsCache = new Map();

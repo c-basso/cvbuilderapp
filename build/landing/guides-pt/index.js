@@ -3,6 +3,7 @@ const ORDER = [
     'curriculo-no-telemovel',
     'curriculo-pdf-iphone',
     'curriculo-europass',
+    'editar-cv-europass',
     'app-para-fazer-curriculo',
     'fazer-curriculo-gratis',
     'carta-de-apresentacao',
